@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mái Ấm Yêu Thương - TP. HCM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="style/product.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="VinaCapital Foundation"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Đóng góp</a></li>
+                <li><a href="/sanpham.html">Chương trình chính</a></li>
+                <li><a href="/tintuc.html">Tin tức & Câu chuyện</a></li>
+                <li><a href="/lienhe.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn btn-primary">Quyên góp</a>
+    </header>
+    <main>
+        <!-- Search Form -->
+        <section class="search">
+            <input type="text" id="searchName" placeholder="Tên mái ấm">
+            <select id="searchDistrict">
+                <option value="">Quận huyện</option>
+                <option value="Quận 1">Quận 1</option>
+                <option value="Quận 3">Quận 3</option>
+                <option value="Quận 4">Quận 4</option>
+                <option value="Quận 5">Quận 5</option>
+                <option value="Quận 6">Quận 6</option>
+                <option value="Quận 7">Quận 7</option>
+                <option value="Quận 8">Quận 8</option>
+                <option value="Quận 10">Quận 10</option>
+                <option value="Quận 11">Quận 11</option>
+                <option value="Quận 12">Quận 12</option>
+                <option value="Quận Bình Thạnh">Quận Bình Thạnh</option>
+                <option value="Quận Phú Nhuận">Quận Phú Nhuận</option>
+                <option value="Thủ Đức">Thủ Đức</option>
+                <option value="Nhà Bè">Nhà Bè</option>
+                <option value="Củ Chi">Củ Chi</option>
+            </select>
+            <button onclick="filterPrograms()">Tìm kiếm</button>
+        </section>
+
+        <h1>Danh sách chương trình</h1>
+        <section id="programs" class="programs"></section>
+    </main>
+
+    <script>
+        let allPrograms = [];
+
+        // Lấy dữ liệu từ JSON Server
+        fetch("http://localhost:3001/programs")
+            .then((res) => {
+                if (!res.ok) throw new Error("Không thể tải danh sách chương trình");
+                return res.json();
+            })
+            .then((data) => {
+                allPrograms = data;
+                renderPrograms(allPrograms);
+            })
+            .catch((error) => {
+                document.getElementById("programs").innerHTML = `<p style="color: red;">Lỗi: ${error.message}</p>`;
+            });
+
+        // Hàm hiển thị danh sách chương trình
+        function renderPrograms(programs) {
+            const container = document.getElementById("programs");
+            container.innerHTML = ""; // Xóa nội dung cũ
+
+            if (programs.length === 0) {
+                container.innerHTML = "<p>Không tìm thấy chương trình phù hợp.</p>";
+                return;
+            }
+
+            programs.forEach((program) => {
+                const card = document.createElement("a");
+                card.href = `test2.html?id=${program.id}`;
+                card.innerHTML = `
+                    <div class="program-card" data-name="${program.name}" data-district="${program.district}">
+                        <img src="${program.image}" alt="${program.name}">
+                        <h3>${program.name}</h3>
+                        <p>${program.description}</p>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Hàm lọc chương trình
+        function filterPrograms() {
+            const nameInput = document.getElementById("searchName").value.toLowerCase();
+            const districtInput = document.getElementById("searchDistrict").value;
+
+            const filtered = allPrograms.filter((program) => {
+                const nameMatch = program.name.toLowerCase().includes(nameInput);
+                const districtMatch = districtInput === "" || program.district === districtInput;
+                return nameMatch && districtMatch;
+            });
+
+            renderPrograms(filtered);
+        }
+    </script>
+</body>
+
+</html>

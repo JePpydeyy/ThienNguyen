@@ -1,0 +1,284 @@
+{
+    "programs": [
+        {
+            "id": 1,
+            "name": "Mái Ấm Tre Xanh",
+            "district": "Quận Bình Thạnh",
+            "description": "Cưu mang trẻ em bị bạo hành và lang thang.",
+            "image": "img/mai-am-tre-xanh.jpg",
+            "url": "test2.html",
+            "address": "40/34 Phạm Viết Chánh, Phường 19, Quận Bình Thạnh, TP. Hồ Chí Minh",
+            "email": "Maiamtrexanh@gmail.com",
+            "phone": "000000008",
+            "intro": "- Thành lập từ năm 1997, hoạt động xuyên suốt các ngày trong tuần.<br>- Cưu mang trẻ em bị bạo hành, lạm dụng hoặc lang thang.<br>- Cung cấp dịch vụ tâm lý, pháp lý và giáo dục.<br>- Tổ chức hoạt động ngoại khóa, trại hè...",
+            "activities": [
+                {
+                    "title": "Chương trình học bổng",
+                    "description": "Hỗ trợ học phí cho trẻ em có hoàn cảnh đặc biệt."
+                },
+                {
+                    "title": "Trại hè yêu thương",
+                    "description": "Tổ chức trại hè với hoạt động kỹ năng sống, hòa nhập."
+                },
+                {
+                    "title": "Tư vấn tâm lý",
+                    "description": "Dịch vụ tâm lý miễn phí cho trẻ em khó khăn."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Mái Ấm Quận 1",
+            "district": "Quận 1",
+            "description": "Cung cấp nhà ở cho người khó khăn tại Quận 1.",
+            "image": "https://via.placeholder.com/300x200",
+            "url": "test2.html",
+            "address": "123 Đường Nguyễn Trãi, Quận 1, TP. HCM",
+            "email": "maiamquan1@gmail.com",
+            "phone": "0123456789",
+            "intro": "- Mái ấm hỗ trợ người vô gia cư và người già neo đơn.<br>- Có chỗ ở, bữa ăn, và hỗ trợ y tế.",
+            "activities": [
+                {
+                    "title": "Phát cơm miễn phí",
+                    "description": "Phát cơm trưa mỗi ngày cho người khó khăn quanh khu vực."
+                },
+                {
+                    "title": "Khám sức khỏe định kỳ",
+                    "description": "Tổ chức khám bệnh miễn phí cho người già neo đơn."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Chung Tay Quận 7",
+            "district": "Quận 7",
+            "description": "Hỗ trợ áo ấm và thực phẩm cho trẻ em tại Quận 7.",
+            "image": "https://via.placeholder.com/300x200",
+            "url": "test2.html",
+            "address": "456 Đường Lê Văn Lương, Quận 7, TP. HCM",
+            "email": "chungtayq7@gmail.com",
+            "phone": "0987654321",
+            "intro": "- Phân phát thực phẩm, áo ấm cho trẻ em vùng khó khăn.<br>- Hợp tác với các nhà hảo tâm và doanh nghiệp.",
+            "activities": [
+                {
+                    "title": "Tặng áo ấm mùa đông",
+                    "description": "Phát hơn 1000 áo ấm mỗi năm cho trẻ em nghèo."
+                },
+                {
+                    "title": "Bữa ăn yêu thương",
+                    "description": "Cung cấp bữa ăn đầy đủ dinh dưỡng cho trẻ em khó khăn."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Mái Ấm Ánh Sáng",
+            "district": "Quận 3",
+            "description": "Hỗ trợ trẻ em mồ côi và người khuyết tật.",
+            "image": "https://via.placeholder.com/300x200",
+            "url": "test2.html",
+            "address": "78 Nguyễn Đình Chiểu, Quận 3, TP. HCM",
+            "email": "maiamanhsang@gmail.com",
+            "phone": "0912345678",
+            "intro": "- Thành lập năm 2005, hỗ trợ trẻ em mồ côi và người khuyết tật.<br>- Cung cấp giáo dục và kỹ năng sống.<br>- Hỗ trợ tìm việc làm cho người khuyết tật.",
+            "activities": [
+                {
+                    "title": "Học bổng Ánh Sáng",
+                    "description": "Hỗ trợ học phí và sách vở cho trẻ em mồ côi."
+                },
+                {
+                    "title": "Đào tạo nghề",
+                    "description": "Dạy nghề miễn phí cho người khuyết tật."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Nhà Rồng Quận 4",
+            "district": "Quận 4",
+            "description": "Cung cấp nơi ở và giáo dục cho trẻ em nghèo.",
+            "image": "https://via.placeholder.com/300x200",
+            "url": "test2.html",
+            "address": "12 Tôn Đản, Quận 4, TP. HCM",
+            "email": "nharongq4@gmail.com",
+            "phone": "0932145678",
+            "intro": "- Hỗ trợ trẻ em nghèo có nơi ở và học tập.<br>- Tổ chức lớp học bổ trợ miễn phí.<br>- Hỗ trợ thực phẩm hàng tháng.",
+            "activities": [
+                {
+                    "title": "Lớp học bổ trợ",
+                    "description": "Dạy kèm miễn phí cho trẻ em khó khăn."
+                },
+                {
+                    "title": "Phát gạo hàng tháng",
+                    "description": "Cung cấp gạo và thực phẩm cho các gia đình nghèo."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Mái Ấm Tình Thương Quận 5",
+            "district": "Quận 5",
+            "description": "Hỗ trợ người già neo đơn và trẻ em mồ côi.",
+            "image": "https://via.placeholder.com/300x200",
+            "url": "test2.html",
+            "address": "56 Nguyễn Trãi, Quận 5, TP. HCM",
+            "email": "maiamtinhthuongq5@gmail.com",
+            "phone": "0945678901",
+            "intro": "- Thành lập năm 2010, hỗ trợ người già và trẻ em mồ côi.<br>- Cung cấp nơi ở và chăm sóc y tế.<br>- Tổ chức sinh nhật hàng tháng cho trẻ em.",
+            "activities": [
+                {
+                    "title": "Chăm sóc y tế",
+                    "description": "Khám sức khỏe miễn phí cho người già."
+                },
+                {
+                    "title": "Sinh nhật yêu thương",
+                    "description": "Tổ chức sinh nhật cho trẻ em mồ côi."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Cánh Chim Rời Quận 8",
+            "district": "Quận 8",
+            "description": "Hỗ trợ trẻ em lang thang và người vô gia cư.",
+            "image": "https://via.placeholder.com/300x200",
+            "url": "test2.html",
+            "address": "89 Phạm Hùng, Quận 8, TP. HCM",
+            "email": "canhchimroi@gmail.com",
+            "phone": "0923456789",
+            "intro": "- Hỗ trợ trẻ em lang thang và người vô gia cư.<br>- Cung cấp bữa ăn và nơi ở tạm thời.<br>- Hỗ trợ tái hòa nhập cộng đồng.",
+            "activities": [
+                {
+                    "title": "Bữa ăn miễn phí",
+                    "description": "Phát cơm miễn phí hàng ngày."
+                },
+                {
+                    "title": "Hỗ trợ tái hòa nhập",
+                    "description": "Giúp người vô gia cư tìm việc làm và chỗ ở ổn định."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Mái Ấm Hy Vọng Thủ Đức",
+            "district": "Thủ Đức",
+            "description": "Hỗ trợ trẻ em nghèo và người khuyết tật tại Thủ Đức.",
+            "image": "https://via.placeholder.com/300x200",
+            "url": "test2.html",
+            "address": "23 Võ Văn Ngân, Thủ Đức, TP. HCM",
+            "email": "maiamhyvong@gmail.com",
+            "phone": "0976543210",
+            "intro": "- Hỗ trợ trẻ em nghèo và người khuyết tật.<br>- Cung cấp học bổng và thiết bị hỗ trợ.<br>- Tổ chức hội thảo kỹ năng sống.",
+            "activities": [
+                {
+                    "title": "Học bổng Hy Vọng",
+                    "description": "Hỗ trợ học phí cho trẻ em nghèo."
+                },
+                {
+                    "title": "Hội thảo kỹ năng",
+                    "description": "Tổ chức hội thảo kỹ năng sống cho trẻ em và người khuyết tật."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Tấm Lòng Rộng Mở Nhà Bè",
+            "district": "Nhà Bè",
+            "description": "Hỗ trợ thực phẩm và giáo dục cho trẻ em nghèo tại Nhà Bè.",
+            "image": "https://via.placeholder.com/300x200",
+            "url": "test2.html",
+            "address": "45 Nguyễn Hữu Thọ, Nhà Bè, TP. HCM",
+            "email": "tamlongrongmo@gmail.com",
+            "phone": "0965432109",
+            "intro": "- Hỗ trợ trẻ em nghèo tại Nhà Bè.<br>- Cung cấp thực phẩm và giáo dục.<br>- Tổ chức các buổi giao lưu cộng đồng.",
+            "activities": [
+                {
+                    "title": "Phát thực phẩm",
+                    "description": "Cung cấp thực phẩm hàng tuần cho trẻ em nghèo."
+                },
+                {
+                    "title": "Giao lưu cộng đồng",
+                    "description": "Tổ chức các buổi giao lưu để kết nối cộng đồng."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Mái Ấm Củ Chi",
+            "district": "Củ Chi",
+            "description": "Hỗ trợ trẻ em mồ côi và người già neo đơn tại Củ Chi.",
+            "image": "https://via.placeholder.com/300x200",
+            "url": "test2.html",
+            "address": "67 Quốc lộ 22, Củ Chi, TP. HCM",
+            "email": "maiamcuchi@gmail.com",
+            "phone": "0954321098",
+            "intro": "- Hỗ trợ trẻ em mồ côi và người già neo đơn tại Củ Chi.<br>- Cung cấp nơi ở và hỗ trợ y tế.<br>- Tổ chức các hoạt động văn hóa.",
+            "activities": [
+                {
+                    "title": "Hỗ trợ y tế",
+                    "description": "Khám sức khỏe miễn phí cho người già."
+                },
+                {
+                    "title": "Hoạt động văn hóa",
+                    "description": "Tổ chức các buổi biểu diễn văn nghệ cho trẻ em."
+                }
+            ]
+        }
+    ],
+    "news": [
+        {
+          "date": "2024-10-10",
+          "title": "Những quán cơm tiếp sức đoàn cứu trợ miền Bắc",
+          "image": "https://i1-giadinh.vnecdn.net/2024/09/12/VNE7598-jpeg-1725970142-9726-1726120207.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=u8Ls2C_vmju3i4VOKp81Tg",
+          "content": "Quán cơm của chị Phan Thị Lan ở xã Ia Le (huyện Chư Pưh, Gia Lai) thông báo sẽ phục vụ miễn phí các đoàn cứu trợ lũ lụt từ Tây Nguyên đi miền Bắc, từ nay tới 12/10. Quán cơm nằm gần Trạm thu phí 110, giáp ranh tỉnh Đăk Lăk và Gia Lai, là nơi có lượng xe qua lại lớn. Mấy ngày qua, nhìn đoàn xe từ các tỉnh thành miền Nam, Tây Nguyên nối đuôi nhau hướng ra Bắc, chị Lan thấy xúc động. 'Chúng tôi không đi được thì tiếp sức các đoàn thiện nguyện để họ đảm bảo sức khỏe, đỡ phần nào chi phí dọc đường', chị Lan, 55 tuổi nói. Bà chủ quán cơm gà thông báo trên mạng xã hội từ chiều 11/9. Sáng nay quán được mấy đoàn từ Đăk Nông, Đăk Lăk liên hệ, đăng ký cơm miễn phí. Chị Lan nói sẽ đón tất cả các đoàn cứu trợ, chỉ hy vọng mọi người liên hệ sớm để được phục vụ tốt nhất. Đây không phải lần đầu gia đình làm việc này. Họ từng nấu cơm miễn phí gần một tháng cho các đoàn cứu trợ lũ lụt năm 2020 và phục vụ các khu cách ly Covid-19. Từ chiều 11/9, anh Hoàng Quang Trung, 41 tuổi, chủ một nhà hàng ở Đồng Hới, Quảng Bình đón các đoàn cứu trợ ăn, ngủ miễn phí. Hai ngày nay có khoảng gần 10 đoàn từ các tỉnh phía Nam, Đà Nẵng và Huế đang hỗ trợ ở các tỉnh Tây Bắc, hẹn khi quay về sẽ dừng nghỉ.  Tại Thanh Hóa, sau khi gói hàng đi cứu trợ đêm 10/9, chị Phương Anh, chủ nhà hàng ở km số 12, quốc lộ 47 vẫn trăn trở. Những năm trước chị đều đi thiện nguyện bão lũ miền Trung, nay vì sức khỏe yếu không đi được. Chị nảy ra kế hoạch lập bếp ăn miễn phí cho các đoàn thiện nguyện đi qua. Ông chủ 33 tuổi cho biết may mắn được nhiều người chia sẻ thông tin cho các đoàn. Hôm 11/9, quán đã phục vụ ba đoàn 10, 13 và 16 người từ Thanh Hóa và Nghệ An đang trên đường ra Bắc. Hôm nay và mai đang có các đoàn từ Nghệ An và Quảng Bình đến."
+        },
+        {
+          "date": "2025-02-10",
+          "title": "Sau Mái ấm Hoa Hồng, thêm một mái ấm tại quận 12, TP HCM bị đình chỉ hoạt động",
+          "image": "https://tse2.mm.bing.net/th?id=OIP.Cxv_LBTlmuM3ze8DVilgygHaE6&pid=Api&P=0&h=180",
+          "content": "Ngày 26-10, UBND quận 12 có văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM về việc đề nghị hỗ trợ tiếp nhận trẻ em. Nguyên nhân là do đình chỉ hoạt động Cơ sở trợ giúp xã hội ngoài công lập Mái ấm tình thương Quan Âm (phường Hiệp Thành, quận 12 - gọi tắt là Mái ấm tình thương Quan Âm). Cụ thể, trong văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM, UBND quận 12 cho biết liên quan vụ việc một số báo chí đưa tin '2 người mẹ trình báo không gặp được con sau khi gửi ở Mái ấm tình thương Quan Âm tại TP HCM', đơn vị này đã kiểm tra đột xuất Mái ấm tình thương Quan Âm.Theo tìm hiểu của phóng viên, vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ là 'không bảo đảm một trong các điều kiện về môi trường, y tế, vệ sinh, cơ sở vật chất, cán bộ, nhân viên;'Qua kiểm tra, UBND quận 12 ghi nhận Mái ấm tình thương Quan Âm vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Do đó, UBND quận 12 xử lý vi phạm hành chính kèm đình chỉ hoạt động 12 tháng đối với Mái ấm tình thương Quan Âm. Đồng thời, đề nghị Sở Lao động - Thương binh và Xã hội TP HCM hỗ trợ tiếp nhận vào các cơ sở trợ giúp xã hội do Sở quản lý đối với 33 trẻ em hiện đang chăm sóc, nuôi dưỡng tại mái ấm này. Nguyên nhân là do mái ấm này bị UBND quận 12 đình chỉ hoạt động."
+        },
+        {
+          "date": "2025-03-12",
+          "title": "Người nước ngoài làm tình nguyện ở Việt Nam",
+          "image": "https://i1-giadinh.vnecdn.net/2024/09/20/Screen-Shot-2024-09-20-at-14-4-1317-4926-1726821475.png?w=680&h=0&q=100&dpr=1&fit=crop&s=_vBu482v1b5XRNvvmN461A",
+          "content": "Vài tháng sau khi tốt nghiệp trung học, Mara một mình xách vali bay từ Berlin đến TP HCM bắt đầu một năm làm tình nguyện. Cô tìm được việc dạy tiếng Anh miễn phí, tuần 5 buổi, cho một trung tâm ở quận Bình Thạnh qua ứng dụng Worldpacker. 'Bạn bè tôi đã kể khá nhiều về sự thân thiện của người Việt Nam', cô gái Đức nói. Khi cô định nghỉ học một năm (gap year) để đi du lịch vòng quanh Đông Nam Á bố mẹ khuyên Mara nên đi làm tình nguyện để được hòa mình với cuộc sống của người bản địa và hiểu hơn về văn hóa nước khác. Dù vậy, lúc bước vào lớp và đối diện với 30 học viên, Mara có vẫn lo âu, hồi hộp. Cô được phân công ngồi cùng nhóm 5 người để hội thoại theo chủ đề bài học. Mara giúp cô gái ngồi cạnh sửa một số lỗi sai về phát âm, hướng dẫn cả nhóm cách sắp xếp từ vựng, đặt câu để viết thành đoạn, mô tả một cảnh đẹp Việt Nam 'Họ thân thiện và chúng tôi đã có những giờ học tuyệt vời', cô nói. 'Tôi cũng đã học được nhiều thứ từ họ'. Các học viên giải đáp thắc mắc của cô về đời sống về đêm ở TP HCM. Họ giúp cô vượt qua cú sốc về giao thông giờ tan tầm, chỉ cô vài từ xin đường cơ bản. 'Đó là những điều tôi không bao giờ có được nếu chỉ đi du lịch', Mara nói."
+        }
+        ,
+        {
+          "date": "2025-02-12",
+          "title": "Tiệm mì gõ 0 đồng trong đêm ở Sài Gòn",
+          "image": "https://i1-giadinh.vnecdn.net/2024/04/06/233A1470-1712369970.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=bw1vxvIsSTNWftPMcoglYg",
+          "content": "Mỗi cuối tuần, nhóm thiện nguyện của anh Trần Đình Long chuẩn bị hơn 800 tô mì phục vụ miễn phí cho bà con lao động, trên đường Phạm Ngũ Lão, quận 1.  20h ngày 5/4, tại số 212 Phạm Ngũ Lão, đoạn gần công viên 23/9 (quận 1) nhóm từ thiện Nhất Tâm tổ chức nấu mì cho những lao động nghèo làm việc khuya Anh Trần Đình Long, 43 tuổi, trưởng nhóm cho biết hoạt động này diễn ra khoảng nửa năm nay, vào tối thứ 6, thứ 7 mỗi tuần tại hai địa điểm trên đường Phạm Ngũ Lão và 262 Nguyễn Chí Thanh (quận 10). 'Mì gõ là món thân quen với người lao động Sài Gòn từ lâu nên khi nấu sẽ phục vụ được nhiều bà con hơn', anh Long nói. Nhóm bắt đầu nấu từ 19h nhưng trước đó đã có nhiều người tới ngồi chờ. Hơn 10 bàn nhựa được kê, bên trên để sẵn bát đũa, chanh, tương ớt. 'Hồi mới làm thường đến giữa đêm mới hết mì nhưng giờ chưa đầy bốn tiếng là dọn đồ về rồi', trưởng nhóm nói. Từ buổi sáng, cả nhóm bắt đầu chuẩn bị thực phẩm, sơ chế rau, thịt rồi mang tất cả nguyên liệu từ quận 7 ra điểm bán hàng. Tô mì khá đơn giản với nước lèo, chả, trứng, xúc xích, hành, giá, được chế biến nhanh để kịp phục vụ bà con lao động Các tình nguyện viên phục vụ người dân tại từng bàn, không xảy ra cảnh chen lấn, giành giật."
+        }
+        ,
+        {
+          "date": "2025-01-12",
+          "title": "Bạo hành trẻ ở mái ấm Hoa Hồng: Tìm người gửi, cho con cho Giáp Thị Sông Hương",
+          "image": "https://tse4.mm.bing.net/th?id=OIP.f3E6OrIyAOMKbx-8SolodwHaEo&pid=Api&P=0&h=180",
+          "content": "Liên quan đến vụ bạo hành trẻ em tại Mái ấm Hoa Hồng (L52 Tô Ký, phường Trung Mỹ Tây, Quận 12, TP.HCM) ngày 24/10, Cơ quan Cảnh sát điều tra Công an TP.HCM phát lệnh truy tìm các nhân chứng nhằm phục vụ công tác điều tra.  Theo Công an TP.HCM, vụ án hành hạ người khác được phát hiện vào ngày 4/9, hiện cơ quan điều tra đang tìm kiếm những người đã nhận con nuôi hoặc từng gửi, cho con vào Mái ấm Hoa Hồng, cũng như có liên hệ với bà Giáp Thị Sông Hương, chủ mái ấm.  Ngoài ra, Công an TP.HCM kêu gọi các nhà hảo tâm đã từng ủng hộ tiền, vật chất cho mái ấm, hãy đến Cơ quan Cảnh sát điều tra (Đội 3 - Phòng Cảnh sát hình sự) tại địa chỉ 459 Trần Hưng Đạo, phường Cầu Kho, Quận 1, hoặc liên hệ qua số điện thoại 069.318.7414 gặp điều tra viên Phạm Văn Hải để cung cấp thông tin, phối hợp điều tra, làm rõ vụ việc.  Trước đó, tại buổi họp báo định kỳ TP.HCM chiều 5/9, bà Võ Thị Chính, Phó Chủ tịch UBND Quận 12 cho biết, quận đã nhiều lần kiểm tra cơ sở trên. Vào tháng 10/2023 và tháng  4/2024, Phòng LĐ-TB&XH quận cùng các đơn vị liên quan đã kiểm tra định kỳ; tháng 7/2024, Ủy ban MTTQ Việt Nam Quận 12 đã trực tiếp xuống cơ sở này giám sát nhưng chưa lần nào kiểm tra phát hiện số lượng trẻ chăm sóc tại đây vượt quá số lượng cũng như hành vi bạo hành trẻ.  Theo bà Chính, cơ sở chỉ được phép nuôi 39 trẻ nhưng sau khi báo chí phản ánh, các cơ quan chức năng kiểm tra thì phát hiện có đến 86 trẻ, vượt quá số lượng được cấp phép 47 trẻ.  Trong đó có 15 trẻ sơ sinh, 36 trẻ từ 1 đến 2 tuổi, 31 trẻ từ 3 đến 5 tuổi đang học tại Trường mầm non Sóc Bông, 3 trẻ từ 6 đến 12 tuổi, 1 trẻ đang điều trị bệnh tại bệnh viện.  Công an Quận 12 đã làm việc với chủ cơ sở để làm rõ nguồn gốc 47 trẻ ở đâu ra và xem xét có yếu tố trục lợi hay không.  Bà Chính cũng cho biết, theo quy định về việc kiểm tra thường xuyên thì phải có kế hoạch và thông báo trước cho cơ sở. Vì vậy, việc kiểm tra thường xuyên rất khó phát hiện sai phạm, cơ sở bảo trợ đã có hành vi đối phó rất tinh vi. Đây là bài học cho quận để quản lý chặt chẽ hơn nữa các cơ sở bảo trợ xã hội thông qua kiểm tra thường xuyên, đột xuất. Ngày 6/9, Cơ quan CSĐT Công an TP.HCM đã khởi tố vụ án, bắt giam 2 bảo mẫu Nguyễn Thị Ngọc Cẩm và Diệp Ngọc Tuyền (SN 1977, ngụ tỉnh Sóc Trăng), để điều tra về tội “Hành hạ người khác” theo Điều 140 Bộ luật hình sự."
+        }
+        ,
+        {
+          "date": "2025-03-15",
+          "title": "Vụ bạo hành trẻ em: Bà chủ mái ấm Hoa Hồng Giáp Thị Sông Hương khai gì?",
+          "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2024/9/4/giap-thi-song-huong-2030.jpg?width=0&s=Zw9CudeKyJJm-T5XLFxuPQ",
+          "content": "Công an quận 12, TPHCM hôm nay (4/9) phối hợp cùng các cơ quan chức năng mời bà Giáp Thị Sông Hương (50 tuổi, quê Bắc Giang) - chủ cơ sở mái ấm Hoa Hồng - cùng một số bảo mẫu lên làm việc.  Ngoài ra, còn một số bảo mẫu khác liên quan đến hành vi bạo hành trẻ em nhưng không có mặt tại mái ấm Hoa Hồng khi cơ quan chức năng đến kiểm tra vào sáng nay. Hiện Công an quận 12 đang truy xét, tiến hành mời làm việc đối với những người này. Cơ quan chức năng đang kiểm tra toàn diện đối với mái ấm Hoa Hồng, bước đầu xác định tại đây có 86 trẻ. Theo khai báo của những người liên quan, phần lớn trẻ tại mái ấm bị bỏ rơi, mẹ sinh ra nhưng không có điều kiện nuôi nấng nên mái ấm nhận vào. Ngoài ra, nhiều trẻ có cha mẹ là công nhân, người lao động tại khu vực xung quanh gửi cho mái ấm, sáng đưa đến và chiều đón về.  Hiện UBND quận 12 đã có báo cáo Sở Lao động - Thương binh và Xã hội TPHCM về mái ấm Hoa Hồng cũng như sự việc bạo hành trẻ em xảy ra nơi đây mà báo chí phản ánh. Cơ quan chức năng quận 12 đang tiếp tục làm rõ về nhân thân, lai lịch của các bé tại cơ sở này. Trước mắt, chính quyền địa phương sẽ đưa các bé đến Trung tâm Bảo trợ trẻ em Tam Bình (Quốc lộ 1A, phường Bình Chiểu, TP Thủ Đức) để tiếp tục chăm sóc và sẽ xem xét, có hướng xử lý sau. Một nguồn tin cho hay, trong buổi làm việc với cơ quan công an, bà Giáp Thị Sông Hương tường trình luôn cố gắng đảm bảo điều kiện tốt nhất trong việc nuôi dạy trẻ tại mái ấm. Việc các bảo mẫu bạo hành trẻ là hành động bộc phát, mất kiểm soát trong lúc chăm sóc, bà Hương không biết và mái ấm không chủ trương những hành vi như vậy. Tuy nhiên, đây mới là lời khai từ phía người đại diện cơ sở này. Cơ quan công an đang tiếp tục làm rõ"
+        }
+        ,
+        {
+          "date": "2025-03-17",
+          "title": "Quá khứ vui vẻ, tích cực của Quang Linh Vlogs",
+          "image": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2025/3/17/photo1642151206515-1642151206806328634195jpeg-2-17421880889171632453917.jpg",
+          "content": "Dù vướng vào ồn ào, các video cũ của Quang Linh Vlogs tại châu Phi vẫn được khán giả chia sẻ mạnh mẽ, như một cách nhắc nhở về những đóng góp ý nghĩa của anh. Những khoảnh khắc anh cùng các anh em xây trường, hướng dẫn trẻ em học tiếng Việt, hay đơn giản là những trận bóng đá giao lưu với người dân địa phương tiếp tục lan tỏa năng lượng tích cực. Không ít người tin rằng, dù gặp sai lầm, Quang Linh Vlogs vẫn là một người có đóng góp lớn cho cộng đồng và xứng đáng nhận được cơ hội sửa sai. Việc Quang Linh Vlogs sắp trở lại châu Phi cũng khiến nhiều người mong đợi những dự án thiện nguyện mới.Trong quá trình giới thiệu, anh đã sử dụng những lời lẽ gây hiểu nhầm về công dụng sản phẩm, như so sánh một viên kẹo với một đĩa rau củ, khiến nhiều khán giả phản ứng.Trước làn sóng chỉ trích, Quang Linh đã tổ chức buổi gặp gỡ cùng đại diện nhãn hàng để xin lỗi công khai và nhận trách nhiệm về sai sót.Sự việc vừa qua là một bài học đáng giá cho Quang Linh Vlogs về trách nhiệm trong quảng bá sản phẩm.Câu chuyện cũng đặt ra câu hỏi lớn hơn về đạo đức trong lĩnh vực influencer marketing - khi sức ảnh hưởng của người nổi tiếng có thể tác động trực tiếp đến hành vi tiêu dùng của hàng triệu người.Dù vậy với những gì đã làm được tại châu Phi, Quang Linh Vlogs vẫn có cơ hội lấy lại niềm tin từ công chúng.Nếu tiếp tục giữ vững giá trị cốt lõi của mình và cẩn trọng hơn trong các hoạt động thương mại, Quang Linh Vlogs hoàn toàn có thể duy trì được tình cảm yêu mến từ khán giả. "
+        }
+        ,
+        {
+          "date": "2025-03-18",
+          "title": "Chi tiêu tiền từ thiện không đúng khiến lòng người dậy sóng",
+          "image": "https://cdn2.tuoitre.vn/thumb_w/730/471584752817336320/2025/3/6/pham-thoai-1-17405019063872114370265-17412332958511415947051.jpg",
+          "content": "Mấy ngày qua vụ từ thiện liên quan đến Phạm Thoại - một TikToker nổi tiếng đã gây nên những lùm xùm. Trong số hơn 1 triệu người dõi theo phiên sao kê, ngoài những người đã chung tay vào chương trình ủng hộ cho 'bé Bắp' - bệnh nhi mà nam TikToker này kêu gọi, còn rất nhiều người hiếu kỳ khác. Thực ra từ thiện và những lùm xùm xung quanh nó đã từng diễn ra, nhất là khi hoạt động vốn nhân văn này gắn với người nổi tiếng, do người nổi tiếng đứng ra tổ chức. Thực tế người nổi tiếng luôn có lượng người theo dõi, yêu thích, ủng hộ đông nên việc kêu gọi, cần cộng đồng hỗ trợ của họ luôn nhanh chóng lan tỏa, hiệu quả.  Do vậy những chương trình từ thiện, hoạt động thiện nguyện, vì người nghèo, hướng đến môi trường hoặc các đối tượng yếu thế cần yểm trợ rất cần người nổi tiếng chung tay. Tuy nhiên khi họ làm từ thiện và thiếu chuyên nghiệp, chẳng hạn không nắm hết được dòng tiền ủng hộ, dòng tiền chi tiêu vào các hoạt động chung, hoặc thiếu sâu sát trong nắm bắt thông tin đối tượng cần hỗ trợ… sẽ dễ dẫn tới những hệ lụy đáng tiếc. Bản thân người làm từ thiện không chuyên cũng sẽ không theo dõi đầy đủ, báo cáo chi tiết các khoản tiền vào - ra, theo đúng quy trình (cả về cách thức báo cáo lẫn thời gian thông tin vốn càng sớm càng tốt). Điều này dẫn đến hoài nghi nơi cộng đồng và sự hoài nghi này có cơ sở.Tổ chức một hoạt động thiện nguyện, một chương trình từ thiện đòi hỏi nhiều công sức để tránh sơ sót, cơ hiềm. Đầu tiên là đi tiền trạm - tìm hiểu về địa phương, đối tượng cần hỗ trợ, đối chiếu qua về các nguồn thông tin, từ thực tế cuộc sống, hoàn cảnh, nhu cầu mà đối tượng cần.Mang món quà người ta cần thì họ mới dùng được và mới giúp thay đổi cuộc sống của họ, an ủi tinh thần họ. Mang đến không đúng nhu cầu hoặc thừa mứa đều không đúng tinh thần 'cấp cứu' của hoạt động từ thiện. Điều này thường thấy trong các đợt cứu trợ bão lụt. Nhiều khi làng bị lũ nhận ê hề mì ăn liền, muối, bột ngọt trong khi họ cần thuốc men hơn, hoặc tiền bạc để tái thiết cuộc sống. Dư luận từng nói thẳng cứu trợ bão lụt sao cứ phải là… mì gói, để nói lên sự không tương thích trong món quà và nhu cầu thực tế của người nhận quà."
+        }
+  
+      ]
+}

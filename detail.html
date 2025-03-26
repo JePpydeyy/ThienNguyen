@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chi Tiết Chương Trình</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="details-card" id="program-details">
+            <p>Đang tải chi tiết chương trình...</p>
+        </section>
+        <a href="index.html" class="btn-back">← Quay lại</a>
+    </main>
+
+    <script>
+        // Lấy ID từ URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const programId = urlParams.get("id");
+        const container = document.getElementById("program-details");
+
+        if (!programId) {
+            container.innerHTML = "<p>Không tìm thấy ID chương trình.</p>";
+        } else {
+            fetch(`http://localhost:3001/programs/${programId}`)
+                .then((res) => {
+                    if (!res.ok) throw new Error("Không tìm thấy chương trình");
+                    return res.json();
+                })
+                .then((program) => {
+                    container.innerHTML = `
+                        <div class="details-image">
+                            <img src="${program.image}" alt="${program.name}">
+                        </div>
+                        <div class="details-content">
+                            <h1>${program.name}</h1>
+                            <p><strong>Quận:</strong> ${program.district}</p>
+                            <p><strong>Mô tả:</strong> ${program.description}</p>
+                            ${program.address ? `<p><strong>Địa chỉ:</strong> ${program.address}</p>` : ""}
+                            ${program.phone ? `<p><strong>Điện thoại:</strong> ${program.phone}</p>` : ""}
+                            ${program.email ? `<p><strong>Email:</strong> <a href="mailto:${program.email}">${program.email}</a></p>` : ""}
+                            <p><strong>Giới thiệu:</strong> ${program.intro}</p>
+                            <h2>Các hoạt động</h2>
+                            <ul>
+                                ${program.activities.map(act => `<li><strong>${act.title}:</strong> ${act.description}</li>`).join("")}
+                            </ul>
+                            <p><strong>ID:</strong> ${program.id}</p>
+                        </div>
+                    `;
+                })
+                .catch((err) => {
+                    container.innerHTML = `<p style="color: red;">Lỗi: ${err.message}</p>`;
+                });
+        }
+    </script>
+</body>
+
+</html>

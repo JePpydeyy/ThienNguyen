@@ -1,0 +1,326 @@
+/* ========== Thiết lập chung ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+}
+
+/* ========== Phần tìm kiếm (Search Form) ========== */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #ffffff, #f3f4f6);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+.search input,
+.search select {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    min-width: 200px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search input:focus,
+.search select:focus {
+    outline: none;
+    border-color: #ff6f61;
+    box-shadow: 0 0 8px rgba(255, 111, 97, 0.4);
+}
+
+.search button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6f61;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.search button:hover {
+    background-color: #e45b50;
+    transform: translateY(-3px);
+}
+
+/* ========== Phần danh sách mái ấm (Programs Section) ========== */
+.programs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.program-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.program-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.program-card h3 {
+    margin: 20px 0 10px;
+    padding: 0 15px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.program-card p {
+    padding: 0 15px 20px;
+    color: #555;
+    font-size: 1rem;
+}
+
+.program-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.program-card:hover img {
+    transform: scale(1.05);
+}
+
+/* ========== Phần chi tiết mái ấm (Details Page) ========== */
+.details-card {
+    display: flex;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* Hình ảnh chi tiết */
+.details-image {
+    flex: 1;
+}
+
+.details-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Nội dung chi tiết */
+.details-content {
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.details-content .address,
+.details-content .email,
+.details-content .phone {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.details-content i {
+    margin-right: 10px;
+    color: #ff6f61;
+}
+
+.details-content a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+.details-content a:hover {
+    text-decoration: underline;
+}
+
+.details-content h2 {
+    margin: 30px 0 15px;
+    font-size: 2rem;
+}
+
+.details-content p {
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Nguồn thông tin */
+.details-content .source {
+    font-style: italic;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Nút quay lại */
+.btn-back {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    background: #ff6f61;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-back i {
+    margin-right: 8px;
+}
+
+.btn-back:hover {
+    background: #e45b50;
+    transform: translateY(-3px);
+}
+
+/* ========== Hoạt động tiêu biểu (Activities Section) ========== */
+.activities-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.activities-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.activities-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.activity-item {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.activity-item:hover {
+    transform: translateY(-5px);
+}
+
+.activity-item h3 {
+    color: #ff6f61;
+    margin-bottom: 15px;
+}
+
+/* ========== Responsive Design ========== */
+@media (max-width: 1024px) {
+    .details-card {
+        flex-direction: column;
+    }
+
+    .details-content {
+        padding: 30px;
+    }
+
+    .search {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .details-content h1 {
+        font-size: 2rem;
+    }
+
+    .details-content .address {
+        font-size: 1rem;
+    }
+
+    .program-card h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .details-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .search button {
+        padding: 10px 20px;
+    }
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #555;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #30BEC0;
+}
+
+.search-icon {
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+}

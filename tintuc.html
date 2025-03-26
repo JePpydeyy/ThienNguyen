@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/tintuc.css">
+    <link rel="stylesheet" href="style/grid.css">
+    <link rel="icon" type="image/png" href="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a0/cb/44/a0cb447b-2dfb-69c7-5059-c4216307956c/196835967394.jpg/1200x1200bf-60.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+<!-- con cac  -->
+    </header>
+
+    <section class="section_title">
+        <ul>
+            <li><a href="">TIN TỨC </a></li>
+            <li> | </li>
+            <li><a href="">SỰ KIỆN</a></li>
+            <li> | </li>
+            <li><a href="">STORES</a></li>
+        </ul>
+    </section>
+    <section class="container_news">
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-8 m-6 c-6">
+                <div class="tintuc-banner"> 
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.XNaJD82fe0pFeDqjna7wOAHaD7&pid=Api&P=0&h=180" alt="">
+                </div>
+            </div>
+            <div class="col l-4 m-6 c-6">
+                <div class="tintuc-news_2">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.D1pNkz-GN39Og9DBCe2vWQHaE8&pid=Api&P=0&h=180" alt="">
+                    <img class="mobile-none " src="https://tse4.mm.bing.net/th?id=OIP.5xXRe_Hw76hB1tafHH58PAHaFc&pid=Api&P=0&h=180" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="container_box_news">
+        <h2 class="title_box_news">
+            TIN TỨC MỚI NHẤT
+        </h2>
+        <div class="grid wide container">
+            <div class="row">
+                
+               
+                
+               <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const newsContainer = document.querySelector(".container_box_news .grid .row");
+
+    fetch("http://localhost:3001/news")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return response.json();
+        })
+        .then(data => {
+            newsContainer.innerHTML = ""; 
+            data.forEach(newsItem => {
+                const newsHTML = `
+                    <div class="col l-4 m-6 c-6 tintuc_container_news">
+                        <div class="tintuc-news_1"> 
+                            <img src="${newsItem.image}" alt="">
+                            <div class="text-items">
+                                <p><i class="fa-solid fa-calendar"></i> ${newsItem.date}</p>
+                                <h3>${newsItem.title}</h3>
+                                <p><a href="#" class="view-more" data-title="${newsItem.title}" data-content="${newsItem.content}" data-image="${newsItem.image}" data-date="${newsItem.date}">> Xem thêm</a></p>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                newsContainer.innerHTML += newsHTML;
+            });
+
+            document.querySelectorAll(".view-more").forEach(button => {
+                button.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const title = this.getAttribute("data-title");
+                    const content = this.getAttribute("data-content");
+                    const image = this.getAttribute("data-image");
+                    const date = this.getAttribute("data-date");
+                    
+                    const detailContainer = document.createElement("div");
+                    detailContainer.classList.add("news-detail");
+                    detailContainer.innerHTML = `
+                        <div class="detail-content">
+                            <span class="close-detail">&times;</span>
+                            <h2>${title}</h2>
+                            <p><i class="fa-solid fa-calendar"></i> ${date}</p>
+                            <img src="${image}" alt="">
+                            <p>${content}</p>
+                        </div>
+                    `;
+                    document.body.appendChild(detailContainer);
+
+                    document.querySelector(".close-detail").addEventListener("click", function () {
+                        document.body.removeChild(detailContainer);
+                    });
+                });
+            });
+        })
+        .catch(error => console.error("Error fetching news:", error));
+});
+
+
+               </script>
+                
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
