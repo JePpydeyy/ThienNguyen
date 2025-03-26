@@ -83,7 +83,7 @@
 
             programs.forEach((program) => {
                 const card = document.createElement("a");
-                card.href = `test2.html?id=${program.id}`;
+                card.href = `detail.html?id=${program.id}`;
                 card.innerHTML = `
                     <div class="program-card" data-name="${program.name}" data-district="${program.district}">
                         <img src="${program.image}" alt="${program.name}">
