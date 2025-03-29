@@ -90,14 +90,14 @@
         }
 
         programsToShow.forEach((program) => {
-    const card = document.createElement("a");
-    card.href = `detail.html?id=${program.id}`; // Liên kết đến detail.html với tham số id
-    card.className = "program-card";
-    card.innerHTML = `
-        <img src="${program.image}" alt="${program.name}">
-        <h3>${program.name}</h3>
-        <p>${program.description}</p>
-    `;
+        const card = document.createElement("a");
+        card.href = `detail.html?id=${program.id}`; // Liên kết đến detail.html với tham số id
+        card.className = "program-card";
+        card.innerHTML = `
+            <img src="${program.image}" alt="${program.name}">
+            <h3>${program.name}</h3>
+            <p>${program.description}</p>
+        `;
     container.appendChild(card);
 });
     }

@@ -418,6 +418,68 @@
             background-color: #0056b3;
         }
 
+        /* Container chính */
+        .showprograms {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Tự động căn chỉnh */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Card chương trình */
+        .program-card {
+            display: block;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Hiệu ứng hover */
+        .program-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Hình ảnh */
+        .program-image img {
+            width: 100%;
+            height: 200px; /* Chiều cao cố định */
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        /* Nội dung */
+        .program-content {
+            padding: 15px;
+        }
+
+        /* Tiêu đề */
+        .program-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        /* Mô tả */
+        .program-description {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        /* Địa điểm */
+        .program-location {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+
+
     </style>
 </head>
 <body>
@@ -554,23 +616,22 @@
 
                 const sortedPrograms = programs.sort((a, b) => a.id - b.id);
 
-                const latestPrograms = sortedPrograms.slice(0, 6);
+                const latestPrograms = sortedPrograms.slice(0, 10);
 
                 showprogramsContainer.innerHTML = latestPrograms
-                    .map(program => `
-                        <div class="program-card">
-                            <div class="program-image">
-                                <img src="${program.image}" alt="${program.name}">
-                            </div>
-                            <div class="program-content">
-                                <h3 class="program-title">${program.name}</h3>
-                                <p class="program-description">${program.description}</p>
-                                <p class="program-location"><strong>Địa điểm:</strong> ${program.district}</p>
-                                <a href="${program.url}" class="btn btn-primary">XEM CHI TIẾT</a>
-                            </div>
+                .map(program => `
+                    <a href="detail.html?id=${program.id}" class="program-card">
+                        <div class="program-image">
+                            <img src="${program.image}" alt="${program.name}">
                         </div>
-                    `)
-                    .join("");
+                        <div class="program-content">
+                            <h3 class="program-title">${program.name}</h3>
+                            <p class="program-description">${program.description}</p>
+                            <p class="program-location"><strong>Địa điểm:</strong> ${program.district}</p>
+                        </div>
+                    </a>
+                `)
+                .join("");
         });
     </script>
 </body>
