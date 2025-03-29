@@ -10,6 +10,13 @@ const news =  [
         "title": "Sau Mái ấm Hoa Hồng, thêm một mái ấm tại quận 12, TP HCM bị đình chỉ hoạt động",
         "image": "https://tse2.mm.bing.net/th?id=OIP.Cxv_LBTlmuM3ze8DVilgygHaE6&pid=Api&P=0&h=180",
         "content": "Ngày 26-10, UBND quận 12 có văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM về việc đề nghị hỗ trợ tiếp nhận trẻ em. Nguyên nhân là do đình chỉ hoạt động Cơ sở trợ giúp xã hội ngoài công lập Mái ấm tình thương Quan Âm (phường Hiệp Thành, quận 12 - gọi tắt là Mái ấm tình thương Quan Âm). Cụ thể, trong văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM, UBND quận 12 cho biết liên quan vụ việc một số báo chí đưa tin '2 người mẹ trình báo không gặp được con sau khi gửi ở Mái ấm tình thương Quan Âm tại TP HCM', đơn vị này đã kiểm tra đột xuất Mái ấm tình thương Quan Âm.Theo tìm hiểu của phóng viên, vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ là 'không bảo đảm một trong các điều kiện về môi trường, y tế, vệ sinh, cơ sở vật chất, cán bộ, nhân viên;'Qua kiểm tra, UBND quận 12 ghi nhận Mái ấm tình thương Quan Âm vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Do đó, UBND quận 12 xử lý vi phạm hành chính kèm đình chỉ hoạt động 12 tháng đối với Mái ấm tình thương Quan Âm. Đồng thời, đề nghị Sở Lao động - Thương binh và Xã hội TP HCM hỗ trợ tiếp nhận vào các cơ sở trợ giúp xã hội do Sở quản lý đối với 33 trẻ em hiện đang chăm sóc, nuôi dưỡng tại mái ấm này. Nguyên nhân là do mái ấm này bị UBND quận 12 đình chỉ hoạt động."
+      }
+      ,
+      {
+        "date": "2024-12-25",
+        "title": "Học sinh Newton được truyền đam mê làm thiện nguyện",
+        "image": "https://i1-vnexpress.vnecdn.net/2024/12/24/Image-ExtractWord-0-Out-5514-1735023150.png?w=680&h=0&q=100&dpr=1&fit=crop&s=tvqsqvig5HGRCar528m6NQ",
+        "content": "Thấm nhuần tinh thần tương thân tương ái của nhà trường, học sinh Newton thể hiện trách nhiệm với cộng đồng ngay từ khi ngồi trên ghế nhà trường. Trần Mỹ Anh, cựu học sinh lớp 12G niên khóa 2019 - 2022, Trường THCS - THPT Newton (thuộc Hệ thống Trường liên cấp Newton, thành viên Tập đoàn Giáo dục EQuest) là một trong những học sinh tích cực tham gia các hoạt động thiện nguyện của trường ngay từ những năm đầu cấp ba. Cô gái quê Yên Bái là học sinh tiêu biểu cấp trường nhiều năm liên tiếp từng tham gia dự án thiện nguyện HomeUp Heroes mùa bảy; tổ chức gây quỹ và kêu gọi quyên góp quần áo, sách vở cho các em nhỏ và hộ gia đình có hoàn cảnh đặc biệt khó khăn tại xã Văn Nghĩa, huyện Lạc Sơn, tỉnh Hòa Bình; tặng quà, sách vở cho các em nhỏ người dân tộc thiểu số tại xã Lâm Sơn, huyện Lương Sơn, tỉnh Hoà Bình. Các dự án trên đều được thành lập bởi chính các em học sinh trong trường với mục đích làm mới không gian sống và giúp đỡ những mảnh đời khó khăn, lan tỏa giá trị tốt đẹp tới cộng đồng."
       },
       {
         "date": "2025-03-12",
@@ -56,15 +63,8 @@ const news =  [
       {
         "date": "2024-09-20",
         "title": "Vingroup gây quỹ, kêu gọi cộng đồng chung tay tái thiết sau bão lũ",
-        "image": "/img/news1.jpg",
+        "image": "https://i1-kinhdoanh.vnecdn.net/2024/09/20/image001-9209-1726797706.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=ZvVdwiCORwZn2e1C94XgmQ",
         "content": "Hà NộiTập đoàn Vingroup tổ chức hội chợ, giải chạy và đêm nhạc gây quỹ, chung tay hỗ trợ người dân các địa phương bị thiệt hại sau bão lũ. Ngày 19/9, Tập đoàn Vingroup, các công ty thành viên và đối tác công bố tổ chức chuỗi hoạt động thiện nguyện 'Gieo mầm thiện tâm', kéo dài đến hết ngày 30/9. Mục tiêu là huy động sức mạnh của cộng đồng, góp phần đẩy nhanh quá trình tái thiết cuộc sống cho đồng bào sau lũ. Chương trình được triển khai riêng biệt với quỹ cứu trợ bão lũ khẩn cấp 250 tỷ đồng đã công bố hôm 12/9."
-      }
-      ,
-      {
-        "date": "2024-12-25",
-        "title": "Học sinh Newton được truyền đam mê làm thiện nguyện",
-        "image": "https://i1-vnexpress.vnecdn.net/2024/12/24/Image-ExtractWord-0-Out-5514-1735023150.png?w=680&h=0&q=100&dpr=1&fit=crop&s=tvqsqvig5HGRCar528m6NQ",
-        "content": "Thấm nhuần tinh thần tương thân tương ái của nhà trường, học sinh Newton thể hiện trách nhiệm với cộng đồng ngay từ khi ngồi trên ghế nhà trường. Trần Mỹ Anh, cựu học sinh lớp 12G niên khóa 2019 - 2022, Trường THCS - THPT Newton (thuộc Hệ thống Trường liên cấp Newton, thành viên Tập đoàn Giáo dục EQuest) là một trong những học sinh tích cực tham gia các hoạt động thiện nguyện của trường ngay từ những năm đầu cấp ba. Cô gái quê Yên Bái là học sinh tiêu biểu cấp trường nhiều năm liên tiếp từng tham gia dự án thiện nguyện HomeUp Heroes mùa bảy; tổ chức gây quỹ và kêu gọi quyên góp quần áo, sách vở cho các em nhỏ và hộ gia đình có hoàn cảnh đặc biệt khó khăn tại xã Văn Nghĩa, huyện Lạc Sơn, tỉnh Hòa Bình; tặng quà, sách vở cho các em nhỏ người dân tộc thiểu số tại xã Lâm Sơn, huyện Lương Sơn, tỉnh Hoà Bình. Các dự án trên đều được thành lập bởi chính các em học sinh trong trường với mục đích làm mới không gian sống và giúp đỡ những mảnh đời khó khăn, lan tỏa giá trị tốt đẹp tới cộng đồng."
       }
       ,
       {
@@ -98,7 +98,7 @@ const news =  [
       {
         "date": "2023-10-11",
         "title": "Những người bình thường tạo nên giá trị phi thường",
-        "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/10/11/edit-nhom-bo-de-tam-169698434110472941634.jpegp",
+        "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/10/11/edit-nhom-bo-de-tam-169698434110472941634.jpeg",
         "content": "Trưa hè nắng chói chang, chị gái tôi gọi điện bảo tôi lên Bệnh viện Thanh Nhàn giúp chị một tay vì hôm nay thiếu người. Tôi càu nhàu không muốn đi do đang nằm trong phòng điều hòa mát mẻ. Kêu ca vài câu rồi tôi vẫn dắt xe ra và lên đường. Bệnh viện Thanh Nhàn (Hà Nội) đứng sừng sững giữa cái nắng lúc 13 giờ chiều, tôi gửi xe rồi nép mình vào hành lang chờ đợi. Nhà gần lại đi nhanh nên tôi đến hơi sớm. Sân bệnh viện dù nắng nóng vẫn có nhiều người đi ra đi vào, người cười người khóc... Những phòng bệnh đóng cửa im ỉm, chỉ có khu khám bệnh và phòng cấp cứu là luôn nhộn nhịp."
       }
       ,
@@ -121,13 +121,6 @@ const news =  [
         "title": "Câu chuyện đẹp về chàng sinh viên gen Z...",
         "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/2/5/anh-1-16755640266561492944510.jpg",
         "content": "Nhiệt huyết với công tác tình nguyện, Lê Thành Lương, sinh viên năm 3 của Trường CĐ Y tế Cần Thơ đã góp phần lan tỏa nhiều câu chuyện đẹp đến với cộng đồng. '5 lần hiến máu tình nguyện vì việc cứu người thì không thể chần chừ' Lê Thành Lương (quê xã Vĩnh Hanh, huyện Châu Thành, tỉnh An Giang), hiện là sinh viên năm 3 của Trường CĐ Y tế Cần Thơ. Lương kể: 'Sau 12 năm đạt thành tích học sinh giỏi, Lương rất háo hức được trở thành sinh viên. Bởi, môi trường mới không những có nhiều điều mới mẻ để học hỏi mà còn là cơ hội để dấn thân vào một hoạt động mà mình còn rất thích công tác tình nguyện'."
-      }
-      ,
-      {
-        "date": "2023-03-21",
-        "title": "Thiện nguyện đốn tim: Cháo đêm tặng người vô gia cư",
-        "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/3/20/em-be-10-thang-tuoi-cung-me-qua-dem-tai-via-he-nhan-chao-cua-nhom-thien-nguyen-anh-quang-vien-copy-1679324946834113790085.jpg",
-        "content": "Sài Gòn nửa đêm về sáng, những người vô gia cư khốn khổ, đã không nhà lại không tiền. Đêm xuống, đói cồn cào, họ cần cái gì đó để lót dạ… Hằng đêm, nhiều người vô gia cư (VGC) mong ngóng nhóm thiện nguyện nào đó mang đến cho họ món gì lót dạ. Có lúc, họ chờ suốt đêm trong ngậm ngùi. Nhưng cứ định kỳ mỗi tháng 2 lần, vào khuya thứ bảy, hàng trăm người VGC ở Sài Gòn chắc chắn có một tô cháo nóng hổi, đủ dinh dưỡng từ CLB Sài Gòn Thương."
       }
 ]
 
