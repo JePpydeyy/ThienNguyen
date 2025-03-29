@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Chi Tiết Chương Trình</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/deltail.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TGGLGHXY5"></script>
     <script>
@@ -18,6 +18,20 @@
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="VinaCapital Foundation"></a>
+        </div>
+        <nav>
+                <ul>
+                    <li><a href="/ThienNguyen/index.html">Trang chủ</a></li>
+                    <li><a href="/ThienNguyen/sanpham.html">Chương trình chính</a></li>
+                    <li><a href="/ThienNguyen/tintuc.html">Tin tức & Câu chuyện</a></li>
+                    <li><a href="/ThienNguyen/lienhe.html">Liên hệ</a></li>
+                </ul>
+        </nav>
+        <a href="#" class="btn btn-primary">Quyên góp</a>
+    </header>
     <main>
         <section class="details-card" id="program-details">
             <p>Đang tải chi tiết chương trình...</p>
@@ -26,45 +40,46 @@
     </main>
 
     <script>
-        // Lấy ID từ URL
-        const urlParams = new URLSearchParams(window.location.search);
-        const programId = urlParams.get("id");
-        const container = document.getElementById("program-details");
+       document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const programId = urlParams.get("id"); // Lấy giá trị id từ URL
+    const container = document.getElementById("program-details");
 
-        if (!programId) {
-            container.innerHTML = "<p>Không tìm thấy ID chương trình.</p>";
+    if (!programId) {
+        container.innerHTML = "<p>Không tìm thấy ID chương trình.</p>";
+    } else {
+        // Tìm sản phẩm trong mảng `programs` dựa trên id
+        const program = programs.find((p) => p.id === parseInt(programId));
+
+        if (!program) {
+            container.innerHTML = "<p>Không tìm thấy chương trình.</p>";
         } else {
-            fetch(`http://localhost:3001/programs/${programId}`)
-                .then((res) => {
-                    if (!res.ok) throw new Error("Không tìm thấy chương trình");
-                    return res.json();
-                })
-                .then((program) => {
-                    container.innerHTML = `
-                        <div class="details-image">
-                            <img src="${program.image}" alt="${program.name}">
-                        </div>
-                        <div class="details-content">
-                            <h1>${program.name}</h1>
-                            <p><strong>Quận:</strong> ${program.district}</p>
-                            <p><strong>Mô tả:</strong> ${program.description}</p>
-                            ${program.address ? `<p><strong>Địa chỉ:</strong> ${program.address}</p>` : ""}
-                            ${program.phone ? `<p><strong>Điện thoại:</strong> ${program.phone}</p>` : ""}
-                            ${program.email ? `<p><strong>Email:</strong> <a href="mailto:${program.email}">${program.email}</a></p>` : ""}
-                            <p><strong>Giới thiệu:</strong> ${program.intro}</p>
-                            <h2>Các hoạt động</h2>
-                            <ul>
-                                ${program.activities.map(act => `<li><strong>${act.title}:</strong> ${act.description}</li>`).join("")}
-                            </ul>
-                            <p><strong>ID:</strong> ${program.id}</p>
-                        </div>
-                    `;
-                })
-                .catch((err) => {
-                    container.innerHTML = `<p style="color: red;">Lỗi: ${err.message}</p>`;
-                });
+            // Hiển thị thông tin chi tiết của sản phẩm
+            container.innerHTML = `
+                <div class="details-image">
+                    <img src="${program.image}" alt="${program.name}">
+                </div>
+                <div class="details-content">
+                    <h1>${program.name}</h1>
+                    <p><strong>Quận:</strong> ${program.district}</p>
+                    <p><strong>Mô tả:</strong> ${program.description}</p>
+                    ${program.address ? `<p><strong>Địa chỉ:</strong> ${program.address}</p>` : ""}
+                    ${program.email ? `<p><strong>Email:</strong> ${program.email}</p>` : ""}
+                    ${program.phone ? `<p><strong>Số điện thoại:</strong> ${program.phone}</p>` : ""}
+                    <p><strong>Giới thiệu:</strong> ${program.intro}</p>
+                </div>
+            `;
         }
+    }
+    
+});
     </script>
+    <main>
+        <section id="program-details" class="program-details">
+            <!-- Thông tin chi tiết sẽ được hiển thị ở đây -->
+        </section>
+    </main>
+    <script src="./main.js"></script>
 </body>
 
 </html>

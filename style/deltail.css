@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo img {
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #555;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #30BEC0;
+}
+
+.search-icon {
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+}
+
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.details-card {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .details-image {
+    flex: 0 0 40%;
+    padding-right: 20px;
+  }
+  
+  .details-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  
+  .details-content {
+    flex: 0 0 60%;
+  }
+  
+  .details-content h1 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 24px;
+  }
+  
+  .details-content p {
+    margin: 8px 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .details-content p strong {
+    color: #16a085;
+    font-weight: 600;
+  }
+  
+  /* Responsive design cho màn hình nhỏ */
+  @media (max-width: 768px) {
+    .details-card {
+      flex-direction: column;
+    }
+    
+    .details-image, .details-content {
+      flex: 0 0 100%;
+    }
+    
+    .details-image {
+      padding-right: 0;
+      padding-bottom: 20px;
+    }
+  }
