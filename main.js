@@ -456,7 +456,7 @@ const programs = [
         "name": "LỚP HỌC TÌNH THƯƠNG PHƯỜNG PHÚ MỸ",
         "district": "quận 7",
         "description": "Được thành lập vào năm 1982 với mục tiêu cung cấp giáo dục miễn phí cho trẻ em có hoàn cảnh khó khăn, đặc biệt là con em của các gia đình lao động nhập cư từ các tỉnh như Long An, Sóc Trăng, Bạc Liêu, Hậu Giang, Bến Tre.",
-        "image": "/img/14.png",
+        "image": "https://img.upanh.tv/2025/03/29/119b9dc5044a619316.png",
         "url": "test2.html",
         "address": "Hẻm 1645 Huỳnh Tấn Phát, khu phố 3, phường Phú Mỹ, Quận 7, TP.HCM",
         "email": "https://img.upanh.tv/2025/03/29/1400f0b0af4feb7308.png",
