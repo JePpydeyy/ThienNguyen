@@ -178,7 +178,7 @@ const programs = [
         "name": "Chung Tay Quận 7",
         "district": "Quận 7",
         "description": "Hỗ trợ áo ấm và thực phẩm cho trẻ em tại Quận 7.",
-        "image": "img/3.png",
+        "image": "https://m.yodycdn.com/blog/quyen-gop-quan-ao-yodyvn3.jpg",
         "url": "test2.html",
         "address": "456 Đường Lê Văn Lương, Quận 7, TP. HCM",
         "email": "chungtayq7@gmail.com",
