@@ -616,7 +616,249 @@
                     "description": "Cung cấp lớp học từ lớp 1 đến lớp 6 cho trẻ em có hoàn cảnh khó khăn."
                 }
             ]
-        }
+        },
+        {
+            "id": 26,
+            "name": "TRƯỜNG KHUYẾT TẬT VỮNG TIN",
+            "district": "Quận Gò Vấp",
+            "description": "Trường Khuyết Tật Vững Tin là nơi giảng dạy và nuôi dưỡng trẻ khuyết tật, giúp các em có cơ hội học tập và phát triển kỹ năng sống.",
+            "image": "/img/26.png",
+            "url": "vung-tin.html",
+            "address": "480/108 Thống Nhất, Phường 16, Quận Gò Vấp",
+            "email": "",
+            "phone": "028 3895 7320",
+            "intro": "Trường Khuyết Tật Vững Tin chuyên hỗ trợ trẻ em khiếm thính và khuyết tật trí tuệ. Ngoài các lớp học văn hóa, trường còn tổ chức các hoạt động kỹ năng sống, giúp các em hòa nhập với cộng đồng.",
+            "activities": [
+                {
+                    "title": "Giáo dục đặc biệt",
+                    "description": "Dạy học cho trẻ khuyết tật, đặc biệt là trẻ khiếm thính và khuyết tật trí tuệ."
+                },
+                {
+                    "title": "Đào tạo kỹ năng sống",
+                    "description": "Hướng dẫn trẻ các kỹ năng tự lập để giúp các em hòa nhập với cộng đồng."
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "VIỆN DƯỠNG LÃO NGHỆ SĨ",
+            "district": "Quận 8",
+            "description": "Viện dưỡng lão dành riêng cho các nghệ sĩ cao tuổi, neo đơn, không nơi nương tựa.",
+            "image": "/img/27.png",
+            "url": "vien-duong-lao-nghe-si.html",
+            "address": "314/65 Âu Dương Lân, Phường 3, Quận 8",
+            "email": "",
+            "phone": "028 3850 0089",
+            "intro": "Viện Dưỡng Lão Nghệ Sĩ được thành lập nhằm chăm sóc và hỗ trợ các nghệ sĩ lão thành trong giai đoạn tuổi già. Các nghệ sĩ tại đây không chỉ nhận được sự chăm sóc về y tế mà còn được tham gia các hoạt động giải trí, văn hóa nghệ thuật.",
+            "activities": [
+                {
+                    "title": "Chăm sóc sức khỏe",
+                    "description": "Cung cấp chỗ ở và chăm sóc y tế cho nghệ sĩ lớn tuổi."
+                },
+                {
+                    "title": "Hoạt động nghệ thuật",
+                    "description": "Tổ chức các chương trình ca nhạc, sân khấu để nghệ sĩ có thể tiếp tục cống hiến."
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "TRUNG TÂM PHÁT HUY BÌNH AN",
+            "district": "TP. Thủ Đức",
+            "description": "Trung tâm hỗ trợ trẻ em khuyết tật và trẻ có hoàn cảnh khó khăn, giúp các em có cơ hội học tập và phát triển bản thân.",
+            "image": "/img/28.png",
+            "url": "phat-huy-binh-an.html",
+            "address": "200 Võ Văn Ngân, Phường Bình Thọ, TP. Thủ Đức",
+            "email": "",
+            "phone": "028 3896 2713",
+            "intro": "Trung tâm Phát Huy Bình An chuyên hỗ trợ trẻ em khuyết tật thông qua các chương trình giáo dục đặc biệt và phục hồi chức năng. Ngoài ra, trung tâm còn cung cấp các lớp học nghề để giúp các em có tương lai tươi sáng hơn.",
+            "activities": [
+                {
+                    "title": "Giáo dục đặc biệt",
+                    "description": "Dạy học và hỗ trợ trị liệu cho trẻ khuyết tật."
+                },
+                {
+                    "title": "Đào tạo nghề",
+                    "description": "Cung cấp các khóa học nghề giúp trẻ có thể tự lập trong tương lai."
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "MÁI ẤM QUẬN 8",
+            "district": "Quận 8",
+            "description": "Mái ấm hỗ trợ trẻ em mồ côi và có hoàn cảnh khó khăn tại khu vực Quận 8.",
+            "image": "/img/29.png",
+            "url": "mai-am-quan-8.html",
+            "address": "96/3A Dạ Nam, Phường 2, Quận 8",
+            "email": "",
+            "phone": "028 3950 1234",
+            "intro": "Mái ấm Quận 8 là nơi cưu mang các em nhỏ mồ côi, trẻ em đường phố, giúp các em có nơi ở ổn định và được tiếp tục đến trường.",
+            "activities": [
+                {
+                    "title": "Chăm sóc trẻ em mồ côi",
+                    "description": "Cung cấp nơi ở và hỗ trợ giáo dục cho trẻ em không nơi nương tựa."
+                },
+                {
+                    "title": "Hỗ trợ giáo dục",
+                    "description": "Tạo điều kiện cho trẻ tiếp tục việc học để phát triển tương lai."
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "MÁI ẤM THIỆN NHI",
+            "district": "TP. Thủ Đức",
+            "description": "Mái ấm dành cho các mẹ bầu đơn thân có hoàn cảnh khó khăn, giúp họ có nơi ở và hỗ trợ trong giai đoạn mang thai và sau sinh.",
+            "image": "/img/30.png",
+            "url": "mai-am-thien-nhi.html",
+            "address": "528/6 Lê Văn Việt, Phường Long Thạnh Mỹ, TP. Thủ Đức",
+            "email": "",
+            "phone": "0773 801 084",
+            "intro": "Mái ấm Thiện Nhi giúp đỡ các mẹ bầu đơn thân bằng cách cung cấp nơi ở, chăm sóc sức khỏe và hỗ trợ tìm việc làm sau khi sinh. Đây là một nơi an toàn để các mẹ có thể an tâm sinh con và chuẩn bị cho tương lai.",
+            "activities": [
+                {
+                    "title": "Chăm sóc mẹ bầu",
+                    "description": "Hỗ trợ các mẹ bầu đơn thân trong giai đoạn mang thai và sau sinh."
+                },
+                {
+                    "title": "Hỗ trợ học nghề",
+                    "description": "Cung cấp cơ hội học nghề và tìm việc làm sau sinh để giúp các mẹ tự lập."
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "LỚP HỌC TÌNH THƯƠNG HÒA HẢO",
+            "district": "Quận Tân Phú",
+            "description": "Lớp học tình thương dành cho trẻ em có hoàn cảnh khó khăn, không có điều kiện đến trường.",
+            "image": "/img/31.png",
+            "url": "lop-hoc-hoa-hao.html",
+            "address": "166 Phan Anh, phường Tân Thới Hòa, Quận Tân Phú",
+            "email": "",
+            "phone": "0902 409 149",
+            "intro": "Lớp học tình thương Hòa Hảo được thành lập để giúp đỡ các em nhỏ có hoàn cảnh khó khăn, mang đến cơ hội học tập miễn phí từ lớp 1 đến lớp 6. Nơi đây không chỉ giảng dạy kiến thức mà còn tổ chức nhiều hoạt động giáo dục kỹ năng sống.",
+            "activities": [
+              {
+                "title": "Dạy học miễn phí",
+                "description": "Cung cấp lớp học từ lớp 1 đến lớp 6 cho trẻ em nghèo."
+              },
+              {
+                "title": "Hỗ trợ nhu yếu phẩm",
+                "description": "Tặng sách vở, dụng cụ học tập cho các em."
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "name": "TRUNG TÂM GIÁO DỤC NGHỀ NGHIỆP CHO NGƯỜI KHUYẾT TẬT VÀ TRẺ MỒ CÔI",
+            "district": "Huyện Hóc Môn",
+            "description": "Trung tâm dạy nghề cho người khuyết tật và trẻ em mồ côi, giúp họ có cơ hội hòa nhập cộng đồng.",
+            "image": "/img/32.png",
+            "url": "trung-tam-nghe-nghiep.html",
+            "address": "Ấp 6, Xã Xuân Thới Thượng, Huyện Hóc Môn",
+            "email": "ttrungtamgdnn@gmail.com",
+            "phone": "",
+            "intro": "Trung tâm cung cấp các khóa đào tạo nghề miễn phí cho người khuyết tật và trẻ em mồ côi, giúp họ có kỹ năng lao động và tìm được việc làm ổn định.",
+            "activities": [
+              {
+                "title": "Đào tạo nghề miễn phí",
+                "description": "Hướng nghiệp và dạy nghề cho người khuyết tật, trẻ mồ côi."
+              },
+              {
+                "title": "Hỗ trợ việc làm",
+                "description": "Giúp học viên tìm việc làm sau khi hoàn thành khóa học."
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "name": "TRƯỜNG CHUYÊN BIỆT BÌNH TÂN",
+            "district": "Quận Bình Tân",
+            "description": "Trường học dành cho trẻ em khuyết tật, giúp các em tiếp cận giáo dục và phát triển kỹ năng sống.",
+            "image": "/img/33.png",
+            "url": "truong-chuyen-biet-binh-tan.html",
+            "address": "160A đường Hồ Văn Long, KP1, Phường Bình Hưng Hòa B, Quận Bình Tân",
+            "email": "",
+            "phone": "",
+            "intro": "Trường chuyên biệt Bình Tân chuyên dạy trẻ em khuyết tật với chương trình giáo dục đặc biệt, giúp các em hòa nhập xã hội tốt hơn.",
+            "activities": [
+              {
+                "title": "Giáo dục đặc biệt",
+                "description": "Dạy học theo phương pháp phù hợp với trẻ khuyết tật."
+              },
+              {
+                "title": "Phát triển kỹ năng sống",
+                "description": "Tổ chức các hoạt động giúp trẻ hòa nhập tốt hơn."
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "name": "TRUNG TÂM HỖ TRỢ NGƯỜI GIÀ NEO ĐƠN",
+            "district": "Quận Bình Tân",
+            "description": "Trung tâm chăm sóc và hỗ trợ người già neo đơn, không nơi nương tựa.",
+            "image": "/img/34.png",
+            "url": "ho-tro-nguoi-gia.html",
+            "address": "574 Kinh Dương Vương, An Lạc, Bình Tân",
+            "email": "",
+            "phone": "0906 645 469",
+            "intro": "Trung tâm hỗ trợ người già neo đơn bằng cách cung cấp nơi ở, thực phẩm và chăm sóc y tế. Đây là mái nhà chung cho những cụ già không nơi nương tựa.",
+            "activities": [
+              {
+                "title": "Chăm sóc sức khỏe",
+                "description": "Cung cấp dịch vụ y tế cho người già."
+              },
+              {
+                "title": "Hỗ trợ sinh hoạt",
+                "description": "Cung cấp nơi ở, thực phẩm và các nhu yếu phẩm cần thiết."
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "name": "LỚP HỌC TÌNH THƯƠNG NGỌC VIỆT",
+            "district": "Quận 12",
+            "description": "Lớp học tình thương dành cho trẻ em nghèo, không có điều kiện đến trường.",
+            "image": "/img/35.png",
+            "url": "lop-hoc-ngoc-viet.html",
+            "address": "120 Đường Tô Ký, Phường Tân Chánh Hiệp, Quận 12",
+            "email": "",
+            "phone": "0983 456 789",
+            "intro": "Lớp học tình thương Ngọc Việt được thành lập với mục tiêu mang đến cơ hội học tập miễn phí cho trẻ em có hoàn cảnh khó khăn. Ngoài các môn học văn hóa, lớp còn tổ chức các hoạt động giáo dục kỹ năng sống.",
+            "activities": [
+              {
+                "title": "Dạy học miễn phí",
+                "description": "Cung cấp chương trình giáo dục từ lớp 1 đến lớp 5 cho trẻ em nghèo."
+              },
+              {
+                "title": "Hỗ trợ sách vở",
+                "description": "Cung cấp sách vở, dụng cụ học tập cho học sinh."
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "name": "MÁI ẤM THIÊN THẦN",
+            "district": "Quận 9 (TP. Thủ Đức)",
+            "description": "Mái ấm dành cho trẻ em bị bỏ rơi, không nơi nương tựa, cung cấp nơi ăn ở và giáo dục.",
+            "image": "/img/36.png",
+            "url": "mai-am-thien-than.html",
+            "address": "168 Nguyễn Xiển, Phường Long Thạnh Mỹ, TP. Thủ Đức",
+            "email": "",
+            "phone": "0912 345 678",
+            "intro": "Mái ấm Thiên Thần là nơi nuôi dưỡng trẻ em bị bỏ rơi, giúp các em có mái nhà an toàn, được chăm sóc và giáo dục đầy đủ để có tương lai tốt đẹp hơn.",
+            "activities": [
+              {
+                "title": "Chăm sóc trẻ em",
+                "description": "Nuôi dưỡng trẻ bị bỏ rơi, giúp các em có cuộc sống tốt hơn."
+              },
+              {
+                "title": "Giáo dục miễn phí",
+                "description": "Tạo điều kiện học tập và phát triển kỹ năng sống cho trẻ."
+              }
+            ]
+          }
     ],
     "news": [
         {
@@ -749,6 +991,5 @@
           "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/3/20/em-be-10-thang-tuoi-cung-me-qua-dem-tai-via-he-nhan-chao-cua-nhom-thien-nguyen-anh-quang-vien-copy-1679324946834113790085.jpg",
           "content": "Sài Gòn nửa đêm về sáng, những người vô gia cư khốn khổ, đã không nhà lại không tiền. Đêm xuống, đói cồn cào, họ cần cái gì đó để lót dạ… Hằng đêm, nhiều người vô gia cư (VGC) mong ngóng nhóm thiện nguyện nào đó mang đến cho họ món gì lót dạ. Có lúc, họ chờ suốt đêm trong ngậm ngùi. Nhưng cứ định kỳ mỗi tháng 2 lần, vào khuya thứ bảy, hàng trăm người VGC ở Sài Gòn chắc chắn có một tô cháo nóng hổi, đủ dinh dưỡng từ CLB Sài Gòn Thương."
         }
-  
-      ]
+    ]
 }
