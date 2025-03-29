@@ -224,6 +224,399 @@
                 }
             ]
         }
+        ,
+        {
+            "id": 11,
+            "name": "LỚP HỌC TÌNH THƯƠNG ĐÌNH PHÚ ĐỊNH",
+            "district": "quận 6",
+            "description": "Hỗ trợ trẻ em mồ côi và nghèo tại Quận 6.",
+            "image": "/img/11.png",
+            "url": "test2.html",
+            "address": "43/2 Lý Chiêu Hoàng, phường 10, quận 6.",
+            "email": "",
+            "phone": "0938 001 803",
+            "intro": "Lớp học có 24 em từ lớp 1 đến lớp 6, lớp 1 có số lượng đông nhất 10 em, có những lớp chỉ có 1 đến 2 em, nhưng các em rất cố gắng đến lớp mỗi ngày, vì các em biết được rằng “học là cơ hội để thay đổi cuộc sống của mình”. – Hoàn cảnh các em nghe cũng chạnh lòng. Gia đình các em đến từ nhiều nơi, đa số là dân tỉnh lên lập nghiệp, chưa có công việc ổn định, làm thuê hoặc đi bán kem, mua ve chai để có tiền nuôi các em. Nhiều em vì gia đình không có hộ khẩu nên nhà trường không cho các em nhập học, có em thì phụ gia đình bán vé số, bán kem dạo, phụ mẹ mua ve chai, còn em thì ban ngày ở nhà trông em, nấu cơm, làm việc nhà, đến tối thì đi học tại lớp.",
+            "activities": [
+                {
+                    "title": "Hỗ trợ học phí",
+                    "description": "Hỗ trợ học phí cho trẻ em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tổ chức sinh nhật",
+                    "description": "Tổ chức sinh nhật cho các em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tặng quà Tết",
+                    "description": "Tặng quà Tết cho các em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tặng xe đạp",
+                    "description": "Tặng xe đạp cho các em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tặng sách vở",
+                    "description": "Tặng sách vở cho các em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tặng quần áo",
+                    "description": "Tặng quần áo cho các em có hoàn cảnh khó khăn."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 12,
+            "name": "LỚP HỌC TÌNH THƯƠNG RẠCH ÔNG HƯNG",
+            "district": "quận 7",
+            "description": "Hỗ trợ trẻ em có hoàng cảnh khó khăn ở quận 7",
+            "image": "/img/12.png",
+            "url": "test2.html",
+            "address": " hẻm 1041, Nhà văn hóa khu phố 3, đường Trần Xuân Soạn, phường Tân Hưng, quận 7",
+            "email": "",
+            "phone": "Anh 0765851108",
+            "intro": "Lớp học do anh Danh Tuấn Anh – trưởng nhóm tình nguyện phụ trách, lớp học được thành lập từ năm 2014 với khoảng 10 em không biết chữ. Ban đầu, lớp học được tổ chức 3 buổi/tuần vào thứ 2, 4, 6 tại một nhà kho ở Nhà văn hoá khu phố 3. Giờ học bắt đầu từ 18h30-20h30 từ thứ 2 đến thứ 6. Mặc dù cơ sở vật chất còn hạn chế, ban ngày các em phải ở nhà phụ giúp gia đình nhưng lớp học luôn diễn ra đúng giờ.",
+            "activities": [
+                {
+                    "title": "Hỗ trợ học phí",
+                    "description": "Hỗ trợ học phí cho trẻ em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tổ chức sinh nhật",
+                    "description": "Tổ chức sinh nhật cho các em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tặng quà Tết",
+                    "description": "Tặng quà Tết cho các em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tặng xe đạp",
+                    "description": "Tặng xe đạp cho các em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tặng sách vở",
+                    "description": "Tặng sách vở cho các em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Tặng quần áo",
+                    "description": "Tặng quần áo cho các em có hoàn cảnh khó khăn."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 13,
+            "name": "TRƯỜNG TÌNH THƯƠNG LA SAN TÂN HƯNG",
+            "district": "quận 7",
+            "description": "Trường Tình Thương La San Tân Hưng là một cơ sở giáo dục đặc biệt dành cho trẻ em có hoàn cảnh khó khăn, được thành lập và điều hành bởi Dòng La San tại Việt Nam.",
+            "image": "/img/13.png",
+            "url": "test2.html",
+            "address": "380/112/2 Lê Văn Lương, Tân Hưng, Q.7, Tp. HCM",
+            "email": "truongtinhthuonglasan.org@gmail.com",
+            "phone": "0967.640.460",
+            "intro": "Điều mà các thầy La San luôn xác tín, trường này chính là một dự án giáo dục đáp ứng nhu cầu của người nghèo nhập cư vào thành phố. Con em họ là những bé được sinh ra không thể có đủ điều kiện để đi học, bởi lý do đơn giản là do hoàn cảnh nghèo, chỗ ở không ổn định, cha mẹ không nghĩ đến việc cho con mình đi học. Mỗi em học sinh tại trường Tân Hưng mang trong mình một câu chuyện đau xót về hoàn cảnh khó khăn. Lớp học tình thương La San được hình thành từ năm 2000, các học sinh thời gian đầu là những em lượm ve chai, bán vé số trên các ngõ hẻm ở địa bàn phường Tân Kiểng, Tân Quy, Tân Phong, Tân Hưng Quận 7 và các quận huyện lân cận: Quận 4, Quận 8, Bình Chánh và Nhà Bè. Trong suốt hơn 20 năm qua, con số ít ỏi ban đầu chỉ vài em, sau tăng thành 1 lớp, 2 lớp và nay đã trở thành một ngôi trường rất quen thuộc với Gia Đình La San, với quý ân nhân gần xa và với người dân xung quanh, gọi là trường Tình Thương La San Tân Hưng. Dù không gian chật hẹp, nằm lọt thỏm trong một con hẻm của khu phố nghèo, tuy nhiên tổ chức sinh hoạt của trường cũng không kém phần quy mô như bất cứ một ngôi trường chính quy nào. Dù đã có nhiều cố gắng, nhưng vẫn không được sự nhìn nhận là một ngôi trường chính danh, trải qua hơn 20 năm mà trường vẫn chỉ được gọi tên là các lớp phổ cập, được sự bảo trợ về hồ sơ pháp lý (những gì liên quan đến học bạ học sinh) của trường Tiểu Học Tân Qui (Trước đây là trường Tiểu Học Phan Huy Thực).",
+            "activities": [
+                {
+                    "title": "Chương trình 'Bữa trưa cho em'",
+                    "description": "Trường cung cấp bữa ăn trưa miễn phí, đảm bảo dinh dưỡng cho học sinh, giúp các em có đủ năng lượng để học tập và phát triển."
+                },
+                {
+                    "title": "Kiểm tra thị lực và cung cấp kính miễn phí",
+                    "description": "Trường hợp tác với các tổ chức thiện nguyện để kiểm tra thị lực và cung cấp kính miễn phí cho học sinh, đảm bảo sức khỏe mắt và hỗ trợ quá trình học tập."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 14,
+            "name": "LỚP HỌC TÌNH THƯƠNG PHƯỜNG PHÚ MỸ",
+            "district": "quận 7",
+            "description": "Được thành lập vào năm 1982 với mục tiêu cung cấp giáo dục miễn phí cho trẻ em có hoàn cảnh khó khăn, đặc biệt là con em của các gia đình lao động nhập cư từ các tỉnh như Long An, Sóc Trăng, Bạc Liêu, Hậu Giang, Bến Tre.",
+            "image": "/img/14.png",
+            "url": "test2.html",
+            "address": "Hẻm 1645 Huỳnh Tấn Phát, khu phố 3, phường Phú Mỹ, Quận 7, TP.HCM",
+            "email": "phantrunghasi@gmail.com",
+            "phone": "070 767 8988",
+            "intro": "Ban đầu, lớp học được thành lập bởi UBND phường Phú Mỹ nhằm đáp ứng nhu cầu học tập của trẻ em không có điều kiện đến trường. Trải qua hơn 40 năm hoạt động, lớp học đã trở thành điểm tựa giáo dục cho nhiều thế hệ học sinh. Lớp học được duy trì bởi các giáo viên và tình nguyện viên tâm huyết. Đặc biệt, thầy Phan Trung Hải, người đã tiếp nối công việc giảng dạy từ mẹ mình, cô Ngô Thị Mạnh Hòa, đã gắn bó với lớp học hơn 6 năm qua. Thầy Hải còn theo học văn bằng hai tại Trường Đại học Sư phạm TP.HCM để nâng cao nghiệp vụ giảng dạy. Lớp học hiện có khoảng 30 học sinh từ lớp 1 đến lớp 6, học văn hóa vào buổi tối từ thứ Hai đến thứ Bảy, và học võ thuật vào Chủ nhật. Ngoài việc dạy chữ, lớp học còn chú trọng đến việc trang bị kỹ năng sống và tổ chức các hoạt động ngoại khóa nhằm phát triển toàn diện cho học sinh. Lớp học nhận được sự quan tâm và hỗ trợ từ chính quyền địa phương, các tổ chức xã hội và cá nhân hảo tâm. Sự đóng góp này giúp duy trì hoạt động của lớp, cung cấp sách vở, đồ dùng học tập và cải thiện cơ sở vật chất, tạo điều kiện học tập tốt nhất cho các em.",
+            "activities": [
+                {
+                    "title": "Dạy học miễn phí",
+                    "description": "Cung cấp kiến thức từ lớp 1 đến lớp 6 theo chương trình tiểu học."
+                },
+                {
+                    "title": "Hoạt động thể thao",
+                    "description": "Tổ chức các trò chơi vận động giúp học sinh phát triển sức khỏe và tinh thần đồng đội."
+                },
+                {
+                    "title": "Chương trình 'Bữa ăn yêu thương'",
+                    "description": "Cung cấp bữa ăn miễn phí giúp học sinh có đủ dinh dưỡng để học tập."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 15,
+            "name": "TRƯỜNG TÌNH THƯƠNG ÁNH LINH",
+            "district": "quận 7",
+            "description": "Là một cơ sở giáo dục miễn phí dành cho trẻ em có hoàn cảnh khó khăn tại Quận 4 và Quận 7, Thành phố Hồ Chí Minh.",
+            "image": "/img/15.png",
+            "url": "test2.html",
+            "address": "30/30 Lâm Văn Bền, Khu phố 4, Phường Tân Kiểng, Quận 7, TP. Hồ Chí Minh",
+            "email": "",
+            "phone": "0972 074 579",
+            "intro": "Năm 1990, bà Lê Thị Cẩm Y, một giáo dân thuộc giáo xứ Thuận Phát và thành viên hội Legio Mariae, nhận thấy nhiều trẻ em tại khu vực Cầu Hàn không được đi học. Bà bắt đầu dạy chữ cho khoảng 5 em tại sân nhà mình. Nhận thấy nhu cầu ngày càng tăng, bà đã tìm đến sự hỗ trợ của Dòng Đức Bà Việt Nam. Với sự đồng thuận của các nữ tu, lớp học tình thương được thành lập tại xã Tân Thuận Tây, huyện Nhà Bè, với mục tiêu dạy học miễn phí cho trẻ em lang thang, vô gia cư và những em không có điều kiện học phổ thông. Trường hoạt động dưới sự quản lý và giảng dạy của các nữ tu Dòng Đức Bà cùng với sự hỗ trợ của các tình nguyện viên tâm huyết. Họ không chỉ truyền đạt kiến thức mà còn đóng vai trò là người hướng dẫn, hỗ trợ tâm lý và định hướng cho các em trong cuộc sống.",
+            "activities": [
+                {
+                    "title": "Giảng dạy văn hóa",
+                    "description": "Trường cung cấp chương trình học từ lớp 1 đến lớp 10, giúp các em hoàn thành chương trình giáo dục phổ thông."
+                },
+                {
+                    "title": "Đào tạo nghề",
+                    "description": "Bên cạnh việc dạy chữ, trường còn kết hợp dạy nghề và tạo việc làm, giúp học sinh có kỹ năng thực tiễn để tự lập trong cuộc sống."
+                },
+                {
+                    "title": "Hoạt động ngoại khóa",
+                    "description": "Trường tổ chức các hoạt động ngoại khóa như văn nghệ, thể thao và các sự kiện nhân dịp ngày Nhà giáo Việt Nam, tổng kết năm học, nhằm tạo môi trường học tập phong phú và phát triển toàn diện cho học sinh. "
+                }
+            ]
+        }
+        ,
+        {
+            "id": 16,
+            "name": "VIỆN DƯỠNG LÃO NGHỆ SĨ",
+            "district": "quận 8",
+            "description": "Đây là nơi cư trú và chăm sóc cho các nghệ sĩ sân khấu lão thành có hoàn cảnh khó khăn, không nơi nương tựa.",
+            "image": "/img/16.png",
+            "url": "test2.html",
+            "address": "Hẻm 314 Âu Dương Lân, Phường 3, Quận 8, TP. HCM",
+            "email": "",
+            "phone": "0913 145 852",
+            "intro": "Trong gần 30 năm hoạt động, viện đã trở thành mái nhà chung cho nhiều nghệ sĩ gạo cội. Các nghệ sĩ tại đây được hỗ trợ về chỗ ở, sinh hoạt và chăm sóc y tế, chủ yếu dựa vào sự đóng góp từ các tổ chức thiện nguyện và cá nhân hảo tâm. Viện cũng tổ chức các hoạt động văn hóa, nghệ thuật để các nghệ sĩ có cơ hội giao lưu, biểu diễn và giữ gìn bản sắc văn hóa dân tộc. Bên cạnh đó, viện còn phối hợp với các bệnh viện để chăm sóc sức khỏe cho các nghệ sĩ cao tuổi, đảm bảo họ có cuộc sống an lành và hạnh phúc trong những năm tháng cuối đời.",
+            "activities": [
+                {
+                    "title": "Chăm sóc sức khỏe",
+                    "description": "Cung cấp dịch vụ chăm sóc sức khỏe và y tế cho các nghệ sĩ cao tuổi."
+                },
+                {
+                    "title": "Tổ chức sự kiện văn hóa",
+                    "description": "Tổ chức các buổi biểu diễn nghệ thuật để các nghệ sĩ có cơ hội giao lưu và thể hiện tài năng."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 17,
+            "name": "TRUNG TÂM PHÁT HUY BÌNH AN",
+            "district": "quận 8",
+            "description": "Là một cơ sở giáo dục miễn phí dành cho trẻ em có hoàn cảnh khó khăn tại TP. Hồ Chí Minh.",
+            "image": "/img/17.png",
+            "url": "test2.html",
+            "address": "3153/24 Phạm Thế Hiển, Phường 7, Quận 8, TP. Hồ Chí Minh",
+            "email": "ttphbinhan@gmail.com",
+            "phone": "0931.832.961",
+            "intro": "Trung tâm hoạt động từ thứ Hai đến thứ Sáu hàng tuần, cung cấp lớp học cho khoảng 200 em nhỏ, chủ yếu là trẻ mồ côi, cơ nhỡ hoặc con em gia đình nhập cư từ các tỉnh lẻ lên thành phố mưu sinh. Trung tâm không chỉ dạy chữ mà còn chú trọng đến việc giáo dục nhân cách, kỹ năng sống và tổ chức các hoạt động ngoại khóa để phát triển toàn diện cho trẻ em. Ngoài ra, trung tâm còn phối hợp với các tổ chức từ thiện để cung cấp thực phẩm, quần áo và đồ dùng học tập cho các em.",
+            "activities": [
+                {
+                    "title": "Dạy học miễn phí",
+                    "description": "Cung cấp lớp học từ lớp 1 đến lớp 6 cho trẻ em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Hoạt động ngoại khóa",
+                    "description": "Tổ chức các hoạt động vui chơi, thể thao và văn nghệ cho trẻ em."
+                },
+                {
+                    "title": "Hỗ trợ thực phẩm",
+                    "description": "Cung cấp thực phẩm hàng tháng cho trẻ em có hoàn cảnh khó khăn."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 18,
+            "name": "TRƯỜNG KHUYẾT TẬT VỮNG TIN",
+            "district": "quận 8",
+            "description": "Lớp học không có cảnh nô đùa, chỉ có những tiếng phát âm ngọng nghịu và thi thoảng là tiếng trẻ la hét vô thức.",
+            "image": "/img/18.png",
+            "url": "test2.html",
+            "address": "452 Hưng Phú, Phường 9, Quận 8",
+            "email": "",
+            "phone": "028 3854 7362",
+            "intro": "Lớp học không có cảnh nô đùa, chỉ có những tiếng phát âm ngọng nghịu và thi thoảng là tiếng trẻ la hét vô thức. Giáo viên đứng lớp cũng không phải là những người tốt nghiệp trường sư phạm. Các cô đến đây bằng tấm lòng của những người mẹ để chăm sóc các trẻ sinh ra đã kém may mắn. Đó là lớp học dạy trẻ khuyết tật mang tên câu lạc bộ Vững tin ở phường 9, quận 8, TP HCM. Lớp học được thành lập từ năm 2000, hiện có khoảng 30 trẻ khuyết tật đang theo học. Các em đều là những trẻ em có hoàn cảnh khó khăn, không có điều kiện đến trường và cần sự chăm sóc đặc biệt. Tại đây, các em được dạy các kỹ năng sống cơ bản và tham gia vào các hoạt động vui chơi, giải trí để phát triển tinh thần và thể chất.",
+            "activities": [
+                {
+                    "title": "Dạy học miễn phí",
+                    "description": "Cung cấp lớp học từ lớp 1 đến lớp 6 cho trẻ em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Hoạt động ngoại khóa",
+                    "description": "Tổ chức các hoạt động vui chơi, thể thao và văn nghệ cho trẻ em."
+                },
+                {
+                    "title": "Hỗ trợ thực phẩm",
+                    "description": "Cung cấp thực phẩm hàng tháng cho trẻ em có hoàn cảnh khó khăn."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 19,
+            "name": "MÁI ẤM QUẬN 8",
+            "district": "quận 9",
+            "description": "Là một cơ sở nuôi dưỡng trẻ em mồ côi và trẻ em đường phố tại TP. Hồ Chí Minh. Trực thuộc Trung tâm Dạy nghề Thanh thiếu niên Thành phố Hồ Chí Minh.",
+            "image": "/img/19.png",
+            "url": "test2.html",
+            "address": "73/10 Dương Bá Trạc, Phường 1, Quận 8, TP. Hồ Chí Minh",
+            "email": "",
+            "phone": "(028) 3850 2088",
+            "intro": "Mái ấm trực thuộc trung tâm dạy nghề thanh thiếu niên thành phố, nhận nuôi dạy các em từ 8-17 tuổi, các em đa phần là trẻ mồ côi , trẻ em đường phố, trẻ em có hoàn cảnh khó khăn. Mái ấm hiện đang nuôi dưỡng khoảng 50 em, trong đó có nhiều em là trẻ mồ côi cha mẹ, không nơi nương tựa. Các em được chăm sóc về sức khỏe, dinh dưỡng và giáo dục. Mái ấm cũng tổ chức các hoạt động ngoại khóa, vui chơi giải trí để giúp các em phát triển toàn diện.",
+            "activities": [
+                {
+                    "title": "Dạy học miễn phí",
+                    "description": "Cung cấp lớp học từ lớp 1 đến lớp 6 cho trẻ em có hoàn cảnh khó khăn."
+                },
+                {
+                    "title": "Hoạt động ngoại khóa",
+                    "description": "Tổ chức các hoạt động vui chơi, thể thao và văn nghệ cho trẻ em."
+                },
+                {
+                    "title": "Hỗ trợ thực phẩm",
+                    "description": "Cung cấp thực phẩm hàng tháng cho trẻ em có hoàn cảnh khó khăn."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 20,
+            "name": "MÁI ẤM THIỆN NHI",
+            "district": "quận 9",
+            "description": "Mái ấm Thiện Nhi – nơi nuôi dưỡng, chở che cho những bà mẹ trẻ gặp khó khăn trong quá trình mang thai, sinh nở.",
+            "image": "/img/20.png",
+            "url": "test2.html",
+            "address": "528/6 Lê Văn Việt, p Long Thạnh Mỹ, Thủ Đức",
+            "email": "",
+            "phone": "0773801084",
+            "intro": "Mái ấm Thiện Nhi – nơi nuôi dưỡng, chở che cho những bà mẹ trẻ gặp khó khăn trong quá trình mang thai, sinh nở. Mái ấm Thiện Nhi ra đời như vậy. Mái ấm Thiện Nhi hiện có 2 cơ sở, một tại quận Tân Phú, TP. HCM và một tại Khu đô thị Tân Tây Đô, Hà Nội, với cơ sở vật chất khang trang, đội ngũ nhân sự là những mẹ bầu từng được giúp đỡ, đồng ý ở lại cùng chăm sóc nhau trong những ngày tháng gian nan của cuộc đời., với cơ sở vật chất khang trang, đội ngũ nhân sự là những mẹ bầu từng được giúp đỡ, đồng ý ở lại cùng chăm sóc nhau trong những ngày tháng gian nan của cuộc đời. Mái ấm Thiện Nhi hiện có 2 cơ sở, một tại quận Tân Phú, TP. HCM và một tại Khu đô thị Tân Tây Đô, Hà Nội, với cơ sở vật chất khang trang, đội ngũ nhân sự là những mẹ bầu từng được giúp đỡ, đồng ý ở lại cùng chăm sóc nhau trong những ngày tháng gian nan của cuộc đời.",
+            "activities": [
+                {
+                    "title": "Chăm sóc sức khỏe",
+                    "description": "Cung cấp dịch vụ chăm sóc sức khỏe cho các bà mẹ mang thai và trẻ sơ sinh."
+                },
+                {
+                    "title": "Hỗ trợ thực phẩm",
+                    "description": "Cung cấp thực phẩm hàng tháng cho các bà mẹ và trẻ sơ sinh."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 21,
+            "name": "MÁI ẤM MẦM XANH",
+            "district": "quận 9",
+            "description": "Cách Bệnh viện Ung bướu TP HCM cơ sở 2 (phường Long Thạnh Mỹ, TP Thủ Đức) chưa đến 2 km, có một ngôi nhà đã giúp cho gia đình các bệnh nhi có thêm động lực chiến đấu với căn bệnh hiểm nghèo suốt 4 năm qua.",
+            "image": "/img/21.png",
+            "url": "test2.html",
+            "address": "14 đường 225, phường Tân Phú (TP Thủ Đức)",
+            "email": "",
+            "phone": "0903 315 345",
+            "intro": "Nhà lưu trú đặc biệt này nằm ở số 14 đường 225, phường Tân Phú (TP Thủ Đức), do chị Nguyễn Thị Huệ Tâm (thường được gọi với cái tên quen thuộc là “mẹ Tiên”) duy trì hoạt động, đặt tên là nhà lưu trú 0 đồng Mầm Xanh. Tại đây đang cưu mang gần 100 người bao gồm bệnh nhi ung thư và gia đình của các bé. Mỗi bệnh nhi ở đây đều có hoàn cảnh, nỗi đau riêng. Nhiều gia đình của bệnh nhi ung thư đã tiêu đến những đồng tiền cuối cùng, đành nương nhờ lòng từ của các nhà hảo tâm để giành giật sự sống với những hy vọng mong manh. Khi được hỏi về lý do dành thời gian, tâm sức duy trì hoạt động mô hình này, chị Tâm cho biết sau nhiều lần tham gia thiện nguyện, thấy bệnh nhân và người thân lặn lội dưới quê lên, phải chật vật lo toan thêm chi phí thuê nhà, sinh hoạt nên chị cùng bạn bè góp vốn, thuê căn nhà trọ này, tiếp sức cho các gia đình. Chị Tâm cho biết, mỗi tháng nhà lưu trú tiếp nhận khoảng 200 lượt bệnh nhi và người nhà đến ở miễn phí. Mỗi ngày, nhà lưu trú phục vụ khoảng 100 suất ăn miễn phí cho bệnh nhi và người nhà. Ngoài ra, nhà lưu trú còn tổ chức các hoạt động vui chơi, giải trí cho các em nhỏ để giúp các em quên đi nỗi đau bệnh tật.",
+            "activities": [
+                {
+                    "title": "Chăm sóc sức khỏe",
+                    "description": "Cung cấp dịch vụ chăm sóc sức khỏe cho các bà mẹ mang thai và trẻ sơ sinh."
+                },
+                {
+                    "title": "Hỗ trợ thực phẩm",
+                    "description": "Cung cấp thực phẩm hàng tháng cho các bà mẹ và trẻ sơ sinh."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 22,
+            "name": "NHÀ CỘNG ĐỒNG THANH LIÊN",
+            "district": "quận 10",
+            "description": "Mái ấm này lo chỗ ăn, chỗ ở, lo tất cả mọi thứ hết. Ai đến đây ở cũng thích, cũng mừng.",
+            "image": "/img/22.png",
+            "url": "test2.html",
+            "address": "460/1 Hoàng Hữu Nam, P. Long Thạnh Mỹ, Tp. Thủ Đức, TPHCM và  25/5 đường số 1 Kp giãn dân, phường Long Thạnh Mỹ, Tp. Thủ Đức, TPHCM",
+            "email": "",
+            "phone": "090 247 21 99",
+            "intro": "Thanh Liên có 2 ngôi nhà lưu trú cho bệnh nhân và gia đình. 1 là 460 ngay ngã 3 Hoàng Hữu Nam, rất gần bệnh viện ung bướu 2, tầm 1km là tới nên mọi người hay đi bộ. 1 căn nữa là nhà 25 thì xa hơn tí, tầm 1,5km tính từ bệnh viện ung bướu 2. “Mái ấm này lo chỗ ăn, chỗ ở, lo tất cả mọi thứ hết. Ai đến đây ở cũng thích, cũng mừng”, bà Nguyễn Thị Năm, tỉnh Gia Lai, cho hay. Vui mừng như vậy, bởi nơi đây thường được gọi vui là “Ngôi nhà miễn phí đủ thứ”: miễn phí từ tiền ở trọ, điện nước đến nhu yếu phẩm sinh hoạt và cả thực phẩm hàng ngày cũng miễn phí. Chị Trần Kim Thoa là người sáng lập ngôi nhà đặc biệt này. Nhìn chị Thoa lạc quan, yêu đời của ngày hôm nay, người mới gặp có lẽ không biết rằng, chị từng là một bệnh nhân ung thư. Cùng với chị Thoa, hiện còn có một nhóm bạn trẻ cùng nhau chung sức, trở thành người thân, chăm lo cho những người bệnh.",
+            "activities": [
+                {
+                    "title": "Chăm sóc sức khỏe",
+                    "description": "Cung cấp dịch vụ chăm sóc sức khỏe cho các bà mẹ mang thai và trẻ sơ sinh."
+                },
+                {
+                    "title": "Hỗ trợ thực phẩm",
+                    "description": "Cung cấp thực phẩm hàng tháng cho các bà mẹ và trẻ sơ sinh."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 23,
+            "name": "MÁI ẤM ÁNH SÁNG NAM",
+            "district": "quận 10",
+            "description": "Mái ấm Ánh Sáng quận 10 Nam là nơi không chỉ tràn đầy sự sôi động mà còn là môi trường để các bé trai nhiệt huyết, ham học hỏi và sáng tạo không ngừng nghỉ.",
+            "image": "/img/23.png",
+            "url": "test2.html",
+            "address": "3/36 Thành Thái, Phường 14, Quận 10, TP.HCM",
+            "email": "",
+            "phone": "0937 766 195 ",
+            "intro": "Mái ấm Ánh Sáng quận 10 Nam là nơi không chỉ tràn đầy sự sôi động mà còn là môi trường để các bé trai nhiệt huyết, ham học hỏi và sáng tạo không ngừng nghỉ. Là tổ ấm của 22 trẻ em nam với các hoàn cảnh khó khăn, đặc biệt. Tại đây, các em sẽ được Mái Ấm chăm sóc như là một gia đình, cùng sinh hoạt, lớn lên và cùng nhau học tập tại Mái Ấm đong đầy tình thương này.",
+            "activities": [
+                {
+                    "title": "Chăm sóc sức khỏe",
+                    "description": "Cung cấp dịch vụ chăm sóc sức khỏe cho các bà mẹ mang thai và trẻ sơ sinh."
+                },
+                {
+                    "title": "Hỗ trợ thực phẩm",
+                    "description": "Cung cấp thực phẩm hàng tháng cho các bà mẹ và trẻ sơ sinh."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 24,
+            "name": "PHÒNG KHÁM TỪ THIỆN MAI KHÔI – ĐỒNG TIẾN",
+            "district": "quận 10",
+            "description": "Khi màn chiều bắt đầu buông thì đó cũng là lúc phòng khám Mai Khôi – Đồng Tiến mở cửa đón người nghèo đến chữa trị.",
+            "image": "/img/24.png",
+            "url": "test2.html",
+            "address": "Nhà thờ Đồng Tiến, 54 Thành Thái, P.12, Q.10, Tp. Hồ Chí Minh",
+            "email": "tudtt@maitam.org",
+            "phone": "00938 272 766 ",
+            "intro": "Khi màn chiều bắt đầu buông thì đó cũng là lúc phòng khám Mai Khôi – Đồng Tiến mở cửa đón người nghèo đến chữa trị. Ở đây không lấy tiền khám, cũng chẳng cần tiền thuốc, đội ngũ bác sĩ tại Mai Khôi – Đồng Tiến dù làm việc không lương nhưng bằng tấm lòng lương y bác ái vẫn hằng ngày rộng vòng tay đón tất cả bệnh nhân bất kể hoàn cảnh. Phòng khám Mai Khôi – Đồng Tiến tiền thân là phòng khám Camillô được thành lập vào 15/8/2007 trên bờ kênh Nhiêu Lộc. Sau hai năm hoạt động, vào 15/8/2009, phòng khám chuyển về trong khuôn viên Giáo xứ Đồng Tiền, chính thức đổi tên thành như hiện tại. Phòng khám hiện đang hoạt động với 2 cơ sở, một tại quận 10 và một tại quận 8. Tại đây, bệnh nhân sẽ được khám bệnh miễn phí, nhận thuốc miễn phí và được tư vấn sức khỏe miễn phí. Đội ngũ bác sĩ tại phòng khám đều là những người tình nguyện, không nhận lương nhưng vẫn tận tâm chăm sóc cho bệnh nhân.",
+            "activities": [
+                {
+                    "title": "Khám bệnh miễn phí",
+                    "description": "Cung cấp dịch vụ khám bệnh miễn phí cho người nghèo."
+                },
+                {
+                    "title": "Phát thuốc miễn phí",
+                    "description": "Cung cấp thuốc miễn phí cho bệnh nhân."
+                }
+            ]
+        }
+        ,
+        {
+            "id": 25,
+            "name": "LỚP HỌC TÌNH THƯƠNG BỆNH VIỆN NHI ĐỒNG 1",
+            "district": "quận 10",
+            "description": "Lớp học đặc biệt này có tên gọi “Lớp học vui vẻ” vừa được Bệnh viện Nhi đồng 1 triển khai thực hiện tại 3 khoa gồm: Nhiễm – Thần kinh, Sốt xuất huyết và Thận nội tiết.",
+            "image": "/img/25.png",
+            "url": "test2.html",
+            "address": "Bệnh viện Nhi Đồng 1, 341 Đ. Sư Vạn Hạnh, Phường 10, Quận 10",
+            "email": "",
+            "phone": "028 3927 4542",
+            "intro": "Lớp học đặc biệt này có tên gọi “Lớp học vui vẻ” vừa được Bệnh viện Nhi đồng 1 triển khai thực hiện tại 3 khoa gồm: Nhiễm – Thần kinh, Sốt xuất huyết và Thận nội tiết. Bác sĩ Trương Hữu Khanh, Trưởng Phòng Công tác xã hội, Bệnh viện Nhi đồng 1, cho biết lớp học được mở ra nhằm bổ trợ kiến thức các môn học như toán, tiếng Việt, tiếng Anh và hỗ trợ thêm các kỹ năng mềm cho trẻ trong độ tuổi từ lớp 1 đến 5 đang điều trị tại bệnh viện. “Đây là hoạt động bù đắp cho bệnh nhi điều trị nội trú. Trước đây, bệnh viện tập trung chăm lo cho bệnh nhi khó khăn, sau đó phát triển thêm khu vui chơi và bây giờ tiến tới bù đắp thêm cho bệnh nhi và lớp học vui vẻ ra đời. Bởi ngòai chuyện lo bệnh các bé này còn lo mất bài nên học bổ trợ giúp các em không quên bài và cảm giác đang được ở nhà đi học, từ đó, giúp tinh thần các em phấn chấn hơn góp phần điều trị bệnh tích cực hơn” – bác sĩ Khanh chia sẻ. Để chuẩn bị lớp học, trước đó, nhân viên Phòng Công tác xã hội đã đến từng khoa hỏi thăm các bệnh nhi để tổng hợp danh sách theo từng độ tuổi, lớp học. Tại lớp học, các bé sẽ được rèn chữ, làm phép toán theo sát chương trình học của sách giáo khoa. Ngoài lịch học văn hóa tổ chức vào thứ 2-4-6, đơn vị còn tổ chức các lớp kỹ năng sống vào thứ 3-5-7 hằng tuần, giúp trẻ có thêm kiến thức sinh hoạt trong cuộc sống hằng ngày. Các bé sẽ được học các kỹ năng như: kỹ năng giao tiếp, kỹ năng sống an toàn, kỹ năng tự phục vụ bản thân, kỹ năng ứng xử với bạn bè và người lớn tuổi… Đặc biệt, lớp học còn tổ chức các hoạt động vui chơi giải trí như: vẽ tranh, tô màu, làm đồ chơi từ giấy, làm thiệp chúc mừng… để giúp trẻ thư giãn sau những giờ học căng thẳng.",
+            "activities": [
+                {
+                    "title": "Dạy học miễn phí",
+                    "description": "Cung cấp lớp học từ lớp 1 đến lớp 6 cho trẻ em có hoàn cảnh khó khăn."
+                }
+            ]
+        }
     ],
     "news": [
         {
@@ -262,7 +655,7 @@
         {
           "date": "2025-03-15",
           "title": "Vụ bạo hành trẻ em: Bà chủ mái ấm Hoa Hồng Giáp Thị Sông Hương khai gì?",
-          "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2024/9/4/giap-thi-song-huong-2030.jpg?width=0&s=Zw9CudeKyJJm-T5XLFxuPQ",
+          "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2024/9/4/giap-thi-song-huong-2030.jpg",
           "content": "Công an quận 12, TPHCM hôm nay (4/9) phối hợp cùng các cơ quan chức năng mời bà Giáp Thị Sông Hương (50 tuổi, quê Bắc Giang) - chủ cơ sở mái ấm Hoa Hồng - cùng một số bảo mẫu lên làm việc.  Ngoài ra, còn một số bảo mẫu khác liên quan đến hành vi bạo hành trẻ em nhưng không có mặt tại mái ấm Hoa Hồng khi cơ quan chức năng đến kiểm tra vào sáng nay. Hiện Công an quận 12 đang truy xét, tiến hành mời làm việc đối với những người này. Cơ quan chức năng đang kiểm tra toàn diện đối với mái ấm Hoa Hồng, bước đầu xác định tại đây có 86 trẻ. Theo khai báo của những người liên quan, phần lớn trẻ tại mái ấm bị bỏ rơi, mẹ sinh ra nhưng không có điều kiện nuôi nấng nên mái ấm nhận vào. Ngoài ra, nhiều trẻ có cha mẹ là công nhân, người lao động tại khu vực xung quanh gửi cho mái ấm, sáng đưa đến và chiều đón về.  Hiện UBND quận 12 đã có báo cáo Sở Lao động - Thương binh và Xã hội TPHCM về mái ấm Hoa Hồng cũng như sự việc bạo hành trẻ em xảy ra nơi đây mà báo chí phản ánh. Cơ quan chức năng quận 12 đang tiếp tục làm rõ về nhân thân, lai lịch của các bé tại cơ sở này. Trước mắt, chính quyền địa phương sẽ đưa các bé đến Trung tâm Bảo trợ trẻ em Tam Bình (Quốc lộ 1A, phường Bình Chiểu, TP Thủ Đức) để tiếp tục chăm sóc và sẽ xem xét, có hướng xử lý sau. Một nguồn tin cho hay, trong buổi làm việc với cơ quan công an, bà Giáp Thị Sông Hương tường trình luôn cố gắng đảm bảo điều kiện tốt nhất trong việc nuôi dạy trẻ tại mái ấm. Việc các bảo mẫu bạo hành trẻ là hành động bộc phát, mất kiểm soát trong lúc chăm sóc, bà Hương không biết và mái ấm không chủ trương những hành vi như vậy. Tuy nhiên, đây mới là lời khai từ phía người đại diện cơ sở này. Cơ quan công an đang tiếp tục làm rõ"
         }
         ,
@@ -278,6 +671,83 @@
           "title": "Chi tiêu tiền từ thiện không đúng khiến lòng người dậy sóng",
           "image": "https://cdn2.tuoitre.vn/thumb_w/730/471584752817336320/2025/3/6/pham-thoai-1-17405019063872114370265-17412332958511415947051.jpg",
           "content": "Mấy ngày qua vụ từ thiện liên quan đến Phạm Thoại - một TikToker nổi tiếng đã gây nên những lùm xùm. Trong số hơn 1 triệu người dõi theo phiên sao kê, ngoài những người đã chung tay vào chương trình ủng hộ cho 'bé Bắp' - bệnh nhi mà nam TikToker này kêu gọi, còn rất nhiều người hiếu kỳ khác. Thực ra từ thiện và những lùm xùm xung quanh nó đã từng diễn ra, nhất là khi hoạt động vốn nhân văn này gắn với người nổi tiếng, do người nổi tiếng đứng ra tổ chức. Thực tế người nổi tiếng luôn có lượng người theo dõi, yêu thích, ủng hộ đông nên việc kêu gọi, cần cộng đồng hỗ trợ của họ luôn nhanh chóng lan tỏa, hiệu quả.  Do vậy những chương trình từ thiện, hoạt động thiện nguyện, vì người nghèo, hướng đến môi trường hoặc các đối tượng yếu thế cần yểm trợ rất cần người nổi tiếng chung tay. Tuy nhiên khi họ làm từ thiện và thiếu chuyên nghiệp, chẳng hạn không nắm hết được dòng tiền ủng hộ, dòng tiền chi tiêu vào các hoạt động chung, hoặc thiếu sâu sát trong nắm bắt thông tin đối tượng cần hỗ trợ… sẽ dễ dẫn tới những hệ lụy đáng tiếc. Bản thân người làm từ thiện không chuyên cũng sẽ không theo dõi đầy đủ, báo cáo chi tiết các khoản tiền vào - ra, theo đúng quy trình (cả về cách thức báo cáo lẫn thời gian thông tin vốn càng sớm càng tốt). Điều này dẫn đến hoài nghi nơi cộng đồng và sự hoài nghi này có cơ sở.Tổ chức một hoạt động thiện nguyện, một chương trình từ thiện đòi hỏi nhiều công sức để tránh sơ sót, cơ hiềm. Đầu tiên là đi tiền trạm - tìm hiểu về địa phương, đối tượng cần hỗ trợ, đối chiếu qua về các nguồn thông tin, từ thực tế cuộc sống, hoàn cảnh, nhu cầu mà đối tượng cần.Mang món quà người ta cần thì họ mới dùng được và mới giúp thay đổi cuộc sống của họ, an ủi tinh thần họ. Mang đến không đúng nhu cầu hoặc thừa mứa đều không đúng tinh thần 'cấp cứu' của hoạt động từ thiện. Điều này thường thấy trong các đợt cứu trợ bão lụt. Nhiều khi làng bị lũ nhận ê hề mì ăn liền, muối, bột ngọt trong khi họ cần thuốc men hơn, hoặc tiền bạc để tái thiết cuộc sống. Dư luận từng nói thẳng cứu trợ bão lụt sao cứ phải là… mì gói, để nói lên sự không tương thích trong món quà và nhu cầu thực tế của người nhận quà."
+        }
+        ,
+        {
+          "date": "2024-09-20",
+          "title": "Vingroup gây quỹ, kêu gọi cộng đồng chung tay tái thiết sau bão lũ",
+          "image": "/img/news1.jpg",
+          "content": "Hà NộiTập đoàn Vingroup tổ chức hội chợ, giải chạy và đêm nhạc gây quỹ, chung tay hỗ trợ người dân các địa phương bị thiệt hại sau bão lũ. Ngày 19/9, Tập đoàn Vingroup, các công ty thành viên và đối tác công bố tổ chức chuỗi hoạt động thiện nguyện 'Gieo mầm thiện tâm', kéo dài đến hết ngày 30/9. Mục tiêu là huy động sức mạnh của cộng đồng, góp phần đẩy nhanh quá trình tái thiết cuộc sống cho đồng bào sau lũ. Chương trình được triển khai riêng biệt với quỹ cứu trợ bão lũ khẩn cấp 250 tỷ đồng đã công bố hôm 12/9."
+        }
+        ,
+        {
+          "date": "2024-12-25",
+          "title": "Học sinh Newton được truyền đam mê làm thiện nguyện",
+          "image": "https://i1-vnexpress.vnecdn.net/2024/12/24/Image-ExtractWord-0-Out-5514-1735023150.png?w=680&h=0&q=100&dpr=1&fit=crop&s=tvqsqvig5HGRCar528m6NQ",
+          "content": "Thấm nhuần tinh thần tương thân tương ái của nhà trường, học sinh Newton thể hiện trách nhiệm với cộng đồng ngay từ khi ngồi trên ghế nhà trường. Trần Mỹ Anh, cựu học sinh lớp 12G niên khóa 2019 - 2022, Trường THCS - THPT Newton (thuộc Hệ thống Trường liên cấp Newton, thành viên Tập đoàn Giáo dục EQuest) là một trong những học sinh tích cực tham gia các hoạt động thiện nguyện của trường ngay từ những năm đầu cấp ba. Cô gái quê Yên Bái là học sinh tiêu biểu cấp trường nhiều năm liên tiếp từng tham gia dự án thiện nguyện HomeUp Heroes mùa bảy; tổ chức gây quỹ và kêu gọi quyên góp quần áo, sách vở cho các em nhỏ và hộ gia đình có hoàn cảnh đặc biệt khó khăn tại xã Văn Nghĩa, huyện Lạc Sơn, tỉnh Hòa Bình; tặng quà, sách vở cho các em nhỏ người dân tộc thiểu số tại xã Lâm Sơn, huyện Lương Sơn, tỉnh Hoà Bình. Các dự án trên đều được thành lập bởi chính các em học sinh trong trường với mục đích làm mới không gian sống và giúp đỡ những mảnh đời khó khăn, lan tỏa giá trị tốt đẹp tới cộng đồng."
+        }
+        ,
+        {
+          "date": "2023-11-18",
+          "title": "Nhóm 'Hữu Duyên Sài Gòn' và cái tâm của người 'thuyền trưởng'",
+          "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/11/16/anh-thu-hoang-1-17001297047811923273351.jpg",
+          "content": "Đồng cảm với người nghèo khó, Trương Thư Hoàng - chàng trai Cà Mau (sinh năm 1985) phát tâm làm thiện nguyện. Biết sức mình có hạn, anh gieo duyên để nhiều tấm lòng thiện nguyện cùng kết nối, tạo nên sức mạnh tập thể. Nhóm 'Hữu Duyên Sài Gòn' ra đời từ đó… Ở phía của người nghèo Sinh ra và lớn lên ở Cà Mau, trong gia đình mẹ góa, con côi, Trương Thư Hoàng đã phải bươn chải nhiều công việc phụ mẹ từ nhỏ. Mẹ bán rau ở chợ, 7-8 tuổi anh đã biết thức dậy sớm để dọn hàng, phụ bán. 'Hồi đó nhà Hoàng nghèo lắm, ở với ngoại, được cậu thương', anh kể mà rưng rưng."
+        }
+        ,
+        {
+          "date": "2024-01-03",
+          "title": "Những suất cơm 0 đồng chia sẻ với bà con khó khăn",
+          "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2024/1/2/anh-5-online-170419132662334837741.jpg",
+          "content": "Lê Thanh Hùng ngụ P.7 (TP.Bến Tre, Bến Tre) đã thực hiện nhiều mô hình vì cộng đồng, nổi bật là 'Suất cơm 0 đồng'. Sau dịch Covid-19, nhiều người lao động bị mất việc làm, đời sống của người bán vé số, nhặt ve chai… bị ảnh hưởng rất nhiều. Từ đó, Hùng nảy sinh ý tưởng kết hợp cùng quán ăn từ thiện thực hiện mô hình 'Suất cơm 0 đồng' nhằm chia sẻ khó khăn với bà con. Mô hình 'Suất cơm 0 đồng' chính thức hoạt động từ thứ hai đến thứ sáu hằng tuần, các đoàn viên, thanh niên phân chia công việc theo nhóm, đi các tuyến đường trên địa bàn P.7 trao các phần cơm cho người lao động nghèo."
+        }
+        ,
+        {
+          "date": "2021-07-07",
+          "title": "Tất bật chuẩn bị 1.400 suất cơm 0 đồng tiếp sức mùa thi",
+          "image": "https://thanhnien.mediacdn.vn/uploaded/hinhdd/2021_07_07/3_KGRS.jpg",
+          "content": "Trong 2 ngày thi tốt nghiệp THPT, hơn 30 tình nguyện viên tất bật, chung tay chuẩn bị những suất cơm 0 đồng để trao tận tay cho các thí sinh có hoàn cảnh khó khăn , nhà xa. Tại nhà ăn trường tiểu học Tân Phú C (P.Tân Phú, TP.Đồng Xoài, Bình Phước), hơn 30 tình nguyện viên mọi lứa tuổi đã chuẩn bị các suất cơm 0 đồng, kịp mang đến các điểm thi trước thời gian môn thi văn kết thúc để kịp phát tận tay cho các thí sinh tham gia kỳ thi tốt nghiệp THPT."
+        }
+        ,
+        {
+          "date": "2025-03-29",
+          "title": "Đem niềm vui tới các em nhỏ ở điểm trường Khò Hồng",
+          "image": "https://image.nhandan.vn/w790/Uploaded/2025/pile/2025_02_27/kh3-5131-4871.png.webp",
+          "content": "NDO - Chẳng quản ngại đường xa, những học sinh trung học phổ thông từ Hà Nội đã tới với các em nhỏ ở điểm trường bản Khò Hồng, xã Chiềng Xuân (Vân Hồ, Sơn La). Không chỉ mang theo các món quà ý nghĩa như sách vở, đồ dùng học tập, tivi, máy lọc nước,… những bạn trẻ từ thành phố còn mang tới cho các em học sinh rất nhiều niềm vui, sự ấm áp, tình yêu thương. Em Nguyễn Anh Thư, Trưởng ban tổ chức cho biết, hành trình làm công tác thiện nguyện đến với các em nhỏ ở nơi còn nhiều khó khăn là một trải nghiệm đáng nhớ đối với các thành viên tham gia. Bằng sự nhiệt huyết và tinh thần cộng đồng, chúng em đã cùng nhau chuẩn bị hành trang, mang đến cho các em học sinh vùng cao những vật dụng hữu ích cho việc học, mong muốn giúp phần nào tạo nên một môi trường học tập đủ đầy hơn cho mọi em nhỏ."
+        }
+        ,
+        {
+          "date": "2023-10-11",
+          "title": "Những người bình thường tạo nên giá trị phi thường",
+          "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/10/11/edit-nhom-bo-de-tam-169698434110472941634.jpegp",
+          "content": "Trưa hè nắng chói chang, chị gái tôi gọi điện bảo tôi lên Bệnh viện Thanh Nhàn giúp chị một tay vì hôm nay thiếu người. Tôi càu nhàu không muốn đi do đang nằm trong phòng điều hòa mát mẻ. Kêu ca vài câu rồi tôi vẫn dắt xe ra và lên đường. Bệnh viện Thanh Nhàn (Hà Nội) đứng sừng sững giữa cái nắng lúc 13 giờ chiều, tôi gửi xe rồi nép mình vào hành lang chờ đợi. Nhà gần lại đi nhanh nên tôi đến hơi sớm. Sân bệnh viện dù nắng nóng vẫn có nhiều người đi ra đi vào, người cười người khóc... Những phòng bệnh đóng cửa im ỉm, chỉ có khu khám bệnh và phòng cấp cứu là luôn nhộn nhịp."
+        }
+        ,
+        {
+          "date": "2023-10-11",
+          "title": "Thiện nguyện không đợi tuổi",
+          "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/8/7/1-tno-16913800738891646683471.jpg",
+          "content": "Có những hoạt động thiện nguyện dù rất thầm lặng, với quy mô bó hẹp trong khu phố hay chỉ một bếp ăn… nhưng lại mang đến niềm cảm hứng mới cho cuộc sống. Vì ở độ tuổi nào họ cũng biết cách làm việc thiện. NHÓM thiện nguyện 'KHÔNG TÊN' Giữa Đà thành náo nhiệt, có nhóm bạn trẻ dù bận rộn mưu sinh nhưng sẵn sàng gác lại công việc để tham gia các hoạt động thiện nguyện. Thành lập cách đây hơn 1 năm, nhóm thiện nguyện quy tụ gần 10 thành viên sinh sống nhiều nơi trên địa bàn TP.Đà Nẵng. Điểm đặc biệt là nhóm không đặt tên, trước đây chỉ có các hoạt động thầm lặng như thăm, tặng quà tại một trung tâm nuôi dưỡng trẻ mồ côi ở TP.Đà Nẵng và chùa Huệ Quang.  Gần đây, nhóm bạn trẻ lập thêm bếp ăn 0 đồng, hoạt động vào ngày rằm, mùng 1 âm lịch hằng tháng để chia sẻ những phần ăn chay đến người lao động nghèo, người già, người khuyết tật..."
+        }
+        ,
+        {
+          "date": "2023-04-17",
+          "title": "Chàng sinh viên lấy tiền làm thêm mua gạo tặng người nghèo",
+          "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/4/16/a2-16816458001491126358770.jpg",
+          "content": "Với tấm lòng yêu thương, sinh viên Cao Trọng Nhân (21 tuổi) thực hiện hoạt động tặng gạo cho người nghèo bằng số tiền đi làm bảo vệ hằng đêm. Từ biệt danh 'chàng gạo' Cao Trọng Nhân hiện là sinh viên năm cuối Trường CĐ nghề Cần Thơ. Ngoài tên Nhân, nhiều người còn gọi nam sinh này với biệt danh thân thương là 'chàng gạo'. Bởi hơn 2 năm nay, Nhân lấy tiền làm thêm và vận động nhà hảo tâm đóng góp gạo tặng cho người nghèo mưu sinh về đêm trong nội ô TP.Cần Thơ. Nhân cho biết chương trình tặng gạo được thực hiện từ khi Nhân là sinh viên năm nhất. Trong một lần đi ngoài đường, nhìn những người cơ cực làm việc trong đêm, dù đã muộn nhưng có người mới tranh thủ ăn được bữa cơm nguội. Hình ảnh đó làm Nhân chạnh lòng. Nhân nghĩ: 'Mỗi người mưu sinh một cách khác nhau, nhưng có lẽ họ đều muốn kiếm tiền để bữa ăn gia đình được ấm cúng. Với thu nhập thấp, hẳn mỗi lần mua gạo đối với cô lượm ve chai hay chú quét rác cũng là một vấn đề. Vì vậy, tặng gạo cho các cô, chú sẽ có ý nghĩa, giúp vơi gánh nặng kinh tế'."
+        }
+        ,
+        {
+          "date": "2023-02-05",
+          "title": "Câu chuyện đẹp về chàng sinh viên gen Z...",
+          "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/2/5/anh-1-16755640266561492944510.jpg",
+          "content": "Nhiệt huyết với công tác tình nguyện, Lê Thành Lương, sinh viên năm 3 của Trường CĐ Y tế Cần Thơ đã góp phần lan tỏa nhiều câu chuyện đẹp đến với cộng đồng. '5 lần hiến máu tình nguyện vì việc cứu người thì không thể chần chừ' Lê Thành Lương (quê xã Vĩnh Hanh, huyện Châu Thành, tỉnh An Giang), hiện là sinh viên năm 3 của Trường CĐ Y tế Cần Thơ. Lương kể: 'Sau 12 năm đạt thành tích học sinh giỏi, Lương rất háo hức được trở thành sinh viên. Bởi, môi trường mới không những có nhiều điều mới mẻ để học hỏi mà còn là cơ hội để dấn thân vào một hoạt động mà mình còn rất thích công tác tình nguyện'."
+        }
+        ,
+        {
+          "date": "2023-03-21",
+          "title": "Thiện nguyện đốn tim: Cháo đêm tặng người vô gia cư",
+          "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/3/20/em-be-10-thang-tuoi-cung-me-qua-dem-tai-via-he-nhan-chao-cua-nhom-thien-nguyen-anh-quang-vien-copy-1679324946834113790085.jpg",
+          "content": "Sài Gòn nửa đêm về sáng, những người vô gia cư khốn khổ, đã không nhà lại không tiền. Đêm xuống, đói cồn cào, họ cần cái gì đó để lót dạ… Hằng đêm, nhiều người vô gia cư (VGC) mong ngóng nhóm thiện nguyện nào đó mang đến cho họ món gì lót dạ. Có lúc, họ chờ suốt đêm trong ngậm ngùi. Nhưng cứ định kỳ mỗi tháng 2 lần, vào khuya thứ bảy, hàng trăm người VGC ở Sài Gòn chắc chắn có một tô cháo nóng hổi, đủ dinh dưỡng từ CLB Sài Gòn Thương."
         }
   
       ]
