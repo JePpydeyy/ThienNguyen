@@ -32,7 +32,6 @@
                 <li><a href="/lienhe.html">Liên hệ</a></li>
             </ul>
         </nav>
-        <a href="#" class="btn btn-primary">Quyên góp</a>
     </header>
     <main>
         <!-- Search Form -->
@@ -59,65 +58,160 @@
             <button onclick="filterPrograms()">Tìm kiếm</button>
         </section>
 
-        <h1>Danh sách chương trình</h1>
-        <section id="programs" class="programs"></section>
+        <!-- <section id="programs" class="programs"></section> -->
     </main>
 
+    <main>
+        <h1>Danh sách chương trình</h1>
+        <section id="programs" class="programs"></section>
+        <div id="pagination" class="pagination"></div>
+    </main>
+
+
+
+
+    <script src="./main.js"></script>
     <script>
-        let allPrograms = [];
+    document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("programs");
+    const paginationContainer = document.getElementById("pagination");
+    const itemsPerPage = 12; // Số sản phẩm mỗi trang
+    let currentPage = 1;
 
-        // Lấy dữ liệu từ JSON Server
-        fetch("http://localhost:3001/programs")
-            .then((res) => {
-                if (!res.ok) throw new Error("Không thể tải danh sách chương trình");
-                return res.json();
-            })
-            .then((data) => {
-                allPrograms = data;
-                renderPrograms(allPrograms);
-            })
-            .catch((error) => {
-                document.getElementById("programs").innerHTML = `<p style="color: red;">Lỗi: ${error.message}</p>`;
-            });
+    // Hàm hiển thị danh sách chương trình
+    function renderPrograms(programs, page = 1) {
+        container.innerHTML = ""; // Xóa nội dung cũ
+        const startIndex = (page - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+        const programsToShow = programs.slice(startIndex, endIndex);
 
-        // Hàm hiển thị danh sách chương trình
-        function renderPrograms(programs) {
-            const container = document.getElementById("programs");
-            container.innerHTML = ""; // Xóa nội dung cũ
-
-            if (programs.length === 0) {
-                container.innerHTML = "<p>Không tìm thấy chương trình phù hợp.</p>";
-                return;
-            }
-
-            programs.forEach((program) => {
-                const card = document.createElement("a");
-                card.href = `detail.html?id=${program.id}`;
-                card.innerHTML = `
-                    <div class="program-card" data-name="${program.name}" data-district="${program.district}">
-                        <img src="${program.image}" alt="${program.name}">
-                        <h3>${program.name}</h3>
-                        <p>${program.description}</p>
-                    </div>
-                `;
-                container.appendChild(card);
-            });
+        if (programsToShow.length === 0) {
+            container.innerHTML = "<p>Không tìm thấy chương trình phù hợp.</p>";
+            return;
         }
 
-        // Hàm lọc chương trình
-        function filterPrograms() {
-            const nameInput = document.getElementById("searchName").value.toLowerCase();
-            const districtInput = document.getElementById("searchDistrict").value;
+        programsToShow.forEach((program) => {
+    const card = document.createElement("a");
+    card.href = `detail.html?id=${program.id}`; // Liên kết đến detail.html với tham số id
+    card.className = "program-card";
+    card.innerHTML = `
+        <img src="${program.image}" alt="${program.name}">
+        <h3>${program.name}</h3>
+        <p>${program.description}</p>
+    `;
+    container.appendChild(card);
+});
+    }
 
-            const filtered = allPrograms.filter((program) => {
-                const nameMatch = program.name.toLowerCase().includes(nameInput);
-                const districtMatch = districtInput === "" || program.district === districtInput;
-                return nameMatch && districtMatch;
+    // Hàm hiển thị phân trang
+    function renderPagination(programs) {
+        paginationContainer.innerHTML = ""; // Xóa nội dung cũ
+        const totalPages = Math.ceil(programs.length / itemsPerPage);
+
+        for (let i = 1; i <= totalPages; i++) {
+            const button = document.createElement("button");
+            button.textContent = i;
+            button.className = i === currentPage ? "active" : "";
+            button.addEventListener("click", () => {
+                currentPage = i;
+                renderPrograms(programs, currentPage);
+                renderPagination(programs);
             });
-
-            renderPrograms(filtered);
+            paginationContainer.appendChild(button);
         }
+    }
+
+    // Hiển thị danh sách chương trình và phân trang
+    function initPrograms(programs) {
+        renderPrograms(programs, currentPage);
+        renderPagination(programs);
+    }
+
+    // Hiển thị danh sách chương trình từ mảng `programs`
+    initPrograms(programs);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("programs");
+    const paginationContainer = document.getElementById("pagination");
+    const searchNameInput = document.getElementById("searchName");
+    const searchDistrictSelect = document.getElementById("searchDistrict");
+    const itemsPerPage = 12; // Số sản phẩm mỗi trang
+    let currentPage = 1;
+
+    // Hàm hiển thị danh sách chương trình
+    function renderPrograms(programs, page = 1) {
+        container.innerHTML = ""; // Xóa nội dung cũ
+        const startIndex = (page - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+        const programsToShow = programs.slice(startIndex, endIndex);
+
+        if (programsToShow.length === 0) {
+            container.innerHTML = "<p>Không tìm thấy chương trình phù hợp.</p>";
+            return;
+        }
+
+        programsToShow.forEach((program) => {
+            const card = document.createElement("a");
+            card.href = `detail.html?id=${program.id}`;
+            card.className = "program-card";
+            card.innerHTML = `
+                <img src="${program.image}" alt="${program.name}">
+                <h3>${program.name}</h3>
+                <p>${program.description}</p>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    // Hàm hiển thị phân trang
+    function renderPagination(programs) {
+        paginationContainer.innerHTML = ""; // Xóa nội dung cũ
+        const totalPages = Math.ceil(programs.length / itemsPerPage);
+
+        for (let i = 1; i <= totalPages; i++) {
+            const button = document.createElement("button");
+            button.textContent = i;
+            button.className = i === currentPage ? "active" : "";
+            button.addEventListener("click", () => {
+                currentPage = i;
+                renderPrograms(programs, currentPage);
+                renderPagination(programs);
+            });
+            paginationContainer.appendChild(button);
+        }
+    }
+
+    // Hàm lọc chương trình theo tên và quận
+    function filterPrograms() {
+        const searchName = searchNameInput.value.toLowerCase();
+        const searchDistrict = searchDistrictSelect.value;
+
+        const filteredPrograms = programs.filter((program) => {
+            const matchesName = program.name.toLowerCase().includes(searchName);
+            const matchesDistrict = !searchDistrict || program.district === searchDistrict;
+            return matchesName && matchesDistrict;
+        });
+
+        currentPage = 1; // Reset về trang đầu tiên
+        renderPrograms(filteredPrograms, currentPage);
+        renderPagination(filteredPrograms);
+    }
+
+    // Hiển thị danh sách chương trình và phân trang
+    function initPrograms(programs) {
+        renderPrograms(programs, currentPage);
+        renderPagination(programs);
+    }
+
+    // Hiển thị danh sách chương trình từ mảng `programs`
+    initPrograms(programs);
+
+    // Gắn sự kiện tìm kiếm
+    document.querySelector("button[onclick='filterPrograms()']").addEventListener("click", filterPrograms);
+});
     </script>
+    
 </body>
 
 </html>
