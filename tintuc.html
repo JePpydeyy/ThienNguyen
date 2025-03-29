@@ -6,15 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style/tintuc.css">
     <link rel="stylesheet" href="style/grid.css">
+    <link rel="icon" type="image/png" href="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a0/cb/44/a0cb447b-2dfb-69c7-5059-c4216307956c/196835967394.jpg/1200x1200bf-60.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TGGLGHXY5"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-4TGGLGHXY5');
-    </script>
 </head>
 <body>
     <header>
@@ -23,13 +16,13 @@
         </div>
         <nav>
             <ul>
-                <li><a href="/ThienNguyen/index.html">Trang chủ</a></li>
-                <li><a href="/ThienNguyen/sanpham.html">Chương trình chính</a></li>
-                <li><a href="/ThienNguyen/tintuc.html">Tin tức & Câu chuyện</a></li>
-                <li><a href="/ThienNguyen/lienhe.html">Liên hệ</a></li>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">Đóng góp</a></li>
+                <li><a href="/sanpham.html">Chương trình chính</a></li>
+                <li><a href="/tintuc.html">Tin tức & Câu chuyện</a></li>
+                <li><a href="/lienhe.html">Liên hệ</a></li>
             </ul>
         </nav>
-        <a href="#" class="btn btn-primary">Quyên góp</a>
     </header>
 
     <section class="section_title">
@@ -72,12 +65,16 @@
     document.addEventListener("DOMContentLoaded", function () {
     const newsContainer = document.querySelector(".container_box_news .grid .row");
 
-    const checkNewsData = setInterval(() => {
-        if (typeof news !== "undefined" && Array.isArray(news)) {
-            clearInterval(checkNewsData); 
-            
-            newsContainer.innerHTML = "";
-            news.forEach(newsItem => {
+    fetch("http://localhost:3001/news")
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return response.json();
+        })
+        .then(data => {
+            newsContainer.innerHTML = ""; 
+            data.forEach(newsItem => {
                 const newsHTML = `
                     <div class="col l-4 m-6 c-6 tintuc_container_news">
                         <div class="tintuc-news_1"> 
@@ -92,17 +89,43 @@
                 `;
                 newsContainer.innerHTML += newsHTML;
             });
-        }
-    }, 100); 
+
+            document.querySelectorAll(".view-more").forEach(button => {
+                button.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const title = this.getAttribute("data-title");
+                    const content = this.getAttribute("data-content");
+                    const image = this.getAttribute("data-image");
+                    const date = this.getAttribute("data-date");
+                    
+                    const detailContainer = document.createElement("div");
+                    detailContainer.classList.add("news-detail");
+                    detailContainer.innerHTML = `
+                        <div class="detail-content">
+                            <span class="close-detail">&times;</span>
+                            <h2>${title}</h2>
+                            <p><i class="fa-solid fa-calendar"></i> ${date}</p>
+                            <img src="${image}" alt="">
+                            <p>${content}</p>
+                        </div>
+                    `;
+                    document.body.appendChild(detailContainer);
+
+                    document.querySelector(".close-detail").addEventListener("click", function () {
+                        document.body.removeChild(detailContainer);
+                    });
+                });
+            });
+        })
+        .catch(error => console.error("Error fetching news:", error));
 });
 
+
                </script>
-               <script src="main.js"></script>
                 
                 
             </div>
         </div>
     </section>
-    
 </body>
 </html>
