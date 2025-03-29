@@ -7,9 +7,9 @@ const news =  [
       },
       {
         "date": "2025-02-10",
-        "title": "Sau Mái ấm Hoa Hồng, thêm một mái ấm tại quận 12, TP HCM bị đình chỉ hoạt động",
+        "title": "Sau Mái ấm Hoa Hồng, thêm một mái ấm tại Quận 12, TP HCM bị đình chỉ hoạt động",
         "image": "https://tse2.mm.bing.net/th?id=OIP.Cxv_LBTlmuM3ze8DVilgygHaE6&pid=Api&P=0&h=180",
-        "content": "Ngày 26-10, UBND quận 12 có văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM về việc đề nghị hỗ trợ tiếp nhận trẻ em. Nguyên nhân là do đình chỉ hoạt động Cơ sở trợ giúp xã hội ngoài công lập Mái ấm tình thương Quan Âm (phường Hiệp Thành, quận 12 - gọi tắt là Mái ấm tình thương Quan Âm). Cụ thể, trong văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM, UBND quận 12 cho biết liên quan vụ việc một số báo chí đưa tin '2 người mẹ trình báo không gặp được con sau khi gửi ở Mái ấm tình thương Quan Âm tại TP HCM', đơn vị này đã kiểm tra đột xuất Mái ấm tình thương Quan Âm.Theo tìm hiểu của phóng viên, vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ là 'không bảo đảm một trong các điều kiện về môi trường, y tế, vệ sinh, cơ sở vật chất, cán bộ, nhân viên;'Qua kiểm tra, UBND quận 12 ghi nhận Mái ấm tình thương Quan Âm vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Do đó, UBND quận 12 xử lý vi phạm hành chính kèm đình chỉ hoạt động 12 tháng đối với Mái ấm tình thương Quan Âm. Đồng thời, đề nghị Sở Lao động - Thương binh và Xã hội TP HCM hỗ trợ tiếp nhận vào các cơ sở trợ giúp xã hội do Sở quản lý đối với 33 trẻ em hiện đang chăm sóc, nuôi dưỡng tại mái ấm này. Nguyên nhân là do mái ấm này bị UBND quận 12 đình chỉ hoạt động."
+        "content": "Ngày 26-10, UBND Quận 12 có văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM về việc đề nghị hỗ trợ tiếp nhận trẻ em. Nguyên nhân là do đình chỉ hoạt động Cơ sở trợ giúp xã hội ngoài công lập Mái ấm tình thương Quan Âm (phường Hiệp Thành, Quận 12 - gọi tắt là Mái ấm tình thương Quan Âm). Cụ thể, trong văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM, UBND Quận 12 cho biết liên quan vụ việc một số báo chí đưa tin '2 người mẹ trình báo không gặp được con sau khi gửi ở Mái ấm tình thương Quan Âm tại TP HCM', đơn vị này đã kiểm tra đột xuất Mái ấm tình thương Quan Âm.Theo tìm hiểu của phóng viên, vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ là 'không bảo đảm một trong các điều kiện về môi trường, y tế, vệ sinh, cơ sở vật chất, cán bộ, nhân viên;'Qua kiểm tra, UBND Quận 12 ghi nhận Mái ấm tình thương Quan Âm vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Do đó, UBND Quận 12 xử lý vi phạm hành chính kèm đình chỉ hoạt động 12 tháng đối với Mái ấm tình thương Quan Âm. Đồng thời, đề nghị Sở Lao động - Thương binh và Xã hội TP HCM hỗ trợ tiếp nhận vào các cơ sở trợ giúp xã hội do Sở quản lý đối với 33 trẻ em hiện đang chăm sóc, nuôi dưỡng tại mái ấm này. Nguyên nhân là do mái ấm này bị UBND Quận 12 đình chỉ hoạt động."
       }
       ,
       {
@@ -29,7 +29,7 @@ const news =  [
         "date": "2025-02-12",
         "title": "Tiệm mì gõ 0 đồng trong đêm ở Sài Gòn",
         "image": "https://i1-giadinh.vnecdn.net/2024/04/06/233A1470-1712369970.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=bw1vxvIsSTNWftPMcoglYg",
-        "content": "Mỗi cuối tuần, nhóm thiện nguyện của anh Trần Đình Long chuẩn bị hơn 800 tô mì phục vụ miễn phí cho bà con lao động, trên đường Phạm Ngũ Lão, quận 1.  20h ngày 5/4, tại số 212 Phạm Ngũ Lão, đoạn gần công viên 23/9 (quận 1) nhóm từ thiện Nhất Tâm tổ chức nấu mì cho những lao động nghèo làm việc khuya Anh Trần Đình Long, 43 tuổi, trưởng nhóm cho biết hoạt động này diễn ra khoảng nửa năm nay, vào tối thứ 6, thứ 7 mỗi tuần tại hai địa điểm trên đường Phạm Ngũ Lão và 262 Nguyễn Chí Thanh (quận 10). 'Mì gõ là món thân quen với người lao động Sài Gòn từ lâu nên khi nấu sẽ phục vụ được nhiều bà con hơn', anh Long nói. Nhóm bắt đầu nấu từ 19h nhưng trước đó đã có nhiều người tới ngồi chờ. Hơn 10 bàn nhựa được kê, bên trên để sẵn bát đũa, chanh, tương ớt. 'Hồi mới làm thường đến giữa đêm mới hết mì nhưng giờ chưa đầy bốn tiếng là dọn đồ về rồi', trưởng nhóm nói. Từ buổi sáng, cả nhóm bắt đầu chuẩn bị thực phẩm, sơ chế rau, thịt rồi mang tất cả nguyên liệu từ quận 7 ra điểm bán hàng. Tô mì khá đơn giản với nước lèo, chả, trứng, xúc xích, hành, giá, được chế biến nhanh để kịp phục vụ bà con lao động Các tình nguyện viên phục vụ người dân tại từng bàn, không xảy ra cảnh chen lấn, giành giật."
+        "content": "Mỗi cuối tuần, nhóm thiện nguyện của anh Trần Đình Long chuẩn bị hơn 800 tô mì phục vụ miễn phí cho bà con lao động, trên đường Phạm Ngũ Lão, Quận 1.  20h ngày 5/4, tại số 212 Phạm Ngũ Lão, đoạn gần công viên 23/9 (Quận 1) nhóm từ thiện Nhất Tâm tổ chức nấu mì cho những lao động nghèo làm việc khuya Anh Trần Đình Long, 43 tuổi, trưởng nhóm cho biết hoạt động này diễn ra khoảng nửa năm nay, vào tối thứ 6, thứ 7 mỗi tuần tại hai địa điểm trên đường Phạm Ngũ Lão và 262 Nguyễn Chí Thanh (Quận 10). 'Mì gõ là món thân quen với người lao động Sài Gòn từ lâu nên khi nấu sẽ phục vụ được nhiều bà con hơn', anh Long nói. Nhóm bắt đầu nấu từ 19h nhưng trước đó đã có nhiều người tới ngồi chờ. Hơn 10 bàn nhựa được kê, bên trên để sẵn bát đũa, chanh, tương ớt. 'Hồi mới làm thường đến giữa đêm mới hết mì nhưng giờ chưa đầy bốn tiếng là dọn đồ về rồi', trưởng nhóm nói. Từ buổi sáng, cả nhóm bắt đầu chuẩn bị thực phẩm, sơ chế rau, thịt rồi mang tất cả nguyên liệu từ Quận 7 ra điểm bán hàng. Tô mì khá đơn giản với nước lèo, chả, trứng, xúc xích, hành, giá, được chế biến nhanh để kịp phục vụ bà con lao động Các tình nguyện viên phục vụ người dân tại từng bàn, không xảy ra cảnh chen lấn, giành giật."
       }
       ,
       {
@@ -43,7 +43,7 @@ const news =  [
         "date": "2025-03-15",
         "title": "Vụ bạo hành trẻ em: Bà chủ mái ấm Hoa Hồng Giáp Thị Sông Hương khai gì?",
         "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2024/9/4/giap-thi-song-huong-2030.jpg",
-        "content": "Công an quận 12, TPHCM hôm nay (4/9) phối hợp cùng các cơ quan chức năng mời bà Giáp Thị Sông Hương (50 tuổi, quê Bắc Giang) - chủ cơ sở mái ấm Hoa Hồng - cùng một số bảo mẫu lên làm việc.  Ngoài ra, còn một số bảo mẫu khác liên quan đến hành vi bạo hành trẻ em nhưng không có mặt tại mái ấm Hoa Hồng khi cơ quan chức năng đến kiểm tra vào sáng nay. Hiện Công an quận 12 đang truy xét, tiến hành mời làm việc đối với những người này. Cơ quan chức năng đang kiểm tra toàn diện đối với mái ấm Hoa Hồng, bước đầu xác định tại đây có 86 trẻ. Theo khai báo của những người liên quan, phần lớn trẻ tại mái ấm bị bỏ rơi, mẹ sinh ra nhưng không có điều kiện nuôi nấng nên mái ấm nhận vào. Ngoài ra, nhiều trẻ có cha mẹ là công nhân, người lao động tại khu vực xung quanh gửi cho mái ấm, sáng đưa đến và chiều đón về.  Hiện UBND quận 12 đã có báo cáo Sở Lao động - Thương binh và Xã hội TPHCM về mái ấm Hoa Hồng cũng như sự việc bạo hành trẻ em xảy ra nơi đây mà báo chí phản ánh. Cơ quan chức năng quận 12 đang tiếp tục làm rõ về nhân thân, lai lịch của các bé tại cơ sở này. Trước mắt, chính quyền địa phương sẽ đưa các bé đến Trung tâm Bảo trợ trẻ em Tam Bình (Quốc lộ 1A, phường Bình Chiểu, TP Thủ Đức) để tiếp tục chăm sóc và sẽ xem xét, có hướng xử lý sau. Một nguồn tin cho hay, trong buổi làm việc với cơ quan công an, bà Giáp Thị Sông Hương tường trình luôn cố gắng đảm bảo điều kiện tốt nhất trong việc nuôi dạy trẻ tại mái ấm. Việc các bảo mẫu bạo hành trẻ là hành động bộc phát, mất kiểm soát trong lúc chăm sóc, bà Hương không biết và mái ấm không chủ trương những hành vi như vậy. Tuy nhiên, đây mới là lời khai từ phía người đại diện cơ sở này. Cơ quan công an đang tiếp tục làm rõ"
+        "content": "Công an Quận 12, TPHCM hôm nay (4/9) phối hợp cùng các cơ quan chức năng mời bà Giáp Thị Sông Hương (50 tuổi, quê Bắc Giang) - chủ cơ sở mái ấm Hoa Hồng - cùng một số bảo mẫu lên làm việc.  Ngoài ra, còn một số bảo mẫu khác liên quan đến hành vi bạo hành trẻ em nhưng không có mặt tại mái ấm Hoa Hồng khi cơ quan chức năng đến kiểm tra vào sáng nay. Hiện Công an Quận 12 đang truy xét, tiến hành mời làm việc đối với những người này. Cơ quan chức năng đang kiểm tra toàn diện đối với mái ấm Hoa Hồng, bước đầu xác định tại đây có 86 trẻ. Theo khai báo của những người liên quan, phần lớn trẻ tại mái ấm bị bỏ rơi, mẹ sinh ra nhưng không có điều kiện nuôi nấng nên mái ấm nhận vào. Ngoài ra, nhiều trẻ có cha mẹ là công nhân, người lao động tại khu vực xung quanh gửi cho mái ấm, sáng đưa đến và chiều đón về.  Hiện UBND Quận 12 đã có báo cáo Sở Lao động - Thương binh và Xã hội TPHCM về mái ấm Hoa Hồng cũng như sự việc bạo hành trẻ em xảy ra nơi đây mà báo chí phản ánh. Cơ quan chức năng Quận 12 đang tiếp tục làm rõ về nhân thân, lai lịch của các bé tại cơ sở này. Trước mắt, chính quyền địa phương sẽ đưa các bé đến Trung tâm Bảo trợ trẻ em Tam Bình (Quốc lộ 1A, phường Bình Chiểu, TP Thủ Đức) để tiếp tục chăm sóc và sẽ xem xét, có hướng xử lý sau. Một nguồn tin cho hay, trong buổi làm việc với cơ quan công an, bà Giáp Thị Sông Hương tường trình luôn cố gắng đảm bảo điều kiện tốt nhất trong việc nuôi dạy trẻ tại mái ấm. Việc các bảo mẫu bạo hành trẻ là hành động bộc phát, mất kiểm soát trong lúc chăm sóc, bà Hương không biết và mái ấm không chủ trương những hành vi như vậy. Tuy nhiên, đây mới là lời khai từ phía người đại diện cơ sở này. Cơ quan công an đang tiếp tục làm rõ"
       }
       ,
       {
@@ -353,11 +353,11 @@ const programs = [
     {
         "id": 11,
         "name": "LỚP HỌC TÌNH THƯƠNG ĐÌNH PHÚ ĐỊNH",
-        "district": "quận 6",
+        "district": "Quận 6",
         "description": "Hỗ trợ trẻ em mồ côi và nghèo tại Quận 6.",
         "image": "https://img.upanh.tv/2025/03/29/119b9dc5044a619316.png",
         "url": "test2.html",
-        "address": "43/2 Lý Chiêu Hoàng, phường 10, quận 6.",
+        "address": "43/2 Lý Chiêu Hoàng, phường 10, Quận 6.",
         "email": "",
         "phone": "0938 001 803",
         "intro": "Lớp học có 24 em từ lớp 1 đến lớp 6, lớp 1 có số lượng đông nhất 10 em, có những lớp chỉ có 1 đến 2 em, nhưng các em rất cố gắng đến lớp mỗi ngày, vì các em biết được rằng “học là cơ hội để thay đổi cuộc sống của mình”. – Hoàn cảnh các em nghe cũng chạnh lòng. Gia đình các em đến từ nhiều nơi, đa số là dân tỉnh lên lập nghiệp, chưa có công việc ổn định, làm thuê hoặc đi bán kem, mua ve chai để có tiền nuôi các em. Nhiều em vì gia đình không có hộ khẩu nên nhà trường không cho các em nhập học, có em thì phụ gia đình bán vé số, bán kem dạo, phụ mẹ mua ve chai, còn em thì ban ngày ở nhà trông em, nấu cơm, làm việc nhà, đến tối thì đi học tại lớp.",
@@ -392,11 +392,11 @@ const programs = [
     {
         "id": 12,
         "name": "LỚP HỌC TÌNH THƯƠNG RẠCH ÔNG HƯNG",
-        "district": "quận 7",
-        "description": "Hỗ trợ trẻ em có hoàng cảnh khó khăn ở quận 7",
+        "district": "Quận 7",
+        "description": "Hỗ trợ trẻ em có hoàng cảnh khó khăn ở Quận 7",
         "image": "https://img.upanh.tv/2025/03/29/12b058c2d7d766b485.png",
         "url": "test2.html",
-        "address": " hẻm 1041, Nhà văn hóa khu phố 3, đường Trần Xuân Soạn, phường Tân Hưng, quận 7",
+        "address": " hẻm 1041, Nhà văn hóa khu phố 3, đường Trần Xuân Soạn, phường Tân Hưng, Quận 7",
         "email": "",
         "phone": "Anh 0765851108",
         "intro": "Lớp học do anh Danh Tuấn Anh – trưởng nhóm tình nguyện phụ trách, lớp học được thành lập từ năm 2014 với khoảng 10 em không biết chữ. Ban đầu, lớp học được tổ chức 3 buổi/tuần vào thứ 2, 4, 6 tại một nhà kho ở Nhà văn hoá khu phố 3. Giờ học bắt đầu từ 18h30-20h30 từ thứ 2 đến thứ 6. Mặc dù cơ sở vật chất còn hạn chế, ban ngày các em phải ở nhà phụ giúp gia đình nhưng lớp học luôn diễn ra đúng giờ.",
@@ -431,7 +431,7 @@ const programs = [
     {
         "id": 13,
         "name": "TRƯỜNG TÌNH THƯƠNG LA SAN TÂN HƯNG",
-        "district": "quận 7",
+        "district": "Quận 7",
         "description": "Trường Tình Thương La San Tân Hưng là một cơ sở giáo dục đặc biệt dành cho trẻ em có hoàn cảnh khó khăn, được thành lập và điều hành bởi Dòng La San tại Việt Nam.",
         "image": "https://img.upanh.tv/2025/03/29/131430c6f348df3d4b.png",
         "url": "test2.html",
@@ -454,7 +454,7 @@ const programs = [
     {
         "id": 14,
         "name": "LỚP HỌC TÌNH THƯƠNG PHƯỜNG PHÚ MỸ",
-        "district": "quận 7",
+        "district": "Quận 7",
         "description": "Được thành lập vào năm 1982 với mục tiêu cung cấp giáo dục miễn phí cho trẻ em có hoàn cảnh khó khăn, đặc biệt là con em của các gia đình lao động nhập cư từ các tỉnh như Long An, Sóc Trăng, Bạc Liêu, Hậu Giang, Bến Tre.",
         "image": "https://img.upanh.tv/2025/03/29/119b9dc5044a619316.png",
         "url": "test2.html",
@@ -481,7 +481,7 @@ const programs = [
     {
         "id": 15,
         "name": "TRƯỜNG TÌNH THƯƠNG ÁNH LINH",
-        "district": "quận 7",
+        "district": "Quận 7",
         "description": "Là một cơ sở giáo dục miễn phí dành cho trẻ em có hoàn cảnh khó khăn tại Quận 4 và Quận 7, Thành phố Hồ Chí Minh.",
         "image": "https://img.upanh.tv/2025/03/29/1537bb53a1be5e92c1.png",
         "url": "test2.html",
@@ -508,7 +508,7 @@ const programs = [
     {
         "id": 16,
         "name": "VIỆN DƯỠNG LÃO NGHỆ SĨ",
-        "district": "quận 8",
+        "district": "Quận 8",
         "description": "Đây là nơi cư trú và chăm sóc cho các nghệ sĩ sân khấu lão thành có hoàn cảnh khó khăn, không nơi nương tựa.",
         "image": "https://img.upanh.tv/2025/03/29/16a270892e848889a5.png",
         "url": "test2.html",
@@ -531,7 +531,7 @@ const programs = [
     {
         "id": 17,
         "name": "TRUNG TÂM PHÁT HUY BÌNH AN",
-        "district": "quận 8",
+        "district": "Quận 8",
         "description": "Là một cơ sở giáo dục miễn phí dành cho trẻ em có hoàn cảnh khó khăn tại TP. Hồ Chí Minh.",
         "image": "https://img.upanh.tv/2025/03/29/17aa28ea60e9a38b1c.png",
         "url": "test2.html",
@@ -558,14 +558,14 @@ const programs = [
     {
         "id": 18,
         "name": "TRƯỜNG KHUYẾT TẬT VỮNG TIN",
-        "district": "quận 8",
+        "district": "Quận 8",
         "description": "Lớp học không có cảnh nô đùa, chỉ có những tiếng phát âm ngọng nghịu và thi thoảng là tiếng trẻ la hét vô thức.",
         "image": "https://img.upanh.tv/2025/03/29/18278f1fc7537f9c8b.png",
         "url": "test2.html",
         "address": "452 Hưng Phú, Phường 9, Quận 8",
         "email": "",
         "phone": "028 3854 7362",
-        "intro": "Lớp học không có cảnh nô đùa, chỉ có những tiếng phát âm ngọng nghịu và thi thoảng là tiếng trẻ la hét vô thức. Giáo viên đứng lớp cũng không phải là những người tốt nghiệp trường sư phạm. Các cô đến đây bằng tấm lòng của những người mẹ để chăm sóc các trẻ sinh ra đã kém may mắn. Đó là lớp học dạy trẻ khuyết tật mang tên câu lạc bộ Vững tin ở phường 9, quận 8, TP HCM. Lớp học được thành lập từ năm 2000, hiện có khoảng 30 trẻ khuyết tật đang theo học. Các em đều là những trẻ em có hoàn cảnh khó khăn, không có điều kiện đến trường và cần sự chăm sóc đặc biệt. Tại đây, các em được dạy các kỹ năng sống cơ bản và tham gia vào các hoạt động vui chơi, giải trí để phát triển tinh thần và thể chất.",
+        "intro": "Lớp học không có cảnh nô đùa, chỉ có những tiếng phát âm ngọng nghịu và thi thoảng là tiếng trẻ la hét vô thức. Giáo viên đứng lớp cũng không phải là những người tốt nghiệp trường sư phạm. Các cô đến đây bằng tấm lòng của những người mẹ để chăm sóc các trẻ sinh ra đã kém may mắn. Đó là lớp học dạy trẻ khuyết tật mang tên câu lạc bộ Vững tin ở phường 9, Quận 8, TP HCM. Lớp học được thành lập từ năm 2000, hiện có khoảng 30 trẻ khuyết tật đang theo học. Các em đều là những trẻ em có hoàn cảnh khó khăn, không có điều kiện đến trường và cần sự chăm sóc đặc biệt. Tại đây, các em được dạy các kỹ năng sống cơ bản và tham gia vào các hoạt động vui chơi, giải trí để phát triển tinh thần và thể chất.",
         "activities": [
             {
                 "title": "Dạy học miễn phí",
@@ -584,8 +584,8 @@ const programs = [
     ,
     {
         "id": 19,
-        "name": "MÁI ẤM QUẬN 8",
-        "district": "quận 9",
+        "name": "MÁI ẤM Quận 8",
+        "district": "Quận 9",
         "description": "Là một cơ sở nuôi dưỡng trẻ em mồ côi và trẻ em đường phố tại TP. Hồ Chí Minh. Trực thuộc Trung tâm Dạy nghề Thanh thiếu niên Thành phố Hồ Chí Minh.",
         "image": "https://img.upanh.tv/2025/03/29/19a2b8e3f6762a0e0e.png",
         "url": "test2.html",
@@ -612,7 +612,7 @@ const programs = [
     {
         "id": 20,
         "name": "MÁI ẤM THIỆN NHI",
-        "district": "quận 9",
+        "district": "Quận 9",
         "description": "Mái ấm Thiện Nhi – nơi nuôi dưỡng, chở che cho những bà mẹ trẻ gặp khó khăn trong quá trình mang thai, sinh nở.",
         "image": "https://img.upanh.tv/2025/03/29/20394a0cec06ffa0f9.png",
         "url": "test2.html",
@@ -635,7 +635,7 @@ const programs = [
     {
         "id": 21,
         "name": "MÁI ẤM MẦM XANH",
-        "district": "quận 9",
+        "district": "Quận 9",
         "description": "Cách Bệnh viện Ung bướu TP HCM cơ sở 2 (phường Long Thạnh Mỹ, TP Thủ Đức) chưa đến 2 km, có một ngôi nhà đã giúp cho gia đình các bệnh nhi có thêm động lực chiến đấu với căn bệnh hiểm nghèo suốt 4 năm qua.",
         "image": "https://img.upanh.tv/2025/03/29/21a990ff2923d31f5e.png",
         "url": "test2.html",
@@ -658,7 +658,7 @@ const programs = [
     {
         "id": 22,
         "name": "NHÀ CỘNG ĐỒNG THANH LIÊN",
-        "district": "quận 10",
+        "district": "Quận 10",
         "description": "Mái ấm này lo chỗ ăn, chỗ ở, lo tất cả mọi thứ hết. Ai đến đây ở cũng thích, cũng mừng.",
         "image": "https://img.upanh.tv/2025/03/29/22cedba417f4f8f86f.png",
         "url": "test2.html",
@@ -681,14 +681,14 @@ const programs = [
     {
         "id": 23,
         "name": "MÁI ẤM ÁNH SÁNG NAM",
-        "district": "quận 10",
-        "description": "Mái ấm Ánh Sáng quận 10 Nam là nơi không chỉ tràn đầy sự sôi động mà còn là môi trường để các bé trai nhiệt huyết, ham học hỏi và sáng tạo không ngừng nghỉ.",
+        "district": "Quận 10",
+        "description": "Mái ấm Ánh Sáng Quận 10 Nam là nơi không chỉ tràn đầy sự sôi động mà còn là môi trường để các bé trai nhiệt huyết, ham học hỏi và sáng tạo không ngừng nghỉ.",
         "image": "https://sfccharity.com/wp-content/uploads/2020/01/13906776_950956225013485_8781779471584525216_n.jpg",
         "url": "test2.html",
         "address": "3/36 Thành Thái, Phường 14, Quận 10, TP.HCM",
         "email": "",
         "phone": "0937 766 195 ",
-        "intro": "Mái ấm Ánh Sáng quận 10 Nam là nơi không chỉ tràn đầy sự sôi động mà còn là môi trường để các bé trai nhiệt huyết, ham học hỏi và sáng tạo không ngừng nghỉ. Là tổ ấm của 22 trẻ em nam với các hoàn cảnh khó khăn, đặc biệt. Tại đây, các em sẽ được Mái Ấm chăm sóc như là một gia đình, cùng sinh hoạt, lớn lên và cùng nhau học tập tại Mái Ấm đong đầy tình thương này.",
+        "intro": "Mái ấm Ánh Sáng Quận 10 Nam là nơi không chỉ tràn đầy sự sôi động mà còn là môi trường để các bé trai nhiệt huyết, ham học hỏi và sáng tạo không ngừng nghỉ. Là tổ ấm của 22 trẻ em nam với các hoàn cảnh khó khăn, đặc biệt. Tại đây, các em sẽ được Mái Ấm chăm sóc như là một gia đình, cùng sinh hoạt, lớn lên và cùng nhau học tập tại Mái Ấm đong đầy tình thương này.",
         "activities": [
             {
                 "title": "Chăm sóc sức khỏe",
@@ -704,14 +704,14 @@ const programs = [
     {
         "id": 24,
         "name": "PHÒNG KHÁM TỪ THIỆN MAI KHÔI – ĐỒNG TIẾN",
-        "district": "quận 10",
+        "district": "Quận 10",
         "description": "Khi màn chiều bắt đầu buông thì đó cũng là lúc phòng khám Mai Khôi – Đồng Tiến mở cửa đón người nghèo đến chữa trị.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSblZp1eo-PrJ0yIbM9gnKg36MlHnFFfnlLSg&s",
         "url": "test2.html",
         "address": "Nhà thờ Đồng Tiến, 54 Thành Thái, P.12, Q.10, Tp. Hồ Chí Minh",
         "email": "tudtt@maitam.org",
         "phone": "00938 272 766 ",
-        "intro": "Khi màn chiều bắt đầu buông thì đó cũng là lúc phòng khám Mai Khôi – Đồng Tiến mở cửa đón người nghèo đến chữa trị. Ở đây không lấy tiền khám, cũng chẳng cần tiền thuốc, đội ngũ bác sĩ tại Mai Khôi – Đồng Tiến dù làm việc không lương nhưng bằng tấm lòng lương y bác ái vẫn hằng ngày rộng vòng tay đón tất cả bệnh nhân bất kể hoàn cảnh. Phòng khám Mai Khôi – Đồng Tiến tiền thân là phòng khám Camillô được thành lập vào 15/8/2007 trên bờ kênh Nhiêu Lộc. Sau hai năm hoạt động, vào 15/8/2009, phòng khám chuyển về trong khuôn viên Giáo xứ Đồng Tiền, chính thức đổi tên thành như hiện tại. Phòng khám hiện đang hoạt động với 2 cơ sở, một tại quận 10 và một tại quận 8. Tại đây, bệnh nhân sẽ được khám bệnh miễn phí, nhận thuốc miễn phí và được tư vấn sức khỏe miễn phí. Đội ngũ bác sĩ tại phòng khám đều là những người tình nguyện, không nhận lương nhưng vẫn tận tâm chăm sóc cho bệnh nhân.",
+        "intro": "Khi màn chiều bắt đầu buông thì đó cũng là lúc phòng khám Mai Khôi – Đồng Tiến mở cửa đón người nghèo đến chữa trị. Ở đây không lấy tiền khám, cũng chẳng cần tiền thuốc, đội ngũ bác sĩ tại Mai Khôi – Đồng Tiến dù làm việc không lương nhưng bằng tấm lòng lương y bác ái vẫn hằng ngày rộng vòng tay đón tất cả bệnh nhân bất kể hoàn cảnh. Phòng khám Mai Khôi – Đồng Tiến tiền thân là phòng khám Camillô được thành lập vào 15/8/2007 trên bờ kênh Nhiêu Lộc. Sau hai năm hoạt động, vào 15/8/2009, phòng khám chuyển về trong khuôn viên Giáo xứ Đồng Tiền, chính thức đổi tên thành như hiện tại. Phòng khám hiện đang hoạt động với 2 cơ sở, một tại Quận 10 và một tại Quận 8. Tại đây, bệnh nhân sẽ được khám bệnh miễn phí, nhận thuốc miễn phí và được tư vấn sức khỏe miễn phí. Đội ngũ bác sĩ tại phòng khám đều là những người tình nguyện, không nhận lương nhưng vẫn tận tâm chăm sóc cho bệnh nhân.",
         "activities": [
             {
                 "title": "Khám bệnh miễn phí",
@@ -727,7 +727,7 @@ const programs = [
     {
         "id": 25,
         "name": "LỚP HỌC TÌNH THƯƠNG BỆNH VIỆN NHI ĐỒNG 1",
-        "district": "quận 10",
+        "district": "Quận 10",
         "description": "Lớp học đặc biệt này có tên gọi “Lớp học vui vẻ” vừa được Bệnh viện Nhi đồng 1 triển khai thực hiện tại 3 khoa gồm: Nhiễm – Thần kinh, Sốt xuất huyết và Thận nội tiết.",
         "image": "https://img.upanh.tv/2025/03/29/25468d2443eaec015a.png",
         "url": "test2.html",
@@ -789,7 +789,7 @@ const programs = [
     {
         "id": 28,
         "name": "TRUNG TÂM PHÁT HUY BÌNH AN",
-        "district": "TP. Thủ Đức",
+        "district": "Thủ Đức",
         "description": "Trung tâm hỗ trợ trẻ em khuyết tật và trẻ có hoàn cảnh khó khăn, giúp các em có cơ hội học tập và phát triển bản thân.",
         "image": "https://img.upanh.tv/2025/03/29/2872543a205d1ee235.png",
         "url": "phat-huy-binh-an.html",
@@ -810,7 +810,7 @@ const programs = [
     },
     {
         "id": 29,
-        "name": "MÁI ẤM QUẬN 8",
+        "name": "MÁI ẤM Quận 8",
         "district": "Quận 8",
         "description": "Mái ấm hỗ trợ trẻ em mồ côi và có hoàn cảnh khó khăn tại khu vực Quận 8.",
         "image": "https://img.upanh.tv/2025/03/29/2929a837eb12dd6861.png",
@@ -833,7 +833,7 @@ const programs = [
     {
         "id": 30,
         "name": "MÁI ẤM THIỆN NHI",
-        "district": "TP. Thủ Đức",
+        "district": "Thủ Đức",
         "description": "Mái ấm dành cho các mẹ bầu đơn thân có hoàn cảnh khó khăn, giúp họ có nơi ở và hỗ trợ trong giai đoạn mang thai và sau sinh.",
         "image": "https://img.upanh.tv/2025/03/29/301c3f5c357c9b1645.png",
         "url": "mai-am-thien-nhi.html",
