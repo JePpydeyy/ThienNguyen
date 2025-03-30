@@ -134,7 +134,7 @@ const programs = [
         "url": "test2.html",
         "address": "40/34 Phạm Viết Chánh, Phường 19, Quận Bình Thạnh, TP. Hồ Chí Minh",
         "email": "Maiamtrexanh@gmail.com",
-        "phone": "000000008",
+        "phone": "0907 026 195",
         "intro": "- Thành lập từ năm 1997, hoạt động xuyên suốt các ngày trong tuần.<br>- Cưu mang trẻ em bị bạo hành, lạm dụng hoặc lang thang.<br>- Cung cấp dịch vụ tâm lý, pháp lý và giáo dục.<br>- Tổ chức hoạt động ngoại khóa, trại hè...",
         "activities": [
             {
@@ -175,15 +175,15 @@ const programs = [
     },
     {
         "id": 3,
-        "name": "Chung Tay Quận 7",
-        "district": "Quận 7",
-        "description": "Hỗ trợ áo ấm và thực phẩm cho trẻ em tại Quận 7.",
+        "name": "MÁI ẤM HƯỚNG DƯƠNG",
+        "district": "Quận 06",
+        "description": "Hiện có 20 em đang được mái ấm nuôi dưỡng.",
         "image": "https://m.yodycdn.com/blog/quyen-gop-quan-ao-yodyvn3.jpg",
         "url": "test2.html",
-        "address": "456 Đường Lê Văn Lương, Quận 7, TP. HCM",
-        "email": "chungtayq7@gmail.com",
-        "phone": "0987654321",
-        "intro": "- Phân phát thực phẩm, áo ấm cho trẻ em vùng khó khăn.<br>- Hợp tác với các nhà hảo tâm và doanh nghiệp.",
+        "address": "184 Phan Văn Khỏe, Phường 05, Quận 06, TP. HCM",
+        "email": "",
+        "phone": " 0384698563",
+        "intro": "Thành lập năm 1997, trực thuộc Hội phụ nữ từ thiện TPHCM <br> -là cơ sở nuôi dạy các trẻ em cơ nhỡ không cha mẹ hoặc bị bỏ rơi. <br>-Nguồn kinh phí nuôi dạy các em dựa vào sự ủng hộ chủ yếu của các mạnh thường quân. Hiện có 20 em đang được mái ấm nuôi dưỡng",
         "activities": [
             {
                 "title": "Tặng áo ấm mùa đông",
@@ -203,9 +203,9 @@ const programs = [
         "image": "https://sfccharity.com/wp-content/uploads/2020/01/13716100_932527380189703_6066800092272126063_n.jpg",
         "url": "test2.html",
         "address": "78 Nguyễn Đình Chiểu, Quận 3, TP. HCM",
-        "email": "maiamanhsang@gmail.com",
-        "phone": "0912345678",
-        "intro": "- Thành lập năm 2005, hỗ trợ trẻ em mồ côi và người khuyết tật.<br>- Cung cấp giáo dục và kỹ năng sống.<br>- Hỗ trợ tìm việc làm cho người khuyết tật.",
+        "email": "",
+        "phone": "028 3931 3837",
+        "intro": "Mái ấm là một tổ chức từ thiện của quận 3 được thành lập từ năm 1995 <br>- đã nuôi dưỡng, chăm sóc hàng trăm trẻ em lang thang, cơ nhỡ, mồ côi trở thành những công dân có ích cho xã hội..",
         "activities": [
             {
                 "title": "Học bổng Ánh Sáng",
@@ -219,15 +219,15 @@ const programs = [
     },
     {
         "id": 5,
-        "name": "Nhà Rồng Quận 4",
-        "district": "Quận 4",
+        "name": "TRƯỜNG HY VỌNG",
+        "district": "Quận 6",
         "description": "Cung cấp nơi ở và giáo dục cho trẻ em nghèo.",
         "image": "https://cdn.dientudacam.vn//media/articles/10838/8f8f8cb10574cfe90cc94dc78ea6688d.jpg",
         "url": "test2.html",
-        "address": "12 Tôn Đản, Quận 4, TP. HCM",
-        "email": "nharongq4@gmail.com",
-        "phone": "0932145678",
-        "intro": "- Hỗ trợ trẻ em nghèo có nơi ở và học tập.<br>- Tổ chức lớp học bổ trợ miễn phí.<br>- Hỗ trợ thực phẩm hàng tháng.",
+        "address": "55/4 Lý Chiêu Hoàng, Phường 10, Quận 6",
+        "email": "",
+        "phone": "028 3876 9191",
+        "intro": "- Thành lập năm 1999. <br>- trường tiếp nhận hai đối tượng học sinh là khuyết tật nghe nói (khiếm thính) và khuyết tật trí tuệ (bao gồm những em có hội chứng Down, bại não, tự kỷ…) trong độ tuổi từ 6 tháng tuổi đến 18 tuổi, sinh sống trên địa bàn quận 6.",
         "activities": [
             {
                 "title": "Lớp học bổ trợ",
@@ -241,14 +241,14 @@ const programs = [
     },
     {
         "id": 6,
-        "name": "Mái Ấm Tình Thương Quận 5",
+        "name": "LỚP HỌC TÌNH THƯƠNG VINH SƠN",
         "district": "Quận 5",
         "description": "Hỗ trợ người già neo đơn và trẻ em mồ côi.",
         "image": "https://sfccharity.com/wp-content/uploads/2021/08/82416997_1078457679162664_2500759822085914624_n-960x636.jpg",
         "url": "test2.html",
-        "address": "56 Nguyễn Trãi, Quận 5, TP. HCM",
-        "email": "maiamtinhthuongq5@gmail.com",
-        "phone": "0945678901",
+        "address": "Nhà thờ Chợ Quán, 120 Đ. Trần Bình Trọng, Phường 2, Quận 5, TP. HCM",
+        "email": "",
+        "phone": " 02839235067",
         "intro": "- Thành lập năm 2010, hỗ trợ người già và trẻ em mồ côi.<br>- Cung cấp nơi ở và chăm sóc y tế.<br>- Tổ chức sinh nhật hàng tháng cho trẻ em.",
         "activities": [
             {
@@ -258,28 +258,6 @@ const programs = [
             {
                 "title": "Sinh nhật yêu thương",
                 "description": "Tổ chức sinh nhật cho trẻ em mồ côi."
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "name": "Cánh Chim Rời Quận 8",
-        "district": "Quận 8",
-        "description": "Hỗ trợ trẻ em lang thang và người vô gia cư.",
-        "image": "https://laodongthudo.vn/stores/news_dataimages/ducha/112020/30/16/3254_Cung_ngYYi_vo_gia_cY_chia_sY_chuyYn_tro..jpg?rt=20201130163256",
-        "url": "test2.html",
-        "address": "89 Phạm Hùng, Quận 8, TP. HCM",
-        "email": "canhchimroi@gmail.com",
-        "phone": "0923456789",
-        "intro": "- Hỗ trợ trẻ em lang thang và người vô gia cư.<br>- Cung cấp bữa ăn và nơi ở tạm thời.<br>- Hỗ trợ tái hòa nhập cộng đồng.",
-        "activities": [
-            {
-                "title": "Bữa ăn miễn phí",
-                "description": "Phát cơm miễn phí hàng ngày."
-            },
-            {
-                "title": "Hỗ trợ tái hòa nhập",
-                "description": "Giúp người vô gia cư tìm việc làm và chỗ ở ổn định."
             }
         ]
     },
