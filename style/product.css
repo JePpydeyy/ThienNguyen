@@ -298,7 +298,7 @@ header {
     z-index: 1000;
 }
 nav{
-    padding-left: 300px ;
+   margin: 0 auto;
 }
 
 .logo img {
