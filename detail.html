@@ -32,51 +32,53 @@
         </nav>
     </header>
     <main>
-        <section class="details-card" id="program-details">
-            <p>Đang tải chi tiết chương trình...</p>
-        </section>
-        <a href="/ThienNguyen/sanpham.html" class="btn-back">← Quay lại</a>
+        <div class="vvb">
+            <section class="details-card" id="program-details">
+                <p>Đang tải chi tiết chương trình...</p>
+            </section>
+            <a href="/ThienNguyen/sanpham.html" class="btn-back">← Quay lại</a>
+        </div>
     </main>
 
     <script>
        document.addEventListener("DOMContentLoaded", () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const programId = urlParams.get("id"); // Lấy giá trị id từ URL
-    const container = document.getElementById("program-details");
+        const urlParams = new URLSearchParams(window.location.search);
+        const programId = urlParams.get("id"); // Lấy giá trị id từ URL
+        const container = document.getElementById("program-details");
 
-    if (!programId) {
-        container.innerHTML = "<p>Không tìm thấy ID chương trình.</p>";
-    } else {
-        // Tìm sản phẩm trong mảng `programs` dựa trên id
-        const program = programs.find((p) => p.id === parseInt(programId));
-
-        if (!program) {
-            container.innerHTML = "<p>Không tìm thấy chương trình.</p>";
+        if (!programId) {
+            container.innerHTML = "<p>Không tìm thấy ID chương trình.</p>";
         } else {
-            // Hiển thị thông tin chi tiết của sản phẩm
-            container.innerHTML = `
-                <div class="details-image">
-                    <img src="${program.image}" alt="${program.name}">
-                </div>
-                <div class="details-content">
-                    <h1>${program.name}</h1>
-                    <p><strong>Quận:</strong> ${program.district}</p>
-                    <p><strong>Mô tả:</strong> ${program.description}</p>
-                    ${program.address ? `<p><strong>Địa chỉ:</strong> ${program.address}</p>` : ""}
-                    ${program.email ? `<p><strong>Email:</strong> ${program.email}</p>` : ""}
-                    ${program.phone ? `<p><strong>Số điện thoại:</strong> ${program.phone}</p>` : ""}
-                    <p><strong>Giới thiệu:</strong> ${program.intro}</p>
-                </div>
-            `;
+            // Tìm sản phẩm trong mảng `programs` dựa trên id
+            const program = programs.find((p) => p.id === parseInt(programId));
+
+            if (!program) {
+                container.innerHTML = "<p>Không tìm thấy chương trình.</p>";
+            } else {
+                // Hiển thị thông tin chi tiết của sản phẩm
+                container.innerHTML = `
+                    <div class="details-image">
+                        <img src="${program.image}" alt="${program.name}">
+                    </div>
+                    <div class="details-content">
+                        <h1>${program.name}</h1>
+                        <p><strong>Quận:</strong> ${program.district}</p>
+                        <p><strong>Mô tả:</strong> ${program.description}</p>
+                        ${program.address ? `<p><strong>Địa chỉ:</strong> ${program.address}</p>` : ""}
+                        ${program.email ? `<p><strong>Email:</strong> ${program.email}</p>` : ""}
+                        ${program.phone ? `<p><strong>Số điện thoại:</strong> ${program.phone}</p>` : ""}
+                        <p><strong>Giới thiệu:</strong> ${program.intro}</p>
+                    </div>
+                `;
+            }
         }
-    }
-    
-});
-    </script>
-    <main>
-        <section id="program-details" class="program-details">
-            <!-- Thông tin chi tiết sẽ được hiển thị ở đây -->
-        </section>
+        
+    });
+        </script>
+        <main>
+            <section id="program-details" class="program-details">
+                <!-- Thông tin chi tiết sẽ được hiển thị ở đây -->
+            </section>
     </main>
     <script src="./main.js"></script>
 </body>

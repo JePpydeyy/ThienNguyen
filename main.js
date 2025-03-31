@@ -1,127 +1,145 @@
 const news =  [
     {
+        "id": 1,
         "date": "2024-10-10",
         "title": "Những quán cơm tiếp sức đoàn cứu trợ miền Bắc",
         "image": "https://i1-giadinh.vnecdn.net/2024/09/12/VNE7598-jpeg-1725970142-9726-1726120207.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=u8Ls2C_vmju3i4VOKp81Tg",
         "content": "Quán cơm của chị Phan Thị Lan ở xã Ia Le (huyện Chư Pưh, Gia Lai) thông báo sẽ phục vụ miễn phí các đoàn cứu trợ lũ lụt từ Tây Nguyên đi miền Bắc, từ nay tới 12/10. Quán cơm nằm gần Trạm thu phí 110, giáp ranh tỉnh Đăk Lăk và Gia Lai, là nơi có lượng xe qua lại lớn. Mấy ngày qua, nhìn đoàn xe từ các tỉnh thành miền Nam, Tây Nguyên nối đuôi nhau hướng ra Bắc, chị Lan thấy xúc động. 'Chúng tôi không đi được thì tiếp sức các đoàn thiện nguyện để họ đảm bảo sức khỏe, đỡ phần nào chi phí dọc đường', chị Lan, 55 tuổi nói. Bà chủ quán cơm gà thông báo trên mạng xã hội từ chiều 11/9. Sáng nay quán được mấy đoàn từ Đăk Nông, Đăk Lăk liên hệ, đăng ký cơm miễn phí. Chị Lan nói sẽ đón tất cả các đoàn cứu trợ, chỉ hy vọng mọi người liên hệ sớm để được phục vụ tốt nhất. Đây không phải lần đầu gia đình làm việc này. Họ từng nấu cơm miễn phí gần một tháng cho các đoàn cứu trợ lũ lụt năm 2020 và phục vụ các khu cách ly Covid-19. Từ chiều 11/9, anh Hoàng Quang Trung, 41 tuổi, chủ một nhà hàng ở Đồng Hới, Quảng Bình đón các đoàn cứu trợ ăn, ngủ miễn phí. Hai ngày nay có khoảng gần 10 đoàn từ các tỉnh phía Nam, Đà Nẵng và Huế đang hỗ trợ ở các tỉnh Tây Bắc, hẹn khi quay về sẽ dừng nghỉ.  Tại Thanh Hóa, sau khi gói hàng đi cứu trợ đêm 10/9, chị Phương Anh, chủ nhà hàng ở km số 12, quốc lộ 47 vẫn trăn trở. Những năm trước chị đều đi thiện nguyện bão lũ miền Trung, nay vì sức khỏe yếu không đi được. Chị nảy ra kế hoạch lập bếp ăn miễn phí cho các đoàn thiện nguyện đi qua. Ông chủ 33 tuổi cho biết may mắn được nhiều người chia sẻ thông tin cho các đoàn. Hôm 11/9, quán đã phục vụ ba đoàn 10, 13 và 16 người từ Thanh Hóa và Nghệ An đang trên đường ra Bắc. Hôm nay và mai đang có các đoàn từ Nghệ An và Quảng Bình đến."
-      },
-      {
+    },
+    {
+        "id": 2,
         "date": "2025-02-10",
         "title": "Sau Mái ấm Hoa Hồng, thêm một mái ấm tại Quận 12, TP HCM bị đình chỉ hoạt động",
         "image": "https://tse2.mm.bing.net/th?id=OIP.Cxv_LBTlmuM3ze8DVilgygHaE6&pid=Api&P=0&h=180",
         "content": "Ngày 26-10, UBND Quận 12 có văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM về việc đề nghị hỗ trợ tiếp nhận trẻ em. Nguyên nhân là do đình chỉ hoạt động Cơ sở trợ giúp xã hội ngoài công lập Mái ấm tình thương Quan Âm (phường Hiệp Thành, Quận 12 - gọi tắt là Mái ấm tình thương Quan Âm). Cụ thể, trong văn bản gửi Sở Lao động - Thương binh và Xã hội TP HCM, UBND Quận 12 cho biết liên quan vụ việc một số báo chí đưa tin '2 người mẹ trình báo không gặp được con sau khi gửi ở Mái ấm tình thương Quan Âm tại TP HCM', đơn vị này đã kiểm tra đột xuất Mái ấm tình thương Quan Âm.Theo tìm hiểu của phóng viên, vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ là 'không bảo đảm một trong các điều kiện về môi trường, y tế, vệ sinh, cơ sở vật chất, cán bộ, nhân viên;'Qua kiểm tra, UBND Quận 12 ghi nhận Mái ấm tình thương Quan Âm vi phạm quy định tại điểm c, khoản 4 và khoản 6, Điều 8 Nghị định số 130/2021/NĐ-CP ngày 30-12-2021 của Chính phủ quy định xử phạt vi phạm hành chính trong lĩnh vực bảo trợ, trợ giúp xã hội và trẻ em. Do đó, UBND Quận 12 xử lý vi phạm hành chính kèm đình chỉ hoạt động 12 tháng đối với Mái ấm tình thương Quan Âm. Đồng thời, đề nghị Sở Lao động - Thương binh và Xã hội TP HCM hỗ trợ tiếp nhận vào các cơ sở trợ giúp xã hội do Sở quản lý đối với 33 trẻ em hiện đang chăm sóc, nuôi dưỡng tại mái ấm này. Nguyên nhân là do mái ấm này bị UBND Quận 12 đình chỉ hoạt động."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 3,
         "date": "2024-12-25",
         "title": "Học sinh Newton được truyền đam mê làm thiện nguyện",
         "image": "https://i1-vnexpress.vnecdn.net/2024/12/24/Image-ExtractWord-0-Out-5514-1735023150.png?w=680&h=0&q=100&dpr=1&fit=crop&s=tvqsqvig5HGRCar528m6NQ",
         "content": "Thấm nhuần tinh thần tương thân tương ái của nhà trường, học sinh Newton thể hiện trách nhiệm với cộng đồng ngay từ khi ngồi trên ghế nhà trường. Trần Mỹ Anh, cựu học sinh lớp 12G niên khóa 2019 - 2022, Trường THCS - THPT Newton (thuộc Hệ thống Trường liên cấp Newton, thành viên Tập đoàn Giáo dục EQuest) là một trong những học sinh tích cực tham gia các hoạt động thiện nguyện của trường ngay từ những năm đầu cấp ba. Cô gái quê Yên Bái là học sinh tiêu biểu cấp trường nhiều năm liên tiếp từng tham gia dự án thiện nguyện HomeUp Heroes mùa bảy; tổ chức gây quỹ và kêu gọi quyên góp quần áo, sách vở cho các em nhỏ và hộ gia đình có hoàn cảnh đặc biệt khó khăn tại xã Văn Nghĩa, huyện Lạc Sơn, tỉnh Hòa Bình; tặng quà, sách vở cho các em nhỏ người dân tộc thiểu số tại xã Lâm Sơn, huyện Lương Sơn, tỉnh Hoà Bình. Các dự án trên đều được thành lập bởi chính các em học sinh trong trường với mục đích làm mới không gian sống và giúp đỡ những mảnh đời khó khăn, lan tỏa giá trị tốt đẹp tới cộng đồng."
-      },
-      {
+    },
+    {
+        "id": 4,
         "date": "2025-03-12",
         "title": "Người nước ngoài làm tình nguyện ở Việt Nam",
         "image": "https://i1-giadinh.vnecdn.net/2024/09/20/Screen-Shot-2024-09-20-at-14-4-1317-4926-1726821475.png?w=680&h=0&q=100&dpr=1&fit=crop&s=_vBu482v1b5XRNvvmN461A",
         "content": "Vài tháng sau khi tốt nghiệp trung học, Mara một mình xách vali bay từ Berlin đến TP HCM bắt đầu một năm làm tình nguyện. Cô tìm được việc dạy tiếng Anh miễn phí, tuần 5 buổi, cho một trung tâm ở quận Bình Thạnh qua ứng dụng Worldpacker. 'Bạn bè tôi đã kể khá nhiều về sự thân thiện của người Việt Nam', cô gái Đức nói. Khi cô định nghỉ học một năm (gap year) để đi du lịch vòng quanh Đông Nam Á bố mẹ khuyên Mara nên đi làm tình nguyện để được hòa mình với cuộc sống của người bản địa và hiểu hơn về văn hóa nước khác. Dù vậy, lúc bước vào lớp và đối diện với 30 học viên, Mara có vẫn lo âu, hồi hộp. Cô được phân công ngồi cùng nhóm 5 người để hội thoại theo chủ đề bài học. Mara giúp cô gái ngồi cạnh sửa một số lỗi sai về phát âm, hướng dẫn cả nhóm cách sắp xếp từ vựng, đặt câu để viết thành đoạn, mô tả một cảnh đẹp Việt Nam 'Họ thân thiện và chúng tôi đã có những giờ học tuyệt vời', cô nói. 'Tôi cũng đã học được nhiều thứ từ họ'. Các học viên giải đáp thắc mắc của cô về đời sống về đêm ở TP HCM. Họ giúp cô vượt qua cú sốc về giao thông giờ tan tầm, chỉ cô vài từ xin đường cơ bản. 'Đó là những điều tôi không bao giờ có được nếu chỉ đi du lịch', Mara nói."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 5,
         "date": "2025-02-12",
         "title": "Tiệm mì gõ 0 đồng trong đêm ở Sài Gòn",
         "image": "https://i1-giadinh.vnecdn.net/2024/04/06/233A1470-1712369970.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=bw1vxvIsSTNWftPMcoglYg",
         "content": "Mỗi cuối tuần, nhóm thiện nguyện của anh Trần Đình Long chuẩn bị hơn 800 tô mì phục vụ miễn phí cho bà con lao động, trên đường Phạm Ngũ Lão, Quận 1.  20h ngày 5/4, tại số 212 Phạm Ngũ Lão, đoạn gần công viên 23/9 (Quận 1) nhóm từ thiện Nhất Tâm tổ chức nấu mì cho những lao động nghèo làm việc khuya Anh Trần Đình Long, 43 tuổi, trưởng nhóm cho biết hoạt động này diễn ra khoảng nửa năm nay, vào tối thứ 6, thứ 7 mỗi tuần tại hai địa điểm trên đường Phạm Ngũ Lão và 262 Nguyễn Chí Thanh (Quận 10). 'Mì gõ là món thân quen với người lao động Sài Gòn từ lâu nên khi nấu sẽ phục vụ được nhiều bà con hơn', anh Long nói. Nhóm bắt đầu nấu từ 19h nhưng trước đó đã có nhiều người tới ngồi chờ. Hơn 10 bàn nhựa được kê, bên trên để sẵn bát đũa, chanh, tương ớt. 'Hồi mới làm thường đến giữa đêm mới hết mì nhưng giờ chưa đầy bốn tiếng là dọn đồ về rồi', trưởng nhóm nói. Từ buổi sáng, cả nhóm bắt đầu chuẩn bị thực phẩm, sơ chế rau, thịt rồi mang tất cả nguyên liệu từ Quận 7 ra điểm bán hàng. Tô mì khá đơn giản với nước lèo, chả, trứng, xúc xích, hành, giá, được chế biến nhanh để kịp phục vụ bà con lao động Các tình nguyện viên phục vụ người dân tại từng bàn, không xảy ra cảnh chen lấn, giành giật."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 6,
         "date": "2025-01-12",
         "title": "Bạo hành trẻ ở mái ấm Hoa Hồng: Tìm người gửi, cho con cho Giáp Thị Sông Hương",
         "image": "https://tse4.mm.bing.net/th?id=OIP.f3E6OrIyAOMKbx-8SolodwHaEo&pid=Api&P=0&h=180",
         "content": "Liên quan đến vụ bạo hành trẻ em tại Mái ấm Hoa Hồng (L52 Tô Ký, phường Trung Mỹ Tây, Quận 12, TP.HCM) ngày 24/10, Cơ quan Cảnh sát điều tra Công an TP.HCM phát lệnh truy tìm các nhân chứng nhằm phục vụ công tác điều tra.  Theo Công an TP.HCM, vụ án hành hạ người khác được phát hiện vào ngày 4/9, hiện cơ quan điều tra đang tìm kiếm những người đã nhận con nuôi hoặc từng gửi, cho con vào Mái ấm Hoa Hồng, cũng như có liên hệ với bà Giáp Thị Sông Hương, chủ mái ấm.  Ngoài ra, Công an TP.HCM kêu gọi các nhà hảo tâm đã từng ủng hộ tiền, vật chất cho mái ấm, hãy đến Cơ quan Cảnh sát điều tra (Đội 3 - Phòng Cảnh sát hình sự) tại địa chỉ 459 Trần Hưng Đạo, phường Cầu Kho, Quận 1, hoặc liên hệ qua số điện thoại 069.318.7414 gặp điều tra viên Phạm Văn Hải để cung cấp thông tin, phối hợp điều tra, làm rõ vụ việc.  Trước đó, tại buổi họp báo định kỳ TP.HCM chiều 5/9, bà Võ Thị Chính, Phó Chủ tịch UBND Quận 12 cho biết, quận đã nhiều lần kiểm tra cơ sở trên. Vào tháng 10/2023 và tháng  4/2024, Phòng LĐ-TB&XH quận cùng các đơn vị liên quan đã kiểm tra định kỳ; tháng 7/2024, Ủy ban MTTQ Việt Nam Quận 12 đã trực tiếp xuống cơ sở này giám sát nhưng chưa lần nào kiểm tra phát hiện số lượng trẻ chăm sóc tại đây vượt quá số lượng cũng như hành vi bạo hành trẻ.  Theo bà Chính, cơ sở chỉ được phép nuôi 39 trẻ nhưng sau khi báo chí phản ánh, các cơ quan chức năng kiểm tra thì phát hiện có đến 86 trẻ, vượt quá số lượng được cấp phép 47 trẻ.  Trong đó có 15 trẻ sơ sinh, 36 trẻ từ 1 đến 2 tuổi, 31 trẻ từ 3 đến 5 tuổi đang học tại Trường mầm non Sóc Bông, 3 trẻ từ 6 đến 12 tuổi, 1 trẻ đang điều trị bệnh tại bệnh viện.  Công an Quận 12 đã làm việc với chủ cơ sở để làm rõ nguồn gốc 47 trẻ ở đâu ra và xem xét có yếu tố trục lợi hay không.  Bà Chính cũng cho biết, theo quy định về việc kiểm tra thường xuyên thì phải có kế hoạch và thông báo trước cho cơ sở. Vì vậy, việc kiểm tra thường xuyên rất khó phát hiện sai phạm, cơ sở bảo trợ đã có hành vi đối phó rất tinh vi. Đây là bài học cho quận để quản lý chặt chẽ hơn nữa các cơ sở bảo trợ xã hội thông qua kiểm tra thường xuyên, đột xuất. Ngày 6/9, Cơ quan CSĐT Công an TP.HCM đã khởi tố vụ án, bắt giam 2 bảo mẫu Nguyễn Thị Ngọc Cẩm và Diệp Ngọc Tuyền (SN 1977, ngụ tỉnh Sóc Trăng), để điều tra về tội “Hành hạ người khác” theo Điều 140 Bộ luật hình sự."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 7,
         "date": "2025-03-15",
         "title": "Vụ bạo hành trẻ em: Bà chủ mái ấm Hoa Hồng Giáp Thị Sông Hương khai gì?",
         "image": "https://static-images.vnncdn.net/vps_images_publish/000001/000003/2024/9/4/giap-thi-song-huong-2030.jpg",
         "content": "Công an Quận 12, TPHCM hôm nay (4/9) phối hợp cùng các cơ quan chức năng mời bà Giáp Thị Sông Hương (50 tuổi, quê Bắc Giang) - chủ cơ sở mái ấm Hoa Hồng - cùng một số bảo mẫu lên làm việc.  Ngoài ra, còn một số bảo mẫu khác liên quan đến hành vi bạo hành trẻ em nhưng không có mặt tại mái ấm Hoa Hồng khi cơ quan chức năng đến kiểm tra vào sáng nay. Hiện Công an Quận 12 đang truy xét, tiến hành mời làm việc đối với những người này. Cơ quan chức năng đang kiểm tra toàn diện đối với mái ấm Hoa Hồng, bước đầu xác định tại đây có 86 trẻ. Theo khai báo của những người liên quan, phần lớn trẻ tại mái ấm bị bỏ rơi, mẹ sinh ra nhưng không có điều kiện nuôi nấng nên mái ấm nhận vào. Ngoài ra, nhiều trẻ có cha mẹ là công nhân, người lao động tại khu vực xung quanh gửi cho mái ấm, sáng đưa đến và chiều đón về.  Hiện UBND Quận 12 đã có báo cáo Sở Lao động - Thương binh và Xã hội TPHCM về mái ấm Hoa Hồng cũng như sự việc bạo hành trẻ em xảy ra nơi đây mà báo chí phản ánh. Cơ quan chức năng Quận 12 đang tiếp tục làm rõ về nhân thân, lai lịch của các bé tại cơ sở này. Trước mắt, chính quyền địa phương sẽ đưa các bé đến Trung tâm Bảo trợ trẻ em Tam Bình (Quốc lộ 1A, phường Bình Chiểu, TP Thủ Đức) để tiếp tục chăm sóc và sẽ xem xét, có hướng xử lý sau. Một nguồn tin cho hay, trong buổi làm việc với cơ quan công an, bà Giáp Thị Sông Hương tường trình luôn cố gắng đảm bảo điều kiện tốt nhất trong việc nuôi dạy trẻ tại mái ấm. Việc các bảo mẫu bạo hành trẻ là hành động bộc phát, mất kiểm soát trong lúc chăm sóc, bà Hương không biết và mái ấm không chủ trương những hành vi như vậy. Tuy nhiên, đây mới là lời khai từ phía người đại diện cơ sở này. Cơ quan công an đang tiếp tục làm rõ"
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 8,
         "date": "2025-03-17",
         "title": "Quá khứ vui vẻ, tích cực của Quang Linh Vlogs",
         "image": "https://cdn2.tuoitre.vn/zoom/260_163/471584752817336320/2025/3/17/photo1642151206515-1642151206806328634195jpeg-2-17421880889171632453917.jpg",
         "content": "Dù vướng vào ồn ào, các video cũ của Quang Linh Vlogs tại châu Phi vẫn được khán giả chia sẻ mạnh mẽ, như một cách nhắc nhở về những đóng góp ý nghĩa của anh. Những khoảnh khắc anh cùng các anh em xây trường, hướng dẫn trẻ em học tiếng Việt, hay đơn giản là những trận bóng đá giao lưu với người dân địa phương tiếp tục lan tỏa năng lượng tích cực. Không ít người tin rằng, dù gặp sai lầm, Quang Linh Vlogs vẫn là một người có đóng góp lớn cho cộng đồng và xứng đáng nhận được cơ hội sửa sai. Việc Quang Linh Vlogs sắp trở lại châu Phi cũng khiến nhiều người mong đợi những dự án thiện nguyện mới.Trong quá trình giới thiệu, anh đã sử dụng những lời lẽ gây hiểu nhầm về công dụng sản phẩm, như so sánh một viên kẹo với một đĩa rau củ, khiến nhiều khán giả phản ứng.Trước làn sóng chỉ trích, Quang Linh đã tổ chức buổi gặp gỡ cùng đại diện nhãn hàng để xin lỗi công khai và nhận trách nhiệm về sai sót.Sự việc vừa qua là một bài học đáng giá cho Quang Linh Vlogs về trách nhiệm trong quảng bá sản phẩm.Câu chuyện cũng đặt ra câu hỏi lớn hơn về đạo đức trong lĩnh vực influencer marketing - khi sức ảnh hưởng của người nổi tiếng có thể tác động trực tiếp đến hành vi tiêu dùng của hàng triệu người.Dù vậy với những gì đã làm được tại châu Phi, Quang Linh Vlogs vẫn có cơ hội lấy lại niềm tin từ công chúng.Nếu tiếp tục giữ vững giá trị cốt lõi của mình và cẩn trọng hơn trong các hoạt động thương mại, Quang Linh Vlogs hoàn toàn có thể duy trì được tình cảm yêu mến từ khán giả. "
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 9,
         "date": "2025-03-18",
         "title": "Chi tiêu tiền từ thiện không đúng khiến lòng người dậy sóng",
         "image": "https://cdn2.tuoitre.vn/thumb_w/730/471584752817336320/2025/3/6/pham-thoai-1-17405019063872114370265-17412332958511415947051.jpg",
         "content": "Mấy ngày qua vụ từ thiện liên quan đến Phạm Thoại - một TikToker nổi tiếng đã gây nên những lùm xùm. Trong số hơn 1 triệu người dõi theo phiên sao kê, ngoài những người đã chung tay vào chương trình ủng hộ cho 'bé Bắp' - bệnh nhi mà nam TikToker này kêu gọi, còn rất nhiều người hiếu kỳ khác. Thực ra từ thiện và những lùm xùm xung quanh nó đã từng diễn ra, nhất là khi hoạt động vốn nhân văn này gắn với người nổi tiếng, do người nổi tiếng đứng ra tổ chức. Thực tế người nổi tiếng luôn có lượng người theo dõi, yêu thích, ủng hộ đông nên việc kêu gọi, cần cộng đồng hỗ trợ của họ luôn nhanh chóng lan tỏa, hiệu quả.  Do vậy những chương trình từ thiện, hoạt động thiện nguyện, vì người nghèo, hướng đến môi trường hoặc các đối tượng yếu thế cần yểm trợ rất cần người nổi tiếng chung tay. Tuy nhiên khi họ làm từ thiện và thiếu chuyên nghiệp, chẳng hạn không nắm hết được dòng tiền ủng hộ, dòng tiền chi tiêu vào các hoạt động chung, hoặc thiếu sâu sát trong nắm bắt thông tin đối tượng cần hỗ trợ… sẽ dễ dẫn tới những hệ lụy đáng tiếc. Bản thân người làm từ thiện không chuyên cũng sẽ không theo dõi đầy đủ, báo cáo chi tiết các khoản tiền vào - ra, theo đúng quy trình (cả về cách thức báo cáo lẫn thời gian thông tin vốn càng sớm càng tốt). Điều này dẫn đến hoài nghi nơi cộng đồng và sự hoài nghi này có cơ sở.Tổ chức một hoạt động thiện nguyện, một chương trình từ thiện đòi hỏi nhiều công sức để tránh sơ sót, cơ hiềm. Đầu tiên là đi tiền trạm - tìm hiểu về địa phương, đối tượng cần hỗ trợ, đối chiếu qua về các nguồn thông tin, từ thực tế cuộc sống, hoàn cảnh, nhu cầu mà đối tượng cần.Mang món quà người ta cần thì họ mới dùng được và mới giúp thay đổi cuộc sống của họ, an ủi tinh thần họ. Mang đến không đúng nhu cầu hoặc thừa mứa đều không đúng tinh thần 'cấp cứu' của hoạt động từ thiện. Điều này thường thấy trong các đợt cứu trợ bão lụt. Nhiều khi làng bị lũ nhận ê hề mì ăn liền, muối, bột ngọt trong khi họ cần thuốc men hơn, hoặc tiền bạc để tái thiết cuộc sống. Dư luận từng nói thẳng cứu trợ bão lụt sao cứ phải là… mì gói, để nói lên sự không tương thích trong món quà và nhu cầu thực tế của người nhận quà."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 10,
         "date": "2024-09-20",
         "title": "Vingroup gây quỹ, kêu gọi cộng đồng chung tay tái thiết sau bão lũ",
         "image": "https://i1-kinhdoanh.vnecdn.net/2024/09/20/image001-9209-1726797706.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=ZvVdwiCORwZn2e1C94XgmQ",
         "content": "Hà NộiTập đoàn Vingroup tổ chức hội chợ, giải chạy và đêm nhạc gây quỹ, chung tay hỗ trợ người dân các địa phương bị thiệt hại sau bão lũ. Ngày 19/9, Tập đoàn Vingroup, các công ty thành viên và đối tác công bố tổ chức chuỗi hoạt động thiện nguyện 'Gieo mầm thiện tâm', kéo dài đến hết ngày 30/9. Mục tiêu là huy động sức mạnh của cộng đồng, góp phần đẩy nhanh quá trình tái thiết cuộc sống cho đồng bào sau lũ. Chương trình được triển khai riêng biệt với quỹ cứu trợ bão lũ khẩn cấp 250 tỷ đồng đã công bố hôm 12/9."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 11,
         "date": "2023-11-18",
         "title": "Nhóm 'Hữu Duyên Sài Gòn' và cái tâm của người 'thuyền trưởng'",
         "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/11/16/anh-thu-hoang-1-17001297047811923273351.jpg",
         "content": "Đồng cảm với người nghèo khó, Trương Thư Hoàng - chàng trai Cà Mau (sinh năm 1985) phát tâm làm thiện nguyện. Biết sức mình có hạn, anh gieo duyên để nhiều tấm lòng thiện nguyện cùng kết nối, tạo nên sức mạnh tập thể. Nhóm 'Hữu Duyên Sài Gòn' ra đời từ đó… Ở phía của người nghèo Sinh ra và lớn lên ở Cà Mau, trong gia đình mẹ góa, con côi, Trương Thư Hoàng đã phải bươn chải nhiều công việc phụ mẹ từ nhỏ. Mẹ bán rau ở chợ, 7-8 tuổi anh đã biết thức dậy sớm để dọn hàng, phụ bán. 'Hồi đó nhà Hoàng nghèo lắm, ở với ngoại, được cậu thương', anh kể mà rưng rưng."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 12,
         "date": "2024-01-03",
         "title": "Những suất cơm 0 đồng chia sẻ với bà con khó khăn",
         "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2024/1/2/anh-5-online-170419132662334837741.jpg",
         "content": "Lê Thanh Hùng ngụ P.7 (TP.Bến Tre, Bến Tre) đã thực hiện nhiều mô hình vì cộng đồng, nổi bật là 'Suất cơm 0 đồng'. Sau dịch Covid-19, nhiều người lao động bị mất việc làm, đời sống của người bán vé số, nhặt ve chai… bị ảnh hưởng rất nhiều. Từ đó, Hùng nảy sinh ý tưởng kết hợp cùng quán ăn từ thiện thực hiện mô hình 'Suất cơm 0 đồng' nhằm chia sẻ khó khăn với bà con. Mô hình 'Suất cơm 0 đồng' chính thức hoạt động từ thứ hai đến thứ sáu hằng tuần, các đoàn viên, thanh niên phân chia công việc theo nhóm, đi các tuyến đường trên địa bàn P.7 trao các phần cơm cho người lao động nghèo."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 13,
         "date": "2021-07-07",
         "title": "Tất bật chuẩn bị 1.400 suất cơm 0 đồng tiếp sức mùa thi",
         "image": "https://thanhnien.mediacdn.vn/uploaded/hinhdd/2021_07_07/3_KGRS.jpg",
         "content": "Trong 2 ngày thi tốt nghiệp THPT, hơn 30 tình nguyện viên tất bật, chung tay chuẩn bị những suất cơm 0 đồng để trao tận tay cho các thí sinh có hoàn cảnh khó khăn , nhà xa. Tại nhà ăn trường tiểu học Tân Phú C (P.Tân Phú, TP.Đồng Xoài, Bình Phước), hơn 30 tình nguyện viên mọi lứa tuổi đã chuẩn bị các suất cơm 0 đồng, kịp mang đến các điểm thi trước thời gian môn thi văn kết thúc để kịp phát tận tay cho các thí sinh tham gia kỳ thi tốt nghiệp THPT."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 14,
         "date": "2025-03-29",
         "title": "Đem niềm vui tới các em nhỏ ở điểm trường Khò Hồng",
         "image": "https://image.nhandan.vn/w790/Uploaded/2025/pile/2025_02_27/kh3-5131-4871.png.webp",
         "content": "NDO - Chẳng quản ngại đường xa, những học sinh trung học phổ thông từ Hà Nội đã tới với các em nhỏ ở điểm trường bản Khò Hồng, xã Chiềng Xuân (Vân Hồ, Sơn La). Không chỉ mang theo các món quà ý nghĩa như sách vở, đồ dùng học tập, tivi, máy lọc nước,… những bạn trẻ từ thành phố còn mang tới cho các em học sinh rất nhiều niềm vui, sự ấm áp, tình yêu thương. Em Nguyễn Anh Thư, Trưởng ban tổ chức cho biết, hành trình làm công tác thiện nguyện đến với các em nhỏ ở nơi còn nhiều khó khăn là một trải nghiệm đáng nhớ đối với các thành viên tham gia. Bằng sự nhiệt huyết và tinh thần cộng đồng, chúng em đã cùng nhau chuẩn bị hành trang, mang đến cho các em học sinh vùng cao những vật dụng hữu ích cho việc học, mong muốn giúp phần nào tạo nên một môi trường học tập đủ đầy hơn cho mọi em nhỏ."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 15,
         "date": "2023-10-11",
         "title": "Những người bình thường tạo nên giá trị phi thường",
         "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/10/11/edit-nhom-bo-de-tam-169698434110472941634.jpeg",
         "content": "Trưa hè nắng chói chang, chị gái tôi gọi điện bảo tôi lên Bệnh viện Thanh Nhàn giúp chị một tay vì hôm nay thiếu người. Tôi càu nhàu không muốn đi do đang nằm trong phòng điều hòa mát mẻ. Kêu ca vài câu rồi tôi vẫn dắt xe ra và lên đường. Bệnh viện Thanh Nhàn (Hà Nội) đứng sừng sững giữa cái nắng lúc 13 giờ chiều, tôi gửi xe rồi nép mình vào hành lang chờ đợi. Nhà gần lại đi nhanh nên tôi đến hơi sớm. Sân bệnh viện dù nắng nóng vẫn có nhiều người đi ra đi vào, người cười người khóc... Những phòng bệnh đóng cửa im ỉm, chỉ có khu khám bệnh và phòng cấp cứu là luôn nhộn nhịp."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 16,
         "date": "2023-10-11",
         "title": "Thiện nguyện không đợi tuổi",
         "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/8/7/1-tno-16913800738891646683471.jpg",
         "content": "Có những hoạt động thiện nguyện dù rất thầm lặng, với quy mô bó hẹp trong khu phố hay chỉ một bếp ăn… nhưng lại mang đến niềm cảm hứng mới cho cuộc sống. Vì ở độ tuổi nào họ cũng biết cách làm việc thiện. NHÓM thiện nguyện 'KHÔNG TÊN' Giữa Đà thành náo nhiệt, có nhóm bạn trẻ dù bận rộn mưu sinh nhưng sẵn sàng gác lại công việc để tham gia các hoạt động thiện nguyện. Thành lập cách đây hơn 1 năm, nhóm thiện nguyện quy tụ gần 10 thành viên sinh sống nhiều nơi trên địa bàn TP.Đà Nẵng. Điểm đặc biệt là nhóm không đặt tên, trước đây chỉ có các hoạt động thầm lặng như thăm, tặng quà tại một trung tâm nuôi dưỡng trẻ mồ côi ở TP.Đà Nẵng và chùa Huệ Quang.  Gần đây, nhóm bạn trẻ lập thêm bếp ăn 0 đồng, hoạt động vào ngày rằm, mùng 1 âm lịch hằng tháng để chia sẻ những phần ăn chay đến người lao động nghèo, người già, người khuyết tật..."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 17,
         "date": "2023-04-17",
         "title": "Chàng sinh viên lấy tiền làm thêm mua gạo tặng người nghèo",
         "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/4/16/a2-16816458001491126358770.jpg",
         "content": "Với tấm lòng yêu thương, sinh viên Cao Trọng Nhân (21 tuổi) thực hiện hoạt động tặng gạo cho người nghèo bằng số tiền đi làm bảo vệ hằng đêm. Từ biệt danh 'chàng gạo' Cao Trọng Nhân hiện là sinh viên năm cuối Trường CĐ nghề Cần Thơ. Ngoài tên Nhân, nhiều người còn gọi nam sinh này với biệt danh thân thương là 'chàng gạo'. Bởi hơn 2 năm nay, Nhân lấy tiền làm thêm và vận động nhà hảo tâm đóng góp gạo tặng cho người nghèo mưu sinh về đêm trong nội ô TP.Cần Thơ. Nhân cho biết chương trình tặng gạo được thực hiện từ khi Nhân là sinh viên năm nhất. Trong một lần đi ngoài đường, nhìn những người cơ cực làm việc trong đêm, dù đã muộn nhưng có người mới tranh thủ ăn được bữa cơm nguội. Hình ảnh đó làm Nhân chạnh lòng. Nhân nghĩ: 'Mỗi người mưu sinh một cách khác nhau, nhưng có lẽ họ đều muốn kiếm tiền để bữa ăn gia đình được ấm cúng. Với thu nhập thấp, hẳn mỗi lần mua gạo đối với cô lượm ve chai hay chú quét rác cũng là một vấn đề. Vì vậy, tặng gạo cho các cô, chú sẽ có ý nghĩa, giúp vơi gánh nặng kinh tế'."
-      }
-      ,
-      {
+    }
+    ,
+    {
+        "id": 18,
         "date": "2023-02-05",
         "title": "Câu chuyện đẹp về chàng sinh viên gen Z...",
         "image": "https://images2.thanhnien.vn/thumb_w/640/528068263637045248/2023/2/5/anh-1-16755640266561492944510.jpg",
         "content": "Nhiệt huyết với công tác tình nguyện, Lê Thành Lương, sinh viên năm 3 của Trường CĐ Y tế Cần Thơ đã góp phần lan tỏa nhiều câu chuyện đẹp đến với cộng đồng. '5 lần hiến máu tình nguyện vì việc cứu người thì không thể chần chừ' Lê Thành Lương (quê xã Vĩnh Hanh, huyện Châu Thành, tỉnh An Giang), hiện là sinh viên năm 3 của Trường CĐ Y tế Cần Thơ. Lương kể: 'Sau 12 năm đạt thành tích học sinh giỏi, Lương rất háo hức được trở thành sinh viên. Bởi, môi trường mới không những có nhiều điều mới mẻ để học hỏi mà còn là cơ hội để dấn thân vào một hoạt động mà mình còn rất thích công tác tình nguyện'."
-      }
+    }
 ]
 
 const programs = [

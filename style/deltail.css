@@ -57,17 +57,33 @@ nav ul li a:hover {
     margin: 20px auto;
     padding: 20px;
 }
+
+.vvb{
+  margin: 0 auto;
+}
+
 .details-card {
     display: flex;
+<<<<<<< HEAD
     width: 1290px;
     margin: 0 auto;
    
+=======
+    /* max-width: 1000px; */
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+>>>>>>> 3c68dc08bc14accbac63408d36a61e6c121dd245
     overflow: hidden;
     padding: 20px;
   }
   
   .details-image {
-    flex: 0 0 40%;
+    /* flex: 0 0 40%; */
+    width: 800px;
+    height: auto;
     padding-right: 20px;
   }
   
@@ -78,9 +94,16 @@ nav ul li a:hover {
     object-fit: cover;
   }
   
+<<<<<<< HEAD
   /* .details-content {
     flex: 0 0 60%;
   } */
+=======
+  .details-content {
+    /* flex: 0 0 60%; */
+    width: 700px;
+  }
+>>>>>>> 3c68dc08bc14accbac63408d36a61e6c121dd245
   
   .details-content h1 {
     color: #2c3e50;
@@ -98,6 +121,10 @@ nav ul li a:hover {
   .details-content p strong {
     color: #16a085;
     font-weight: 600;
+  }
+
+  .btn-back{
+    margin-left: 12%;
   }
   
   /* Responsive design cho màn hình nhỏ */
