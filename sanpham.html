@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <link rel="stylesheet" href="style/product.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/grid.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TGGLGHXY5"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -66,7 +70,7 @@
     </main>
 
     <main>
-        <h1>Danh sách chương trình</h1>
+        <h1 style="text-align: center; margin: 30px; color:rgb(0, 132, 255);">Danh sách chương trình</h1>
         <section id="programs" class="programs"></section>
         <div id="pagination" class="pagination"></div>
     </main>
@@ -215,37 +219,41 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("button[onclick='filterPrograms()']").addEventListener("click", filterPrograms);
 });
     </script>
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h5>WEBSITE THIỆN NGUYỆN</h5>
-                <h2>ZEALTEAM</h2>
-            </div>
-            <div class="footer-section">
-                <h5>Liên kết nhanh</h5>
-                <ul>
-                    <li><a href="#">Trang Chủ</a></li>
-                    <li><a href="#">Chương Trình Chính</a></li>
-                    <li><a href="#">Tin Tức</a></li>
-                    <li><a href="#">Liên Hệ</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h5>Thông Tin</h5>
-                <ul>
-                    <li><a href="#">Giới thiệu về tổ chức</a></li>
-                    <li><a href="#">Cách quyên góp</a></li>
-                    <li><a href="#">Liên Hệ</a></li>
-                    <li><a href="#">Hỗ Trợ</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="subscribe-box">
-            <input type="email" placeholder="Enter email address">
-            <button>SUBMIT</button>
-        </div>
-        <p class="banquen" style="margin-top: 20px;">Copyright &copy; 2025 | Website được thực hiện &#10084; bởi <strong>Zeal Team</strong></p>
-    </footer>
+     <hr style="margin: 70px;">
+     <footer class="footer">
+         <div class="grid wide container">
+         <div class="row">
+             <div class="col l-3 m-6 c-6">
+                 <div class="section_footer"> 
+                     <ul class="mangxahoi">
+                         <li><strong>Mạng xã hội</strong></li>
+                         <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                         <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                         <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                         <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="col l-3 m-6 c-6">
+                 <div class="section_footer"> 
+                     <ul class="lienhe">
+                         <li><strong>Liên hệ</strong></li>
+                         <li><a href="#"><i class="fas fa-phone"></i> 0342031354</a></li>
+                         <li><a href="#"><i class="fas fa-envelope"></i>zealteam@gmail.com</a></li>
+                         <li><a href="#"><i class="fas fa-map-marker-alt"></i>Quận 12 , TP.HCM</a></li>
+                     </ul>
+                 </div>
+             </div>
+             
+             <div class="col l-6 m-6 c-6">
+                 <div class="section_footer"> 
+                     <h3>Fanpage</h3>
+                     <a href="https://www.facebook.com/stepwalk2024/"><img src="img/fanpage.jpg" alt="img fanpage"></a>
+                 </div>
+             </div>
+         </div>
+     </div>
+     </footer>
 </body>
 
 </html>

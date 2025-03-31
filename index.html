@@ -6,6 +6,10 @@
     <title>VinaCapital Foundation</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TGGLGHXY5"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/grid.css">
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -33,7 +37,7 @@
             font-size: 32px;
             font-weight: bold;
             text-transform: uppercase;
-            margin-bottom: 20px;
+            margin: 50px;
         }
 
         .divider {
@@ -440,6 +444,7 @@
             color: inherit;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 50px;
         }
 
         /* Hiệu ứng hover */
@@ -482,58 +487,7 @@
             font-weight: bold;
             color: #333;
         }
-        /* FOOTER  */
-  .footer {
-    background: linear-gradient(135deg, #004a53, #06005a);
-    padding: 40px 20px;
-    color: #ddd;
-    text-align:left;
-}
-.footer .banquen{
-    text-align: center;
-}
-.footer a {
-    color: #ddd;
-    text-decoration: none;
-}
-.footer a:hover {
-    color: #c7ca00;
-}
-.footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1000px;
-    margin: auto;
-}
-.footer-section {
-    margin-bottom: 20px;
-}
-.subscribe-box {
-    display: flex;
-    border-radius: 20px;
-    overflow: hidden;
-    border: 1px solid #fff;
-    max-width: 400px;
-    margin: auto;
-}
-.subscribe-box input {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    outline: none;
-}
-.subscribe-box button {
-    padding: 10px 20px;
-    border: none;
-    background: #fff;
-    color: #222;
-    cursor: pointer;
-}
-.subscribe-box button:hover {
-    background: #ddd;
-}
-
+  
 
     </style>
 </head>
@@ -688,36 +642,40 @@
                 .join("");
         });
     </script>
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h5>WEBSITE THIỆN NGUYỆN</h5>
-                <h2>ZEALTEAM</h2>
-            </div>
-            <div class="footer-section">
-                <h5>Liên kết nhanh</h5>
-                <ul>
-                    <li><a href="#">Trang Chủ</a></li>
-                    <li><a href="#">Chương Trình Chính</a></li>
-                    <li><a href="#">Tin Tức</a></li>
-                    <li><a href="#">Liên Hệ</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h5>Thông Tin</h5>
-                <ul>
-                    <li><a href="#">Giới thiệu về tổ chức</a></li>
-                    <li><a href="#">Cách quyên góp</a></li>
-                    <li><a href="#">Liên Hệ</a></li>
-                    <li><a href="#">Hỗ Trợ</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="subscribe-box">
-            <input type="email" placeholder="Enter email address">
-            <button>SUBMIT</button>
-        </div>
-        <p class="banquen" style="margin-top: 20px;">Copyright &copy; 2025 | Website được thực hiện &#10084; bởi <strong>Zeal Team</strong></p>
-    </footer>
+   <hr style="margin: 70px;">
+   <footer class="footer">
+       <div class="grid wide container">
+       <div class="row">
+           <div class="col l-3 m-6 c-6">
+               <div class="section_footer"> 
+                   <ul class="mangxahoi">
+                       <li><strong>Mạng xã hội</strong></li>
+                       <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                       <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                       <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                       <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                   </ul>
+               </div>
+           </div>
+           <div class="col l-3 m-6 c-6">
+               <div class="section_footer"> 
+                   <ul class="lienhe">
+                       <li><strong>Liên hệ</strong></li>
+                       <li><a href="#"><i class="fas fa-phone"></i> 0342031354</a></li>
+                       <li><a href="#"><i class="fas fa-envelope"></i>zealteam@gmail.com</a></li>
+                       <li><a href="#"><i class="fas fa-map-marker-alt"></i>Quận 12 , TP.HCM</a></li>
+                   </ul>
+               </div>
+           </div>
+           
+           <div class="col l-6 m-6 c-6">
+               <div class="section_footer"> 
+                   <h3>Fanpage</h3>
+                   <a href="https://www.facebook.com/stepwalk2024/"><img src="img/fanpage.jpg" alt="img fanpage"></a>
+               </div>
+           </div>
+       </div>
+   </div>
+   </footer>
 </body>
 </html>
