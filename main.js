@@ -263,7 +263,7 @@ const programs = [
     },
     {
         "id": 8,
-        "name": "Mái Ấm Hy Vọng Thủ Đức",
+        "name": "TRUNG TÂM BẢO TRỢ TRẺ EM TAM BÌNH",
         "district": "Thủ Đức",
         "description": "Hỗ trợ trẻ em nghèo và người khuyết tật tại Thủ Đức.",
         "image": "https://dienbientv.vn/dataimages/201604/original/images1141903_2366_copy.jpg",
@@ -271,7 +271,7 @@ const programs = [
         "address": "23 Võ Văn Ngân, Thủ Đức, TP. HCM",
         "email": "maiamhyvong@gmail.com",
         "phone": "0976543210",
-        "intro": "- Hỗ trợ trẻ em nghèo và người khuyết tật.<br>- Cung cấp học bổng và thiết bị hỗ trợ.<br>- Tổ chức hội thảo kỹ năng sống.",
+        "intro": "Trung Tâm Nuôi Dưỡng Bảo Trợ Trẻ Em Tam Bình là cơ sở xã hội trực thuộc Sở Lao động – Thương binh và Xã hội thành phố Hồ Chí Minh. Trung tâm được thành lập trên cơ sở tiếp quản từ Cô Nhi Viện Nước Ngọt thuộc cơ sở tôn giáo dòng Đức mẹ Vô Nhiễm; do Ban Quân Quản thành phố tiếp nhận và chuyển giao về Sở Thương binh và Xã hội quản lý",
         "activities": [
             {
                 "title": "Học bổng Hy Vọng",
