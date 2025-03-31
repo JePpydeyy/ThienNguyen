@@ -182,7 +182,7 @@ const programs = [
         "url": "test2.html",
         "address": "184 Phan Văn Khỏe, Phường 05, Quận 06, TP. HCM",
         "email": "",
-        "phone": " 0384698563",
+        "phone": "028 3960 1109",
         "intro": "Thành lập năm 1997, trực thuộc Hội phụ nữ từ thiện TPHCM <br> -là cơ sở nuôi dạy các trẻ em cơ nhỡ không cha mẹ hoặc bị bỏ rơi. <br>-Nguồn kinh phí nuôi dạy các em dựa vào sự ủng hộ chủ yếu của các mạnh thường quân. Hiện có 20 em đang được mái ấm nuôi dưỡng",
         "activities": [
             {
@@ -248,7 +248,7 @@ const programs = [
         "url": "test2.html",
         "address": "Nhà thờ Chợ Quán, 120 Đ. Trần Bình Trọng, Phường 2, Quận 5, TP. HCM",
         "email": "",
-        "phone": " 02839235067",
+        "phone": " 028 3923 5067",
         "intro": "- Thành lập năm 2010, hỗ trợ người già và trẻ em mồ côi.<br>- Cung cấp nơi ở và chăm sóc y tế.<br>- Tổ chức sinh nhật hàng tháng cho trẻ em.",
         "activities": [
             {
@@ -268,9 +268,9 @@ const programs = [
         "description": "Hỗ trợ trẻ em nghèo và người khuyết tật tại Thủ Đức.",
         "image": "https://dienbientv.vn/dataimages/201604/original/images1141903_2366_copy.jpg",
         "url": "",
-        "address": "23 Võ Văn Ngân, Thủ Đức, TP. HCM",
-        "email": "maiamhyvong@gmail.com",
-        "phone": "0976543210",
+        "address": "273, Quốc Lộ 1A Phường Bình Chiểu, TP Thủ Đức, TP HCM",
+        "email": "tambinh.sld@gmail.com",
+        "phone": "028 3729 4935",
         "intro": "Trung Tâm Nuôi Dưỡng Bảo Trợ Trẻ Em Tam Bình là cơ sở xã hội trực thuộc Sở Lao động – Thương binh và Xã hội thành phố Hồ Chí Minh. Trung tâm được thành lập trên cơ sở tiếp quản từ Cô Nhi Viện Nước Ngọt thuộc cơ sở tôn giáo dòng Đức mẹ Vô Nhiễm; do Ban Quân Quản thành phố tiếp nhận và chuyển giao về Sở Thương binh và Xã hội quản lý",
         "activities": [
             {
@@ -285,15 +285,15 @@ const programs = [
     },
     {
         "id": 9,
-        "name": "Tấm Lòng Rộng Mở Nhà Bè",
+        "name": "CÔ NHI VIỆN PHÁP VÕ",
         "district": "Nhà Bè",
-        "description": "Hỗ trợ thực phẩm và giáo dục cho trẻ em nghèo tại Nhà Bè.",
+        "description": "Nuôi dạy nghề cho trẻ mồ côi, trẻ lang thang đường phố",
         "image": "https://redcross.org.vn/wp-content/uploads/2025/02/z6349988939386_a4900b85892040d9f94f06565c601eed.jpg",
         "url": "test2.html",
-        "address": "45 Nguyễn Hữu Thọ, Nhà Bè, TP. HCM",
+        "address": "28/1 Huỳnh Tấn Phát, Phú Xuân, Nhà Bè, TP HCM",
         "email": "tamlongrongmo@gmail.com",
-        "phone": "0965432109",
-        "intro": "- Hỗ trợ trẻ em nghèo tại Nhà Bè.<br>- Cung cấp thực phẩm và giáo dục.<br>- Tổ chức các buổi giao lưu cộng đồng.",
+        "phone": "028 3782 7727",
+        "intro": "- Hỗ trợ trẻ em nghèo tại Nhà Bè.<br>- Cung cấp thực phẩm và giáo dục.<br>- Nuôi dạy nghề cho trẻ mồ côi, trẻ lang thang đường phố.",
         "activities": [
             {
                 "title": "Phát thực phẩm",
@@ -307,15 +307,15 @@ const programs = [
     },
     {
         "id": 10,
-        "name": "Mái Ấm Củ Chi",
+        "name": "MÁI ẤM THIÊN PHÚC",
         "district": "Củ Chi",
         "description": "Hỗ trợ trẻ em mồ côi và người già neo đơn tại Củ Chi.",
         "image": "https://baobariavungtau.com.vn/dataimages/202306/original/images1835838_tham7.jpg",
         "url": "test2.html",
-        "address": "67 Quốc lộ 22, Củ Chi, TP. HCM",
-        "email": "maiamcuchi@gmail.com",
-        "phone": "0954321098",
-        "intro": "- Hỗ trợ trẻ em mồ côi và người già neo đơn tại Củ Chi.<br>- Cung cấp nơi ở và hỗ trợ y tế.<br>- Tổ chức các hoạt động văn hóa.",
+        "address": "47 B, Đường 33, Ấp Tân Thạnh, Xã Tân Thông Hội, Huyện Củ Chi, TP.HCM.",
+        "email": "",
+        "phone": "028 3892 1782",
+        "intro": "- Mái ấm Thiên Phúc nằm trong một con ngõ nhỏ trên địa bàn xã Tân Thông Hội <br> -Nơi đây đang cưu mang 70 trẻ em bất hạnh, bị khuyết tật, bị bỏ rơi, mồ côi cha mẹ… <br> – Huyện Củ Chi..",
         "activities": [
             {
                 "title": "Hỗ trợ y tế",
@@ -484,29 +484,6 @@ const programs = [
     }
     ,
     {
-        "id": 16,
-        "name": "VIỆN DƯỠNG LÃO NGHỆ SĨ",
-        "district": "Quận 8",
-        "description": "Đây là nơi cư trú và chăm sóc cho các nghệ sĩ sân khấu lão thành có hoàn cảnh khó khăn, không nơi nương tựa.",
-        "image": "https://img.upanh.tv/2025/03/29/16a270892e848889a5.png",
-        "url": "test2.html",
-        "address": "Hẻm 314 Âu Dương Lân, Phường 3, Quận 8, TP. HCM",
-        "email": "",
-        "phone": "0913 145 852",
-        "intro": "Trong gần 30 năm hoạt động, viện đã trở thành mái nhà chung cho nhiều nghệ sĩ gạo cội. Các nghệ sĩ tại đây được hỗ trợ về chỗ ở, sinh hoạt và chăm sóc y tế, chủ yếu dựa vào sự đóng góp từ các tổ chức thiện nguyện và cá nhân hảo tâm. Viện cũng tổ chức các hoạt động văn hóa, nghệ thuật để các nghệ sĩ có cơ hội giao lưu, biểu diễn và giữ gìn bản sắc văn hóa dân tộc. Bên cạnh đó, viện còn phối hợp với các bệnh viện để chăm sóc sức khỏe cho các nghệ sĩ cao tuổi, đảm bảo họ có cuộc sống an lành và hạnh phúc trong những năm tháng cuối đời.",
-        "activities": [
-            {
-                "title": "Chăm sóc sức khỏe",
-                "description": "Cung cấp dịch vụ chăm sóc sức khỏe và y tế cho các nghệ sĩ cao tuổi."
-            },
-            {
-                "title": "Tổ chức sự kiện văn hóa",
-                "description": "Tổ chức các buổi biểu diễn nghệ thuật để các nghệ sĩ có cơ hội giao lưu và thể hiện tài năng."
-            }
-        ]
-    }
-    ,
-    {
         "id": 17,
         "name": "TRUNG TÂM PHÁT HUY BÌNH AN",
         "district": "Quận 8",
@@ -515,7 +492,7 @@ const programs = [
         "url": "test2.html",
         "address": "3153/24 Phạm Thế Hiển, Phường 7, Quận 8, TP. Hồ Chí Minh",
         "email": "ttphbinhan@gmail.com",
-        "phone": "0931.832.961",
+        "phone": "0937976508",
         "intro": "Trung tâm hoạt động từ thứ Hai đến thứ Sáu hàng tuần, cung cấp lớp học cho khoảng 200 em nhỏ, chủ yếu là trẻ mồ côi, cơ nhỡ hoặc con em gia đình nhập cư từ các tỉnh lẻ lên thành phố mưu sinh. Trung tâm không chỉ dạy chữ mà còn chú trọng đến việc giáo dục nhân cách, kỹ năng sống và tổ chức các hoạt động ngoại khóa để phát triển toàn diện cho trẻ em. Ngoài ra, trung tâm còn phối hợp với các tổ chức từ thiện để cung cấp thực phẩm, quần áo và đồ dùng học tập cho các em.",
         "activities": [
             {
@@ -562,15 +539,15 @@ const programs = [
     ,
     {
         "id": 19,
-        "name": "MÁI ẤM Quận 8",
-        "district": "Quận 9",
+        "name": "NHÀ TÌNH THƯƠNG CHÙA DIỆU GIÁC",
+        "district": "Thủ Đức",
         "description": "Là một cơ sở nuôi dưỡng trẻ em mồ côi và trẻ em đường phố tại TP. Hồ Chí Minh. Trực thuộc Trung tâm Dạy nghề Thanh thiếu niên Thành phố Hồ Chí Minh.",
         "image": "https://img.upanh.tv/2025/03/29/19a2b8e3f6762a0e0e.png",
         "url": "test2.html",
-        "address": "73/10 Dương Bá Trạc, Phường 1, Quận 8, TP. Hồ Chí Minh",
+        "address": "177 Trần Não, Phường Bình An, Tp Thủ Đức, TP. Hồ Chí Minh",
         "email": "",
-        "phone": "(028) 3850 2088",
-        "intro": "Mái ấm trực thuộc trung tâm dạy nghề thanh thiếu niên thành phố, nhận nuôi dạy các em từ 8-17 tuổi, các em đa phần là trẻ mồ côi , trẻ em đường phố, trẻ em có hoàn cảnh khó khăn. Mái ấm hiện đang nuôi dưỡng khoảng 50 em, trong đó có nhiều em là trẻ mồ côi cha mẹ, không nơi nương tựa. Các em được chăm sóc về sức khỏe, dinh dưỡng và giáo dục. Mái ấm cũng tổ chức các hoạt động ngoại khóa, vui chơi giải trí để giúp các em phát triển toàn diện.",
+        "phone": " 028 3740 0530",
+        "intro": "hành lập năm 1989, là nơi cư trú của hơn 100 trẻ mồ côi, bị bỏ rơi, lang thang không nơi nương tựa. <br> - Hiện tại, có hơn 100 em đang sống tại đây, độ tuổi từ 0 – 20.",
         "activities": [
             {
                 "title": "Dạy học miễn phí",
@@ -590,11 +567,11 @@ const programs = [
     {
         "id": 20,
         "name": "MÁI ẤM THIỆN NHI",
-        "district": "Quận 9",
+        "district": "Thủ Đức",
         "description": "Mái ấm Thiện Nhi – nơi nuôi dưỡng, chở che cho những bà mẹ trẻ gặp khó khăn trong quá trình mang thai, sinh nở.",
         "image": "https://img.upanh.tv/2025/03/29/20394a0cec06ffa0f9.png",
         "url": "test2.html",
-        "address": "528/6 Lê Văn Việt, p Long Thạnh Mỹ, Thủ Đức",
+        "address": "528/6 Lê Văn Việt, p Long Thạnh Mỹ, Thủ Đức, TP HCM",
         "email": "",
         "phone": "0773801084",
         "intro": "Mái ấm Thiện Nhi – nơi nuôi dưỡng, chở che cho những bà mẹ trẻ gặp khó khăn trong quá trình mang thai, sinh nở. Mái ấm Thiện Nhi ra đời như vậy. Mái ấm Thiện Nhi hiện có 2 cơ sở, một tại quận Tân Phú, TP. HCM và một tại Khu đô thị Tân Tây Đô, Hà Nội, với cơ sở vật chất khang trang, đội ngũ nhân sự là những mẹ bầu từng được giúp đỡ, đồng ý ở lại cùng chăm sóc nhau trong những ngày tháng gian nan của cuộc đời., với cơ sở vật chất khang trang, đội ngũ nhân sự là những mẹ bầu từng được giúp đỡ, đồng ý ở lại cùng chăm sóc nhau trong những ngày tháng gian nan của cuộc đời. Mái ấm Thiện Nhi hiện có 2 cơ sở, một tại quận Tân Phú, TP. HCM và một tại Khu đô thị Tân Tây Đô, Hà Nội, với cơ sở vật chất khang trang, đội ngũ nhân sự là những mẹ bầu từng được giúp đỡ, đồng ý ở lại cùng chăm sóc nhau trong những ngày tháng gian nan của cuộc đời.",
@@ -613,7 +590,7 @@ const programs = [
     {
         "id": 21,
         "name": "MÁI ẤM MẦM XANH",
-        "district": "Quận 9",
+        "district": "Thủ Đức",
         "description": "Cách Bệnh viện Ung bướu TP HCM cơ sở 2 (phường Long Thạnh Mỹ, TP Thủ Đức) chưa đến 2 km, có một ngôi nhà đã giúp cho gia đình các bệnh nhi có thêm động lực chiến đấu với căn bệnh hiểm nghèo suốt 4 năm qua.",
         "image": "https://img.upanh.tv/2025/03/29/21a990ff2923d31f5e.png",
         "url": "test2.html",
@@ -688,7 +665,7 @@ const programs = [
         "url": "test2.html",
         "address": "Nhà thờ Đồng Tiến, 54 Thành Thái, P.12, Q.10, Tp. Hồ Chí Minh",
         "email": "tudtt@maitam.org",
-        "phone": "00938 272 766 ",
+        "phone": "0938272766 ",
         "intro": "Khi màn chiều bắt đầu buông thì đó cũng là lúc phòng khám Mai Khôi – Đồng Tiến mở cửa đón người nghèo đến chữa trị. Ở đây không lấy tiền khám, cũng chẳng cần tiền thuốc, đội ngũ bác sĩ tại Mai Khôi – Đồng Tiến dù làm việc không lương nhưng bằng tấm lòng lương y bác ái vẫn hằng ngày rộng vòng tay đón tất cả bệnh nhân bất kể hoàn cảnh. Phòng khám Mai Khôi – Đồng Tiến tiền thân là phòng khám Camillô được thành lập vào 15/8/2007 trên bờ kênh Nhiêu Lộc. Sau hai năm hoạt động, vào 15/8/2009, phòng khám chuyển về trong khuôn viên Giáo xứ Đồng Tiền, chính thức đổi tên thành như hiện tại. Phòng khám hiện đang hoạt động với 2 cơ sở, một tại Quận 10 và một tại Quận 8. Tại đây, bệnh nhân sẽ được khám bệnh miễn phí, nhận thuốc miễn phí và được tư vấn sức khỏe miễn phí. Đội ngũ bác sĩ tại phòng khám đều là những người tình nguyện, không nhận lương nhưng vẫn tận tâm chăm sóc cho bệnh nhân.",
         "activities": [
             {
@@ -723,13 +700,13 @@ const programs = [
     {
         "id": 26,
         "name": "TRƯỜNG KHUYẾT TẬT VỮNG TIN",
-        "district": "Quận Gò Vấp",
+        "district": "Quận 8",
         "description": "Trường Khuyết Tật Vững Tin là nơi giảng dạy và nuôi dưỡng trẻ khuyết tật, giúp các em có cơ hội học tập và phát triển kỹ năng sống.",
         "image": "https://img.upanh.tv/2025/03/29/2697a8d25fbf72dc66.png",
         "url": "vung-tin.html",
-        "address": "480/108 Thống Nhất, Phường 16, Quận Gò Vấp",
+        "address": "452 Hưng Phú, Phường 9, Quận 8",
         "email": "",
-        "phone": "028 3895 7320",
+        "phone": "028 3854 7363",
         "intro": "Trường Khuyết Tật Vững Tin chuyên hỗ trợ trẻ em khiếm thính và khuyết tật trí tuệ. Ngoài các lớp học văn hóa, trường còn tổ chức các hoạt động kỹ năng sống, giúp các em hòa nhập với cộng đồng.",
         "activities": [
             {
@@ -761,28 +738,6 @@ const programs = [
             {
                 "title": "Hoạt động nghệ thuật",
                 "description": "Tổ chức các chương trình ca nhạc, sân khấu để nghệ sĩ có thể tiếp tục cống hiến."
-            }
-        ]
-    },
-    {
-        "id": 28,
-        "name": "TRUNG TÂM PHÁT HUY BÌNH AN",
-        "district": "Thủ Đức",
-        "description": "Trung tâm hỗ trợ trẻ em khuyết tật và trẻ có hoàn cảnh khó khăn, giúp các em có cơ hội học tập và phát triển bản thân.",
-        "image": "https://img.upanh.tv/2025/03/29/2872543a205d1ee235.png",
-        "url": "phat-huy-binh-an.html",
-        "address": "200 Võ Văn Ngân, Phường Bình Thọ, TP. Thủ Đức",
-        "email": "",
-        "phone": "028 3896 2713",
-        "intro": "Trung tâm Phát Huy Bình An chuyên hỗ trợ trẻ em khuyết tật thông qua các chương trình giáo dục đặc biệt và phục hồi chức năng. Ngoài ra, trung tâm còn cung cấp các lớp học nghề để giúp các em có tương lai tươi sáng hơn.",
-        "activities": [
-            {
-                "title": "Giáo dục đặc biệt",
-                "description": "Dạy học và hỗ trợ trị liệu cho trẻ khuyết tật."
-            },
-            {
-                "title": "Đào tạo nghề",
-                "description": "Cung cấp các khóa học nghề giúp trẻ có thể tự lập trong tương lai."
             }
         ]
     },
@@ -943,7 +898,7 @@ const programs = [
       {
         "id": 36,
         "name": "MÁI ẤM THIÊN THẦN",
-        "district": "Quận 9 (TP. Thủ Đức)",
+        "district": "Thủ Đức",
         "description": "Mái ấm dành cho trẻ em bị bỏ rơi, không nơi nương tựa, cung cấp nơi ăn ở và giáo dục.",
         "image": "https://img.upanh.tv/2025/03/29/3671723fd83a281787.png",
         "url": "mai-am-thien-than.html",
@@ -951,6 +906,139 @@ const programs = [
         "email": "",
         "phone": "0912 345 678",
         "intro": "Mái ấm Thiên Thần là nơi nuôi dưỡng trẻ em bị bỏ rơi, giúp các em có mái nhà an toàn, được chăm sóc và giáo dục đầy đủ để có tương lai tốt đẹp hơn.",
+        "activities": [
+          {
+            "title": "Chăm sóc trẻ em",
+            "description": "Nuôi dưỡng trẻ bị bỏ rơi, giúp các em có cuộc sống tốt hơn."
+          },
+          {
+            "title": "Giáo dục miễn phí",
+            "description": "Tạo điều kiện học tập và phát triển kỹ năng sống cho trẻ."
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "MÁI ẤM GA SÀI GÒN",
+        "district": "Quận 3",
+        "description": "Mái ấm dành cho trẻ em bị bỏ rơi, không nơi nương tựa, cung cấp nơi ăn ở và giáo dục.",
+        "image": "https://img.upanh.tv/2025/03/31/maiamgasg.jpg",
+        "url": "mai-am-thien-than.html",
+        "address": "739 Hoàng Sa, Q3, Phường 9, Quận 3, TP HCM",
+        "email": "",
+        "phone": "028 3931 1673",
+        "intro": "-Chủ nhiệm: Cô Trần Thị Tâm - <br> Bắt đầu từ năm 2005, do số lượng các em tăng lên và cũng nhằm tạo điều kiện chăm sóc tốt hơn",
+        "activities": [
+          {
+            "title": "Chăm sóc trẻ em",
+            "description": "Nuôi dưỡng trẻ bị bỏ rơi, giúp các em có cuộc sống tốt hơn."
+          },
+          {
+            "title": "Giáo dục miễn phí",
+            "description": "Tạo điều kiện học tập và phát triển kỹ năng sống cho trẻ."
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "NGHĨA TRANG THAI NHI – DÒNG CHÚA CỨU THẾ",
+        "district": "Quận 3",
+        "description": "Chốn an yên của hàng nghìn sinh linh nhỏ bé bị chối bỏ.",
+        "image": "https://img.upanh.tv/2025/03/31/nghia-trang-thai-nhi-1.jpg",
+        "url": "mai-am-thien-than.html",
+        "address": "Tu viện Dòng Chúa Cứu Thế, Kỳ Đồng, Phường 9, Quận 3, TP HCM",
+        "email": "",
+        "phone": "0907990895",
+        "intro": "Đây là nghĩa trang thai nhi ở TPHCM được hình thành nhiều năm với ý nghĩa trở thành chốn an yên của hàng nghìn sinh linh nhỏ bé bị chối bỏ. Tu Viện nằm ngay ở phường 9, quận 3 thành phố.",
+        "activities": [
+          {
+            "title": "Chăm sóc trẻ em",
+            "description": "Nuôi dưỡng trẻ bị bỏ rơi, giúp các em có cuộc sống tốt hơn."
+          },
+          {
+            "title": "Giáo dục miễn phí",
+            "description": "Tạo điều kiện học tập và phát triển kỹ năng sống cho trẻ."
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "TRƯỜNG CHUYÊN BIỆT TƯƠNG LAI",
+        "district": "Quận 5",
+        "description": "hăm sóc và giáo dục, văn hóa cho trẻ khuyết tật khiếm thính và chậm phát triển trí tuệ.",
+        "image": "https://img.upanh.tv/2025/03/31/f7eTruong-chuyen-biet-Tuong-laiQuan-5.jpg",
+        "url": "mai-am-thien-than.html",
+        "address": "27-29 Ngô Quyền, Phường 10, Quận 5, TP HCM",
+        "email": "",
+        "phone": "039509159 hoạc 028 3855 2429",
+        "intro": "Trường có 03 điểm: Điểm 1: 27 – 29 Ngô Quyền P.10 Q.5 (văn phòng nhà trường và bộ phận cấp dưỡng); Điểm 2: 28 Trần Xuân Hòa P7.Q5 (gồm các em học sinh khiếm thính và chậm phát triển trí tuệ); Điểm 3: 49 Trần Xuân Hòa P7 Q.5 (các em học sinh Tự kỷ, tăng động, bại não và hội chứng Down).",
+        "activities": [
+          {
+            "title": "Chăm sóc trẻ em",
+            "description": "Nuôi dưỡng trẻ bị bỏ rơi, giúp các em có cuộc sống tốt hơn."
+          },
+          {
+            "title": "Giáo dục miễn phí",
+            "description": "Tạo điều kiện học tập và phát triển kỹ năng sống cho trẻ."
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "MÁI ẤM BÌNH MINH",
+        "district": "Quận 4",
+        "description": "Mái ấm Bình Minh thành lập từ năm 1997 đã bảo bọc cho rất nhiều trẻ em bất hạnh",
+        "image": "https://img.upanh.tv/2025/03/31/1000537362_0.jpg",
+        "url": "mai-am-thien-than.html",
+        "address": "108 Đường Số 6, Phường 4, Quận 4",
+        "email": "",
+        "phone": "02839401316",
+        "intro": "Mái ấm Bình Minh thành lập từ năm 1997 đã bảo bọc cho rất nhiều trẻ em bất hạnh, mang đến cho các em một nơi chốn nương thân ấm cúng, miếng ăn ba bữa, và cho các em đến trường đi học. Mái ấm hiện đang nuôi dưỡng 20 bé gái từ 4 đến 16 tuổi.",
+        "activities": [
+          {
+            "title": "Chăm sóc trẻ em",
+            "description": "Nuôi dưỡng trẻ bị bỏ rơi, giúp các em có cuộc sống tốt hơn."
+          },
+          {
+            "title": "Giáo dục miễn phí",
+            "description": "Tạo điều kiện học tập và phát triển kỹ năng sống cho trẻ."
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "TRƯỜNG GIÁO DỤC CHUYÊN BIỆT NIỀM TIN",
+        "district": "Quận Phú Nhuận",
+        "description": "Đây là ngôi trường Chuyên biệt duy nhất của quận Phú Nhuận",
+        "image": "https://img.upanh.tv/2025/03/31/IMAG4337.jpg",
+        "url": "mai-am-thien-than.html",
+        "address": "16/2/8 Đặng Văn Ngữ, Phường 10, Quận Phú Nhuận, TP HCM",
+        "email": "niemtin.phunhuan.tphcm@moet.edu.vn",
+        "phone": "028 3991 3839",
+        "intro": "Thành lập năm 2002. Đây là ngôi trường Chuyên biệt duy nhất của quận Phú Nhuận, chuyên chăm sóc và giảng dạy trẻ khuyết tật trí tuệ ở độ tuổi từ 4 đến 18 với mục tiêu giúp các em có được những kiến thức và kỹ năng cần thiết để hòa nhập cộng đồng.",
+        "activities": [
+          {
+            "title": "Chăm sóc trẻ em",
+            "description": "Nuôi dưỡng trẻ bị bỏ rơi, giúp các em có cuộc sống tốt hơn."
+          },
+          {
+            "title": "Giáo dục miễn phí",
+            "description": "Tạo điều kiện học tập và phát triển kỹ năng sống cho trẻ."
+          }
+        ]
+      }
+      ,
+      {
+        "id": 42,
+        "name": "MÁI ẤM HƯỚNG DƯƠNG GÒ VẤP",
+        "district": "Quận Gò Vấp",
+        "description": "Mái Ấm Hướng Dương không chỉ là nơi cho các em mồ côi một nơi chốn để chăm sóc và nuôi dưỡng lớn lên trong tình yêu thương",
+        "image": "https://img.upanh.tv/2025/03/31/DSC04996-nho.jpg",
+        "url": "mai-am-thien-than.html",
+        "address": " 796/65 Lê Đức Thọ đi vào giáo xứ Hoàng Mai, Quận Gò Vấp, TP HCM",
+        "email": "",
+        "phone": "0865204162",
+        "intro": "Thành lập năm 2002. Đây là ngôi trường Chuyên biệt duy nhất của quận Phú Nhuận, chuyên chăm sóc và giảng dạy trẻ khuyết tật trí tuệ ở độ tuổi từ 4 đến 18 với mục tiêu giúp các em có được những kiến thức và kỹ năng cần thiết để hòa nhập cộng đồng.",
         "activities": [
           {
             "title": "Chăm sóc trẻ em",

@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     align-items: center;
@@ -8,12 +9,18 @@ header {
     top: 0;
     z-index: 1000;
 }
+main {
+  margin: 0 auto;
+}
 a{
     text-decoration: none;
     color: inherit;
 }
 nav{
   margin: 0 auto;
+}
+.btn-back{
+ margin-left: 120px;
 }
 
 .logo img {
@@ -52,11 +59,9 @@ nav ul li a:hover {
 }
 .details-card {
     display: flex;
-    max-width: 1000px;
+    width: 1290px;
     margin: 0 auto;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
     overflow: hidden;
     padding: 20px;
   }
@@ -73,9 +78,9 @@ nav ul li a:hover {
     object-fit: cover;
   }
   
-  .details-content {
+  /* .details-content {
     flex: 0 0 60%;
-  }
+  } */
   
   .details-content h1 {
     color: #2c3e50;
