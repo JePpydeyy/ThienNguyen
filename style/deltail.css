@@ -17,15 +17,6 @@
     width: 1290px;
     margin: 0 auto;
    
-<<<<<<< HEAD
-=======
-    /* max-width: 1000px; */
-    width: 1200px;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
->>>>>>> e5b2c9f2e94c76ec44beff0e8fd98ecd8ee51ecc
     overflow: hidden;
     padding: 20px;
   }
@@ -47,13 +38,6 @@
   /* .details-content {
     flex: 0 0 60%;
   } */
-<<<<<<< HEAD
-=======
-  .details-content {
-    /* flex: 0 0 60%; */
-    width: 700px;
-  }
->>>>>>> e5b2c9f2e94c76ec44beff0e8fd98ecd8ee51ecc
   
   .details-content h1 {
     color: #2c3e50;

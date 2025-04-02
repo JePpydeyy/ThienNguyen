@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liên hệ</title>
     <link rel="stylesheet" href="style/lienhe.css">
-    <link rel="stylesheet" href="style/header.css">
-
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/grid.css">
     <!-- Google tag (gtag.js) -->
@@ -38,12 +36,12 @@
     <div class="Container">
         <div class="leftColumn">
             <p><strong>Địa chỉ:</strong>  QTSC 9 Building, Đ. Tô Ký, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh</p>
-            <p><strong>Số điện thoại:</strong>0358040806</p>
+            <p><strong>Số điện thoại:</strong>035 8040806</p>
             <p><strong>Giờ làm việc:</strong> Thứ 2 - Thứ 6, 9h - 12h, 16h - 22h</p>
             <p><strong>Email:</strong>chiaseyeuthuong2025@gmail.com</p>
             <p><strong>các mạng xã hội:</strong></p>
             <div class="socialLinks">
-                <a href="#">facebook</a>
+                <a href="https://www.facebook.com/stepwalk2024/">facebook</a>
             </div>
             <p><strong>Nếu bạn có thắc mắc, vui lòng liên hệ:</strong></p>
         </div>
@@ -67,12 +65,52 @@
                 <label for="message">Lời nhắn</label><br>
                 <textarea id="message" name="message" rows="4"></textarea><br>
                 <span class="error" id="messageError"></span><br>
-
-                <button type="submit">Gửi →</button>
+                <div class="buttoncss">
+                    <button type="submit">Gửi →</button>
+                </div>
             </form>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<hr style="margin: 70px;">
+<footer class="footer">
+    <div class="grid wide container">
+    <div class="row">
+        <div class="col l-3 m-6 c-6">
+            <div class="section_footer"> 
+                <ul class="mangxahoi">
+                    <li><strong>Mạng xã hội</strong></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                    <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col l-3 m-6 c-6">
+            <div class="section_footer"> 
+                <ul class="lienhe">
+                    <li><strong>Liên hệ</strong></li>
+                    <li><a href="#"><i class="fas fa-phone"></i> 0342031354</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i>zealteam@gmail.com</a></li>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i>Quận 12 , TP.HCM</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="col l-6 m-6 c-6">
+            <div class="section_footer"> 
+                <h3>Fanpage</h3>
+                <a href="https://www.facebook.com/stepwalk2024/"><img src="img/fanpage.jpg" alt="img fanpage"></a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+</body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     emailjs.init("5fm4LNMvD5wK_zt6a");
@@ -90,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let messageError = document.getElementById("messageError");
 
     // Biểu thức kiểm tra số điện thoại (10-11 số)
-    let phoneRegex = /^[0-9]{10}$/;
+    let phoneRegex = /^[0-9]{10,11}$/;
     // Biểu thức kiểm tra email
     let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -110,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     phoneInput.addEventListener("blur", function () {
-        validateInput(phoneInput, phoneError, value => phoneRegex.test(value), "Số điện thoại không hợp lệ! (10 số)");
+        validateInput(phoneInput, phoneError, value => phoneRegex.test(value), "Số điện thoại không hợp lệ!");
     });
 
     emailInput.addEventListener("blur", function () {
@@ -176,44 +214,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 </script>
-     
-     
-
-</script>
-<hr style="margin: 70px;">
-<footer class="footer">
-    <div class="grid wide container">
-    <div class="row">
-        <div class="col l-3 m-6 c-6">
-            <div class="section_footer"> 
-                <ul class="mangxahoi">
-                    <li><strong>Mạng xã hội</strong></li>
-                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                    <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
-                    <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="col l-3 m-6 c-6">
-            <div class="section_footer"> 
-                <ul class="lienhe">
-                    <li><strong>Liên hệ</strong></li>
-                    <li><a href="#"><i class="fas fa-phone"></i> 0342031354</a></li>
-                    <li><a href="#"><i class="fas fa-envelope"></i>zealteam@gmail.com</a></li>
-                    <li><a href="#"><i class="fas fa-map-marker-alt"></i>Quận 12 , TP.HCM</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="col l-6 m-6 c-6">
-            <div class="section_footer"> 
-                <h3>Fanpage</h3>
-                <a href="https://www.facebook.com/stepwalk2024/"><img src="img/fanpage.jpg" alt="img fanpage"></a>
-            </div>
-        </div>
-    </div>
-</div>
-</footer>
-</body>
-</html>
