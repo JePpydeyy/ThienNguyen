@@ -129,7 +129,12 @@ form label {
     margin-top: 10px;
     display: block;
 }
-
+.buttoncss {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc (nếu cần) */
+    text-align: center;
+}
 form input, form textarea {
     width: 100%;
     padding: 8px;

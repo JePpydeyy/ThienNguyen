@@ -1,88 +1,81 @@
-
-
 .Container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 980px;
-    margin: 20px auto;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 20px auto;
+  padding: 20px;
 }
 
-.vvb{
+.vvb {
   margin: 0 auto;
 }
 
 .details-card {
-    display: flex;
-    width: 1290px;
-    margin: 0 auto;
-   
-    /* max-width: 1000px; */
-    width: 1200px;
-    margin: 0 auto;
-    background-color: #fff;
-    border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-    overflow: hidden;
-    padding: 20px;
+  display: flex;
+  max-width: 1290px; /* Changed from fixed width to max-width */
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.details-image {
+  flex: 0 0 40%; /* Uncommented and used flex instead of fixed width */
+  max-width: 800px;
+  padding-right: 20px;
+}
+
+.details-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.details-content {
+  flex: 0 0 60%; /* Uncommented this */
+}
+
+.details-content h1 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.details-content p {
+  margin: 8px 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.details-content p strong {
+  color: #16a085;
+  font-weight: 600;
+}
+
+.btn-back {
+  margin-left: 12%;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .details-card {
+      flex-direction: column;
   }
   
   .details-image {
-    /* flex: 0 0 40%; */
-    width: 800px;
-    height: auto;
-    padding-right: 20px;
-  }
-  
-  .details-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-    object-fit: cover;
-  }
-  
-  /* .details-content {
-    flex: 0 0 60%;
-  } */
-  .details-content {
-    /* flex: 0 0 60%; */
-    width: 700px;
-  }
-  
-  .details-content h1 {
-    color: #2c3e50;
-    margin-top: 0;
-    margin-bottom: 16px;
-    font-size: 24px;
-  }
-  
-  .details-content p {
-    margin: 8px 0;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  .details-content p strong {
-    color: #16a085;
-    font-weight: 600;
-  }
-
-  .btn-back{
-    margin-left: 12%;
-  }
-  
-  /* Responsive design cho màn hình nhỏ */
-  @media (max-width: 768px) {
-    .details-card {
-      flex-direction: column;
-    }
-    
-    .details-image, .details-content {
       flex: 0 0 100%;
-    }
-    
-    .details-image {
+      max-width: 100%;
       padding-right: 0;
       padding-bottom: 20px;
-    }
   }
+  
+  .details-content {
+      flex: 0 0 100%;
+  }
+  
+  .btn-back {
+      margin-left: 5%; /* Adjusted for smaller screens */
+  }
+}
