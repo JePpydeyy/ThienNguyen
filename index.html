@@ -18,12 +18,11 @@
 
     gtag('config', 'G-4TGGLGHXY5');
     </script>
-  
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="img/logo.png" alt="VinaCapital Foundation"></a>
+            <a href="index.html"><img src="img/logo.png" ></a>
         </div>
         <nav>
             <ul>
@@ -33,7 +32,11 @@
                 <li><a href="/ThienNguyen/lienhe.html">Liên hệ</a></li>
             </ul>
         </nav>
+    
+        <!-- Nút menu toggle -->
+        <div class="menu-toggle">☰</div>
     </header>
+    
 
     <section class="hero">
         <img src="img/banner.png" alt="Trẻ em vùng cao khó khăn">
@@ -91,97 +94,18 @@
     </section>
 
 
-    <script src="main.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Carousel functionality
-            const slides = document.querySelectorAll('.story-slide');
-            const prevButton = document.querySelector('.nav-button.prev');
-            const nextButton = document.querySelector('.nav-button.next');
-            let currentSlide = 0;
 
-            function showSlide(index) {
-                slides.forEach((slide, i) => {
-                    slide.style.display = i === index ? 'flex' : 'none';
-                });
-            }
-
-            showSlide(currentSlide);
-
-            prevButton.addEventListener('click', () => {
-                currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-                showSlide(currentSlide);
-            });
-
-            nextButton.addEventListener('click', () => {
-                currentSlide = (currentSlide + 1) % slides.length;
-                showSlide(currentSlide);
-            });
-        });
-    </script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const shownewsContainer = document.querySelector(".shownews");
-
-            if (!shownewsContainer || !Array.isArray(news)) {
-                console.error("Không tìm thấy container hoặc dữ liệu news không hợp lệ.");
-                return;
-            }
-
-            const sortedNews = news.sort((a, b) => new Date(b.date) - new Date(a.date));
-            const latestNews = sortedNews.slice(0, 4);
-
-            shownewsContainer.innerHTML = latestNews
-                .map(news => `
-                    <div class="news-item">
-                        <img src="${news.image}" alt="${news.title}">
-                        <div class="news-content">
-                            <h3 class="news-title">${news.title}</h3>
-                            <p class="news-description">${news.content.substring(0, 150)}...</p>
-                        </div>
-                    </div>
-                `)
-                .join("");
-
-
-                const showprogramsContainer = document.querySelector(".showprograms");
-
-                if (!showprogramsContainer || !Array.isArray(programs)) {
-                    console.error("Không tìm thấy container hoặc dữ liệu programs không hợp lệ.");
-                    return;
-                }
-
-                const sortedPrograms = programs.sort((a, b) => a.id - b.id);
-
-                const latestPrograms = sortedPrograms.slice(0, 10);
-
-                showprogramsContainer.innerHTML = latestPrograms
-                .map(program => `
-                    <a href="detail.html?id=${program.id}" class="program-card">
-                        <div class="program-image">
-                            <img src="${program.image}" alt="${program.name}">
-                        </div>
-                        <div class="program-content">
-                            <h3 class="program-title">${program.name}</h3>
-                            <p class="program-description">${program.description}</p>
-                            <p class="program-location"><strong>Địa điểm:</strong> ${program.district}</p>
-                        </div>
-                    </a>
-                `)
-                .join("");
-        });
-    </script>
    <hr style="margin: 70px;">
    <footer class="footer">
+  
        <div class="grid wide container">
+        <a href="index.html"><img src="img/logo.png" alt="VinaCapital Foundation"></a>
        <div class="row">
            <div class="col l-3 m-6 c-6">
                <div class="section_footer"> 
                    <ul class="mangxahoi">
                        <li><strong>Mạng xã hội</strong></li>
                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-                       <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                       <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
                        <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
                    </ul>
                </div>
@@ -206,5 +130,89 @@
        </div>
    </div>
    </footer>
+   <script src="main.js"></script>
+   <script>
+       document.querySelector(".menu-toggle").addEventListener("click", function() {
+   document.querySelector("nav ul").classList.toggle("active");
+});
+
+       document.addEventListener('DOMContentLoaded', function() {
+           // Carousel functionality
+           const slides = document.querySelectorAll('.story-slide');
+           const prevButton = document.querySelector('.nav-button.prev');
+           const nextButton = document.querySelector('.nav-button.next');
+           let currentSlide = 0;
+
+           function showSlide(index) {
+               slides.forEach((slide, i) => {
+                   slide.style.display = i === index ? 'flex' : 'none';
+               });
+           }
+
+           showSlide(currentSlide);
+
+           prevButton.addEventListener('click', () => {
+               currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+               showSlide(currentSlide);
+           });
+
+           nextButton.addEventListener('click', () => {
+               currentSlide = (currentSlide + 1) % slides.length;
+               showSlide(currentSlide);
+           });
+       });
+   </script>
+   <script>
+       document.addEventListener("DOMContentLoaded", function () {
+           const shownewsContainer = document.querySelector(".shownews");
+
+           if (!shownewsContainer || !Array.isArray(news)) {
+               console.error("Không tìm thấy container hoặc dữ liệu news không hợp lệ.");
+               return;
+           }
+
+           const sortedNews = news.sort((a, b) => new Date(b.date) - new Date(a.date));
+           const latestNews = sortedNews.slice(0, 4);
+
+           shownewsContainer.innerHTML = latestNews
+               .map(news => `
+                   <div class="news-item">
+                       <img src="${news.image}" alt="${news.title}">
+                       <div class="news-content">
+                           <h3 class="news-title">${news.title}</h3>
+                           <p class="news-description">${news.content.substring(0, 150)}...</p>
+                       </div>
+                   </div>
+               `)
+               .join("");
+
+
+               const showprogramsContainer = document.querySelector(".showprograms");
+
+               if (!showprogramsContainer || !Array.isArray(programs)) {
+                   console.error("Không tìm thấy container hoặc dữ liệu programs không hợp lệ.");
+                   return;
+               }
+
+               const sortedPrograms = programs.sort((a, b) => a.id - b.id);
+
+               const latestPrograms = sortedPrograms.slice(0, 10);
+
+               showprogramsContainer.innerHTML = latestPrograms
+               .map(program => `
+                   <a href="detail.html?id=${program.id}" class="program-card">
+                       <div class="program-image">
+                           <img src="${program.image}" alt="${program.name}">
+                       </div>
+                       <div class="program-content">
+                           <h3 class="program-title">${program.name}</h3>
+                           <p class="program-description">${program.description}</p>
+                           <p class="program-location"><strong>Địa điểm:</strong> ${program.district}</p>
+                       </div>
+                   </a>
+               `)
+               .join("");
+       });
+   </script>
 </body>
 </html>

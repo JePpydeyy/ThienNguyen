@@ -1,23 +1,30 @@
-  /* FOOTER  */
-  footer {
+/* FOOTER */
+footer {
     background-color: #ffffff;
     color: #000000;
     padding: 40px 0;
     font-size: 16px;
-    display: flex ;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.footer .container {
-    max-width: 1200px;
+.footer .container a img {
+    width: 70%;
+    max-width: 100%;
+}
+
+.footer .container { 
+    display: flex;
+
+    width: 1290px;
     margin: 0 auto;
 }
 
 .section_footer {
     padding: 10px 15px;
 }
-.section_footer li strong{
-    font-size: 35px;
-}
+
 .section_footer ul {
     list-style: none;
     padding: 0;
@@ -27,11 +34,16 @@
     margin-bottom: 20px;
 }
 
+.section_footer ul li strong {
+    font-size: 35px;
+    font-weight: bold;
+}
+
 .section_footer ul li a {
     color: gray;
     text-decoration: none;
-    transition: 0.3s;
     font-size: 20px;
+    transition: color 0.3s;
 }
 
 .section_footer ul li a:hover {
@@ -52,22 +64,32 @@
     width: 100%;
     max-width: 550px;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: opacity 0.3s;
 }
 
 .section_footer img:hover {
     opacity: 0.8;
 }
 
+/* Responsive Design */
 @media screen and (max-width: 768px) {
     .row {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .col {
         width: 100%;
         text-align: center;
+    }
+
+    .section_footer ul li strong,
+    .section_footer h3 {
+        font-size: 28px; /* Slightly smaller for mobile */
+    }
+
+    .section_footer ul li a {
+        font-size: 18px; /* Adjust font size for readability */
     }
 }
