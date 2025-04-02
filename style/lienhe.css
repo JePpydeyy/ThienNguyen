@@ -1,45 +1,52 @@
-*{
-    margin: 0%;
-    padding: 0%;
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     background-color: #f9f9f9;
 }
 
+/* Header Styles */
 header {
     display: flex;
     align-items: center;
-    padding: 15px 50px;
+    padding: 15px 5%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background-color: white;
     position: sticky;
     top: 0;
     z-index: 1000;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .logo img {
-    height: 100px;
+    height: 70px;
 }
 
-nav{
-   margin: 0 auto;
+nav {
+    margin: 0 auto;
 }
 
 nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 nav ul li a {
     color: #555;
     font-size: 14px;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -52,13 +59,23 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+/* Mobile menu icon */
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
 
+/* Main Content Styles */
 .Container {
     display: flex;
-    justify-content: space-between;
-    max-width: 980px;
-    margin: 20px auto;
+    max-width: 1500px;
+    margin: 0 auto;
     padding: 20px;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    
 }
 
 .leftColumn, .rightColumn {
@@ -66,7 +83,7 @@ nav ul li a:hover {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 48%;
+    width: 600px;
     margin: 5px;
 }
 
@@ -105,6 +122,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Form Styles */
 form label {
     font-size: 14px;
     color: #333;
@@ -138,4 +156,70 @@ button {
 
 button:hover {
     background-color: #0088cc;
+}
+.error{
+    color: red;
+    font-size: 14px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 5%;
+        justify-content: space-between;
+    }
+    
+    .logo img {
+        height: 50px;
+    }
+    
+    .menu-icon {
+        display: block;
+    }
+    
+    nav {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+    
+    nav.active {
+        max-height: 300px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        gap: 10px;
+    }
+    
+    .Container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .leftColumn, .rightColumn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 8px 3%;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    form input, form textarea, button {
+        padding: 8px;
+    }
 }

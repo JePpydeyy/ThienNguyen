@@ -35,10 +35,10 @@
     </header>
     <div class="Container">
         <div class="leftColumn">
-            <p><strong>Địa chỉ:</strong> 14E21 Thảo Điền, Phường Thảo Điền, Thành phố Thủ Đức, Thành phố Hồ Chí Minh</p>
-            <p><strong>Số điện thoại:</strong> +84 283 827 8787</p>
-            <p><strong>Giờ làm việc:</strong> Thứ 2 - Thứ 6, 9h - 18h</p>
-            <p><strong>Email:</strong> info@vinacapitalfoundation.org</p>
+            <p><strong>Địa chỉ:</strong>  QTSC 9 Building, Đ. Tô Ký, Tân Chánh Hiệp, Quận 12, Hồ Chí Minh</p>
+            <p><strong>Số điện thoại:</strong>0358040806</p>
+            <p><strong>Giờ làm việc:</strong> Thứ 2 - Thứ 6, 9h - 12h, 16h - 22h</p>
+            <p><strong>Email:</strong>chiaseyeuthuong2025@gmail.com</p>
             <p><strong>các mạng xã hội:</strong></p>
             <div class="socialLinks">
                 <a href="#">facebook</a>
@@ -51,49 +51,131 @@
             <p>Hãy điền vào biểu mẫu dưới đây, chúng tôi sẽ liên hệ lại trong thời gian sớm nhất.</p>
             <form>
                 <label for="name">Họ tên*</label><br>
-                <input type="text" id="name" name="name" required><br>
+                <input type="text" id="name" name="name" required>
+                <span class="error" id="nameError"></span><br>
+
                 <label for="phone">Số điện thoại*</label><br>
-                <input type="tel" id="phone" name="phone" required><br>
+                <input type="tel" id="phone" name="phone" required>
+                <span class="error" id="phoneError"></span><br>
+
                 <label for="email">Email*</label><br>
                 <input type="email" id="email" name="email" required><br>
-                <label for="subject">Tiêu đề*</label><br>
-                <input type="text" id="subject" name="subject" required><br>
+                <span class="error" id="emailError"></span><br>
+
                 <label for="message">Lời nhắn</label><br>
                 <textarea id="message" name="message" rows="4"></textarea><br>
+                <span class="error" id="messageError"></span><br>
+
                 <button type="submit">Gửi →</button>
             </form>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script>
-   document.addEventListener("DOMContentLoaded", function () {
-    emailjs.init("a4kkzRBYyIhaVOHFC");
+document.addEventListener("DOMContentLoaded", function () {
+    emailjs.init("5fm4LNMvD5wK_zt6a");
 
+    // Lấy các phần tử nhập liệu
+    let nameInput = document.getElementById("name");
+    let phoneInput = document.getElementById("phone");
+    let emailInput = document.getElementById("email");
+    let messageInput = document.getElementById("message");
+
+    // Lấy các phần tử hiển thị lỗi
+    let nameError = document.getElementById("nameError");
+    let phoneError = document.getElementById("phoneError");
+    let emailError = document.getElementById("emailError");
+    let messageError = document.getElementById("messageError");
+
+    // Biểu thức kiểm tra số điện thoại (10-11 số)
+    let phoneRegex = /^[0-9]{10}$/;
+    // Biểu thức kiểm tra email
+    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // Hàm kiểm tra lỗi
+    function validateInput(input, errorElement, validationFn, errorMessage) {
+        let value = input.value.trim();
+        if (!validationFn(value)) {
+            errorElement.textContent = errorMessage;
+        } else {
+            errorElement.textContent = "";
+        }
+    }
+
+    // Gán sự kiện blur để kiểm tra lỗi khi rời khỏi ô nhập
+    nameInput.addEventListener("blur", function () {
+        validateInput(nameInput, nameError, value => value !== "", "Vui lòng nhập họ tên.");
+    });
+
+    phoneInput.addEventListener("blur", function () {
+        validateInput(phoneInput, phoneError, value => phoneRegex.test(value), "Số điện thoại không hợp lệ! (10 số)");
+    });
+
+    emailInput.addEventListener("blur", function () {
+        validateInput(emailInput, emailError, value => emailRegex.test(value), "Email không hợp lệ! Vui lòng nhập đúng định dạng.");
+    });
+
+    messageInput.addEventListener("blur", function () {
+        validateInput(messageInput, messageError, value => value !== "", "Vui lòng nhập lời nhắn.");
+    });
+
+    // Xử lý sự kiện khi nhấn gửi form
     document.querySelector("form").addEventListener("submit", function (event) {
         event.preventDefault(); // Ngăn chặn reload trang khi gửi form
 
         // Lấy dữ liệu từ form
-        let formData = {
-            from_name: document.getElementById("name").value,
-            phone_number: document.getElementById("phone").value,
-            user_email: document.getElementById("email").value,
-            subject: document.getElementById("subject").value,
-            message: document.getElementById("message").value,
-            to_email: "info@vinacapitalfoundation.org" // Địa chỉ nhận email
-        };
+        let name = nameInput.value.trim();
+        let phone = phoneInput.value.trim();
+        let email = emailInput.value.trim();
+        let message = messageInput.value.trim();
 
-        // Gửi email qua EmailJS
-        emailjs.send("service_9xc4xrm", "template_8zbiebc", formData)
+        let isValid = true;
+
+        // Kiểm tra dữ liệu trước khi gửi
+        if (name === "") {
+            nameError.textContent = "Vui lòng nhập họ tên.";
+            isValid = false;
+        }
+        if (!phoneRegex.test(phone)) {
+            phoneError.textContent = "Số điện thoại không hợp lệ! (10 hoặc 11 số)";
+            isValid = false;
+        }
+        if (!emailRegex.test(email)) {
+            emailError.textContent = "Email không hợp lệ! Vui lòng nhập đúng định dạng.";
+            isValid = false;
+        }
+        if (message === "") {
+            messageError.textContent = "Vui lòng nhập lời nhắn.";
+            isValid = false;
+        }
+
+        if (!isValid) return; // Nếu có lỗi, không gửi form
+
+        // Dữ liệu hợp lệ, tiếp tục gửi email
+        let formData = {
+            from_name: name,
+            phone_number: phone,
+            user_email: email,
+            message: message,
+            to_email: "chiaseyeuthuong2025@gmail.com"
+        };
+        if(isValid){
+            emailjs.send("service_trjvfth", "template_6ug4yt7", formData)
             .then(function (response) {
                 alert("Gửi email thành công!");
                 console.log("Email sent successfully", response);
-                document.querySelector("form").reset(); // Xóa dữ liệu form sau khi gửi thành công
+                document.querySelector("form").reset();
             }, function (error) {
                 alert("Gửi thất bại, vui lòng thử lại!");
                 console.error("Email send failed", error);
             });
+        } else alert("Gửi thất bại, vui lòng kiểm tra lại");
+       
     });
 });
+</script>
+     
+     
 
 </script>
 <hr style="margin: 70px;">
