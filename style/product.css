@@ -287,45 +287,6 @@ body {
         padding: 10px 20px;
     }
 }
-header {
-    display: flex;
-    align-items: center;
-    padding: 15px 50px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-nav{
-   margin: 0 auto;
-}
-
-.logo img {
-    height: 100px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-nav ul li a {
-    color: #555;
-    font-size: 14px;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #30BEC0;
-}
-
-.search-icon {
-    font-size: 18px;
-    color: #555;
-    cursor: pointer;
-}
 
 .pagination {
     display: flex;
