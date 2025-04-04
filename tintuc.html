@@ -49,15 +49,9 @@
     <section class="container_news">
     <div class="grid wide container">
         <div class="row">
-            <div class="col l-8 m-6 c-5">
+            <div class="col l-12 m-12 c-12">
                 <div class="tintuc-banner"> 
                     <img src="https://bangronsukien.vn/wp-content/uploads/2021/07/uu-diem-cua-bang-ron-tu-thien-hien-nay.jpg" alt="">
-                </div>
-            </div>
-            <div class="col l-4 m-6 c-5">
-                <div class="tintuc-news_2">
-                    <img src="https://tse2.mm.bing.net/th?id=OIP.D1pNkz-GN39Og9DBCe2vWQHaE8&pid=Api&P=0&h=180" alt="">
-                    <img class="mobile-none " src="https://tse4.mm.bing.net/th?id=OIP.5xXRe_Hw76hB1tafHH58PAHaFc&pid=Api&P=0&h=180" alt="">
                 </div>
             </div>
         </div>
@@ -74,7 +68,10 @@
                
                 
                <script>
-    document.addEventListener("DOMContentLoaded", function () {
+                   document.querySelector(".menu-toggle").addEventListener("click", function() {
+                    document.querySelector("nav ul").classList.toggle("active");
+                    });
+   document.addEventListener("DOMContentLoaded", function () {
     const newsContainer = document.querySelector(".container_box_news .grid .row");
 
     const checkNewsData = setInterval(() => {
@@ -84,13 +81,13 @@
             newsContainer.innerHTML = "";
             news.forEach(newsItem => {
                 const newsHTML = `
-                    <div class="col l-4 m-6 c-5 tintuc_container_news">
+                    <div class="col l-4 m-6 c-10 tintuc_container_news">
                         <div class="tintuc-news_1"> 
-                            <img src="${newsItem.image}" alt="">
+                            <img src="${newsItem.image}" alt="${newsItem.title}">
                             <div class="text-items">
                                 <p><i class="fa-solid fa-calendar"></i> ${newsItem.date}</p>
                                 <h3>${newsItem.title}</h3>
-                                <p><a href="#" class="view-more" data-title="${newsItem.title}" data-content="${newsItem.content}" data-image="${newsItem.image}" data-date="${newsItem.date}">> Xem thêm</a></p>
+                                <p><a href="detail_tintuc.html?id=${newsItem.id}" class="view-more">> Xem thêm</a></p>
                             </div>
                         </div>
                     </div>
@@ -106,13 +103,13 @@
             </div>
         </div>
     </section>
-    <hr style="margin: 70px;">
+    <hr style="margin: 50px;">
     <footer class="footer">
   
         <div class="grid wide container">
          <a href="index.html"><img src="img/logo.png" alt="VinaCapital Foundation"></a>
         <div class="row">
-            <div class="col l-3 m-6 c-6">
+            <div class="col l-3 m-6 c-5">
                 <div class="section_footer"> 
                     <ul class="mangxahoi">
                         <li><strong>Mạng xã hội</strong></li>
@@ -121,7 +118,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col l-3 m-6 c-6">
+            <div class="col l-3 m-6 c-5">
                 <div class="section_footer"> 
                     <ul class="lienhe">
                         <li><strong>Liên hệ</strong></li>
@@ -132,7 +129,7 @@
                 </div>
             </div>
             
-            <div class="col l-6 m-6 c-6">
+            <div class="col l-6 m-6 c-12">
                 <div class="section_footer"> 
                     <h3>Fanpage</h3>
                     <a href="https://www.facebook.com/stepwalk2024/"><img src="img/fanpage.jpg" alt="img fanpage"></a>

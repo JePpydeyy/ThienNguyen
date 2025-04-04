@@ -49,6 +49,9 @@
     </main>
 
     <script>
+           document.querySelector(".menu-toggle").addEventListener("click", function() {
+   document.querySelector("nav ul").classList.toggle("active");
+});
        document.addEventListener("DOMContentLoaded", () => {
         const urlParams = new URLSearchParams(window.location.search);
         const programId = urlParams.get("id"); // Lấy giá trị id từ URL
@@ -89,7 +92,7 @@
             </section>
     </main>
     <script src="./main.js"></script>
-    <hr style="margin: 70px;">
+    <hr style="margin: 50px;">
     <footer class="footer">
   
         <div class="grid wide container">
@@ -115,7 +118,7 @@
                 </div>
             </div>
             
-            <div class="col l-6 m-6 c-6">
+            <div class="col l-6 m-6 c-12">
                 <div class="section_footer"> 
                     <h3>Fanpage</h3>
                     <a href="https://www.facebook.com/stepwalk2024/"><img src="img/fanpage.jpg" alt="img fanpage"></a>

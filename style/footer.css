@@ -169,14 +169,21 @@ footer {
         width: 100%;
     }
     
+    .footer .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 15px; 
+    }
+    
     .footer .container a img {
         width: 60%;
+        display: block; 
         margin: 0 auto 20px;
     }
     
     .section_footer ul li strong,
     .section_footer h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .section_footer ul li a {
@@ -184,6 +191,12 @@ footer {
     }
     
     .section_footer img {
-        max-width: 100%;
+        width: 100px;
+    }
+
+    footer {
+        text-align: center;
+        clear: both;
+        overflow-x: hidden;
     }
 }

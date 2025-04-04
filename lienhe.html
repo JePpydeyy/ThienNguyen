@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/lienhe.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/grid.css">
+    <link rel="stylesheet" href="style/header.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4TGGLGHXY5"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -67,7 +68,7 @@
 
                 <label for="message">Lời nhắn</label><br>
                 <textarea id="message" name="message" rows="4"></textarea><br>
-                <span class="error" id="messageError"></span><br>
+                <span class="error" id="messageError"></span><br>   
                 <div class="buttoncss">
                     <button type="submit">Gửi →</button>
                 </div>
@@ -75,46 +76,49 @@
         </div>
     </div>
 
-<hr style="margin: 70px;">
-<footer class="footer">
+    <hr style="margin: 50px;">
+    <footer class="footer">
   
-    <div class="grid wide container">
-     <a href="index.html"><img src="img/logo.png" alt="VinaCapital Foundation"></a>
-    <div class="row">
-        <div class="col l-3 m-6 c-6">
-            <div class="section_footer"> 
-                <ul class="mangxahoi">
-                    <li><strong>Mạng xã hội</strong></li>
-                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-                    <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
-                </ul>
+        <div class="grid wide container">
+         <a href="index.html"><img src="img/logo.png" alt="VinaCapital Foundation"></a>
+        <div class="row">
+            <div class="col l-3 m-6 c-6">
+                <div class="section_footer"> 
+                    <ul class="mangxahoi">
+                        <li><strong>Mạng xã hội</strong></li>
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="col l-3 m-6 c-6">
-            <div class="section_footer"> 
-                <ul class="lienhe">
-                    <li><strong>Liên hệ</strong></li>
-                    <li><a href="#"><i class="fas fa-phone"></i> 0342031354</a></li>
-                    <li><a href="#"><i class="fas fa-envelope"></i>zealteam@gmail.com</a></li>
-                    <li><a href="#"><i class="fas fa-map-marker-alt"></i>Quận 12 , TP.HCM</a></li>
-                </ul>
+            <div class="col l-3 m-6 c-6">
+                <div class="section_footer"> 
+                    <ul class="lienhe">
+                        <li><strong>Liên hệ</strong></li>
+                        <li><a href="#"><i class="fas fa-phone"></i> 0342031354</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i>zealteam@gmail.com</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i>Quận 12 , TP.HCM</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        
-        <div class="col l-6 m-6 c-6">
-            <div class="section_footer"> 
-                <h3>Fanpage</h3>
-                <a href="https://www.facebook.com/stepwalk2024/"><img src="img/fanpage.jpg" alt="img fanpage"></a>
+            
+            <div class="col l-6 m-6 c-12">
+                <div class="section_footer"> 
+                    <h3>Fanpage</h3>
+                    <a href="https://www.facebook.com/stepwalk2024/"><img src="img/fanpage.jpg" alt="img fanpage"></a>
+                </div>
             </div>
         </div>
     </div>
-</div>
-</footer>
+    </footer>
 </body>
 </html>
 
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script>
+       document.querySelector(".menu-toggle").addEventListener("click", function() {
+   document.querySelector("nav ul").classList.toggle("active");
+});
 document.addEventListener("DOMContentLoaded", function () {
     emailjs.init("5fm4LNMvD5wK_zt6a");
 

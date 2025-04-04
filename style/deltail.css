@@ -12,15 +12,17 @@
 
 .details-card {
   display: flex;
-  max-width: 1290px; /* Changed from fixed width to max-width */
+  flex-wrap: wrap; /* Cho phép xuống dòng khi màn hình nhỏ */
+  max-width: 1290px;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
   padding: 20px;
+  gap: 20px; /* Tạo khoảng cách giữa các phần tử */
 }
 
 .details-image {
-  flex: 0 0 40%; /* Uncommented and used flex instead of fixed width */
+  flex: 1 1 40%; /* Tự động co giãn */
   max-width: 800px;
   padding-right: 20px;
 }
@@ -33,7 +35,7 @@
 }
 
 .details-content {
-  flex: 0 0 60%; /* Uncommented this */
+  flex: 1 1 55%; /* Giảm từ 60% để tránh tràn */
 }
 
 .details-content h1 {
@@ -58,24 +60,61 @@
   margin-left: 12%;
 }
 
-/* Responsive design for smaller screens */
-@media (max-width: 768px) {
+/* 🔹 Responsive cho Tablet (768px trở xuống) */
+@media (max-width: 1024px) {
   .details-card {
       flex-direction: column;
+      align-items: center;
   }
   
   .details-image {
-      flex: 0 0 100%;
-      max-width: 100%;
+      flex: 0 0 80%;
+      max-width: 90%;
       padding-right: 0;
       padding-bottom: 20px;
   }
   
   .details-content {
-      flex: 0 0 100%;
+      flex: 0 0 90%;
+      text-align: center; /* Căn giữa chữ trên tablet */
   }
   
   .btn-back {
-      margin-left: 5%; /* Adjusted for smaller screens */
+      margin-left: 0;
+      text-align: center;
+      display: block;
+  }
+}
+
+/* 🔹 Responsive cho Mobile (480px trở xuống) */
+@media (max-width: 480px) {
+  .details-card {
+      padding: 10px;
+      box-sizing: border-box;
+  }
+  
+  .details-image {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-bottom: 10px;
+  }
+  
+  .details-content {
+      flex: 0 0 100%;
+      padding: 0 10px;
+  }
+  
+  .details-content h1 {
+      font-size: 20px;
+  }
+
+  .details-content p {
+      font-size: 14px;
+  }
+  
+  .btn-back {
+      margin: 10px auto;
+      display: block;
+      text-align: center;
   }
 }

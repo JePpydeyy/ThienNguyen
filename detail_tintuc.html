@@ -25,16 +25,19 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.html"><img src="img/logo.png" alt="VinaCapital Foundation"></a>
+            <a href="index.html"><img src="img/logo.png" ></a>
         </div>
         <nav>
-                <ul>
-                    <li><a href="/ThienNguyen/index.html">Trang chủ</a></li>
-                    <li><a href="/ThienNguyen/sanpham.html">Chương trình chính</a></li>
-                    <li><a href="/ThienNguyen/tintuc.html">Tin tức & Câu chuyện</a></li>
-                    <li><a href="/ThienNguyen/lienhe.html">Liên hệ</a></li>
-                </ul>
+            <ul>
+                <li><a href="/ThienNguyen/index.html">Trang chủ</a></li>
+                <li><a href="/ThienNguyen/sanpham.html">Chương trình chính</a></li>
+                <li><a href="/ThienNguyen/tintuc.html">Tin tức & Câu chuyện</a></li>
+                <li><a href="/ThienNguyen/lienhe.html">Liên hệ</a></li>
+            </ul>
         </nav>
+    
+        <!-- Nút menu toggle -->
+        <div class="menu-toggle">☰</div>
     </header>
     <main>
         <div class="vvb">
@@ -46,35 +49,34 @@
     </main>
 
     <script>
-       document.addEventListener("DOMContentLoaded", () => {
-            const urlParams = new URLSearchParams(window.location.search);
-            const newsId = urlParams.get("id"); // Lấy giá trị id từ URL
-            const container = document.getElementById("program-details");
+           document.querySelector(".menu-toggle").addEventListener("click", function() {
+   document.querySelector("nav ul").classList.toggle("active");
+});
+     document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const newsId = urlParams.get("id");
+    const container = document.getElementById("program-details");
 
-            if (!newsId) {
-                container.innerHTML = "<p>Không tìm thấy ID chương trình.</p>";
-            } else {
-                // Tìm sản phẩm trong mảng `programs` dựa trên id
-                const neww = news.find((p) => p.id === parseInt(newsId));
-
-                if (!neww) {
-                    container.innerHTML = "<p>Không tìm thấy chương trình.</p>";
-                } else {
-                    // Hiển thị thông tin chi tiết của sản phẩm
-                    container.innerHTML = `
-                        <div class="details-image">
-                            <img src="${neww.image}" alt="${neww.title}">
-                        </div>
-                        <div class="details-content">
-                            <h1>${neww.title}</h1>
-                            ${neww.date ? `<p><strong>Ngày đăng:</strong> ${neww.date}</p>` : ""}
-                            <p><strong>Thông tin:</strong> ${neww.content}</p>
-                        </div>
-                    `;
-                }
-            }
-            
-        });
+    if (!newsId) {
+        container.innerHTML = "<p>Không tìm thấy ID chương trình.</p>";
+    } else {
+        const neww = news.find((p) => p.id === parseInt(newsId));
+        if (!neww) {
+            container.innerHTML = "<p>Không tìm thấy chương trình.</p>";
+        } else {
+            container.innerHTML = `
+                <div class="details-image">
+                    <img src="${neww.image}" alt="${neww.title}">
+                </div>
+                <div class="details-content">
+                    <h1>${neww.title}</h1>
+                    ${neww.date ? `<p><strong>Ngày đăng:</strong> ${neww.date}</p>` : ""}
+                    <p><strong>Thông tin:</strong> ${neww.content}</p>
+                </div>
+            `;
+        }
+    }
+});
             </script>
             <main>
                 <section id="program-details" class="program-details">
@@ -82,22 +84,22 @@
                 </section>
     </main>
     <script src="./main.js"></script>
-    <hr style="margin: 70px;">
+    <hr style="margin: 50px;">
     <footer class="footer">
+  
         <div class="grid wide container">
+         <a href="index.html"><img src="img/logo.png" alt="VinaCapital Foundation"></a>
         <div class="row">
-            <div class="col l-3 m-6 c-6">
+            <div class="col l-3 m-6 c-5">
                 <div class="section_footer"> 
                     <ul class="mangxahoi">
                         <li><strong>Mạng xã hội</strong></li>
                         <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
                         <li><a href="#"><i class="fab fa-tiktok"></i> TikTok</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col l-3 m-6 c-6">
+            <div class="col l-3 m-6 c-5">
                 <div class="section_footer"> 
                     <ul class="lienhe">
                         <li><strong>Liên hệ</strong></li>
@@ -108,7 +110,7 @@
                 </div>
             </div>
             
-            <div class="col l-6 m-6 c-6">
+            <div class="col l-6 m-6 c-12">
                 <div class="section_footer"> 
                     <h3>Fanpage</h3>
                     <a href="https://www.facebook.com/stepwalk2024/"><img src="img/fanpage.jpg" alt="img fanpage"></a>
